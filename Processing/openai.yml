@@ -1,0 +1,58 @@
+---
+openapi: 3.0.0
+info:
+  title: BESTIE-Commerce API
+  description: This is an E-commerce API designed for online shopping enthusiasts worldwide.
+  contact:
+    email: hedoris8@gmail.com
+  version: 1.0.0
+servers:
+- url: /
+paths:
+ /stats:
+  get:
+    summary: Gets the product and review statistics
+    operationId: app.get_stats_readings
+    description: Gets products and reviews statistics
+    responses:
+      '200':
+        description: Successfully returned a list of product events
+        content:
+          application/json:
+            schema:
+              type: object
+              items:
+                $ref: '#/components/schemas/Stats'
+      '400':
+        description: Invalid request
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                message:
+                  type: string
+
+components:
+  schemas:
+    Stats:
+      required:
+        - num_products
+        - num_reviews
+        - num_onsale_products
+        - max_price
+      properties:
+        num_products:
+          type: integer
+          example: 500000
+        num_reviews:
+          type: integer
+          example: 300000
+        num_onsale_products:
+          type: integer
+          example: 180000
+        max_price:
+          type: integer
+          example: 5000000
+      type: object
+

@@ -1,0 +1,178 @@
+---
+openapi: 3.0.0
+info:
+  title: BESTIE-Commerce API
+  description: This is an E-commerce API designed for online shopping enthusiasts worldwide.
+  contact:
+    email: hedoris8@gmail.com
+  version: 1.0.0
+servers:
+- url: /
+tags:
+- name: sellers
+  description: Operations available to regular sellers
+- name: customers
+  description: Operations available to regular customers
+paths:
+  /product/create:
+    post:
+      tags:
+      - sellers
+      summary: create a new product
+      description: Add a new product to the application
+      operationId: app.add_new_product
+      requestBody:
+        description: Product to add
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ProductCreate'
+      responses:
+        "201":
+          description: product created
+        "400":
+          description: "invalid input, object invalid"
+        "409":
+          description: This product already exists
+  /product/review:
+    post:
+      tags:
+      - customers
+      summary: review a product
+      description: Add a comment for a product to the application
+      operationId: app.add_product_review
+      requestBody:
+        description: Product comment to add
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ProductReview'
+      responses:
+        "201":
+          description: comment created
+        "400":
+          description: "invalid input, object invalid"
+  
+  /products:
+    get:
+      summary: Summary
+      operationId: app.get_products
+      description: Returns a list of products
+      parameters:
+        - name: start_timestamp
+          in: query
+          description: Specifies the start time
+          schema:
+            type: string
+            format: date-time
+            example: 2016-08-29T09:12:33.001Z
+        - name: end_timestamp
+          in: query
+          description: Specifies the end time
+          schema:
+            type: string
+            format: date-time
+            example: 2016-08-29T09:12:33.001Z
+      responses:
+        '201':
+          description: 'succes'
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/ProductCreate'
+  /reviews:
+    get:
+      summary: Summary
+      operationId: app.get_reviews
+      description: Returns a list of reviews
+      parameters:
+        - name: start_timestamp
+          in: query
+          description: Specifies the start time
+          schema:
+            type: string
+            format: date-time
+            example: 2016-08-29T09:12:33.001Z
+        - name: end_timestamp
+          in: query
+          description: Specifies the end time
+          schema:
+            type: string
+            format: date-time
+            example: 2016-08-29T09:12:33.001Z
+      responses:
+        '201':
+          description: 'succes'
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/ProductReview'
+components:
+  schemas:
+    ProductCreate:
+      required:
+      - description
+      - onsale
+      - price
+      - product_id
+      - seller
+      - trace_id
+      type: object
+      properties:
+        product_id:
+          type: string
+          format: uuid
+          example: 123e4567-e89b-12d3-a456-426614174001
+        seller:
+          type: string
+          example: Bestbuy
+        price:
+          type: integer
+          example: 699
+        onsale:
+          type: boolean
+          example: true
+        description:
+          type: string
+          example: A folded e-book no need to charge.
+        trace_id:
+          type: string
+          example: 1707372265423642001
+    ProductReview:
+      required:
+      - comment
+      - customer
+      - location
+      - product_id
+      - rating
+      - review_id
+      - trace_id
+      type: object
+      properties:
+        review_id:
+          type: string
+          format: uuid
+          example: f47ac10b-58cc-4372-a567-0e02b2c3d479
+        product_id:
+          type: string
+          format: uuid
+          example: 6fa459ea-ee8a-3ca4-894e-db77e160355e
+        customer:
+          type: string
+          example: apple123123
+        location:
+          type: string
+          example: Canada
+        rating:
+          type: integer
+          example: 7
+        comment:
+          type: string
+          example: product is good.
+        trace_id:
+          type: string
+          example: 1707372265423642000

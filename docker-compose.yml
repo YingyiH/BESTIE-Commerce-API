@@ -1,0 +1,15 @@
+services:
+  db:
+    image: mariadb:10.6.4-focal
+    volumes:
+      - storage_db:/var/lib/mysql
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=password
+      - MYSQL_DATABASE=storage_db
+      - MYSQL_USER=user
+      - MYSQL_PASSWORD=password
+    ports:
+      - "3306:3306"
+volumes:
+  storage_db:

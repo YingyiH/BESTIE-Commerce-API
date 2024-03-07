@@ -1,0 +1,4 @@
+events:
+  hostname: ec2-35-85-82-248.us-west-2.compute.amazonaws.com
+  port: 9092
+  topic: events

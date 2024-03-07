@@ -1,0 +1,12 @@
+version: 1
+datastore:
+  user: user
+  password: password
+  # hostname: localhost
+  hostname: ec2-35-85-82-248.us-west-2.compute.amazonaws.com
+  port: 3306
+  db: storage_db
+events:
+  hostname: ec2-35-85-82-248.us-west-2.compute.amazonaws.com
+  port: 9092
+  topic: events

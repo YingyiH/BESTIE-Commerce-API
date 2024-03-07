@@ -1,0 +1,1001 @@
+review_id,product_id,customer,location,rating,comment
+b4e098cb-5d88-44ad-bef4-f0ac527e7176,b4e098cb-5d88-44ad-bef4-f0ac527e7176,apple123000,Vancouver,2,Very good product
+37e710c0-649c-4f10-96d4-ede9d6e86726,37e710c0-649c-4f10-96d4-ede9d6e86726,lwe_s,Toronto,6,It is ok
+f0ff649b-fb60-406d-b8f0-ac7da8a55011,f0ff649b-fb60-406d-b8f0-ac7da8a55011,emsl02,Vancouver,7,It is ok
+7b86963c-02a6-4437-9af5-650e57a44d2d,7b86963c-02a6-4437-9af5-650e57a44d2d,yingyi888,Calgary,7,Bought
+96c76d7f-320c-4296-9c34-a3438bd2a04d,96c76d7f-320c-4296-9c34-a3438bd2a04d,yingyi888,Calgary,7,Great
+625455ea-13d8-49a5-af28-b09caa2050d0,625455ea-13d8-49a5-af28-b09caa2050d0,lwe_s,Montreal,0,Great
+8c1cfc19-c759-4f22-99fd-b2b87203ce06,8c1cfc19-c759-4f22-99fd-b2b87203ce06,emsl02,Alberta,2,Great
+f3bb3724-ae28-4168-bc1b-815519342508,f3bb3724-ae28-4168-bc1b-815519342508,yingyi888,Toronto,9,Very good product
+22580b3e-7eb1-4433-8b5a-3956a3a2f41a,22580b3e-7eb1-4433-8b5a-3956a3a2f41a,lwe_s,Vancouver,7,Very good product
+a304cd94-f14d-4ce2-9cd2-8e4e8aee6212,a304cd94-f14d-4ce2-9cd2-8e4e8aee6212,lwe_s,Alberta,4,Good
+c49a7a69-0469-42bb-8b05-c2314be0225e,c49a7a69-0469-42bb-8b05-c2314be0225e,emsl02,Vancouver,7,Very good product
+e7420c35-b81e-4042-8508-0a86b940a90c,e7420c35-b81e-4042-8508-0a86b940a90c,apple123000,Alberta,0,Great
+03c0842d-75c5-4efb-818b-4954131a1c15,03c0842d-75c5-4efb-818b-4954131a1c15,yingyi888,Alberta,6,Do not buy it
+d12880ea-23e5-4253-a23b-fc6cd5b36756,d12880ea-23e5-4253-a23b-fc6cd5b36756,emsl02,Toronto,7,Bought
+44e7d8da-a79b-41c1-a35b-a4e348715385,44e7d8da-a79b-41c1-a35b-a4e348715385,xxxxx111,Vancouver,8,Do not buy it
+8eabe259-475c-4448-b5bd-ae559434f9b5,8eabe259-475c-4448-b5bd-ae559434f9b5,yingyi888,Calgary,6,Very good product
+c34b5fae-5bfc-4604-96d5-6bd4ddb09c2f,c34b5fae-5bfc-4604-96d5-6bd4ddb09c2f,hihihihi,Vancouver,5,Good
+57bfc8c2-fec0-4f84-8182-dfec3277af41,57bfc8c2-fec0-4f84-8182-dfec3277af41,yingyi888,Vancouver,2,Not bad
+a6a5a40c-9ed9-4599-a1fa-f0b23dd174eb,a6a5a40c-9ed9-4599-a1fa-f0b23dd174eb,apple123000,Toronto,0,Good
+48132c3c-7a74-4a3f-af61-075275ea2f43,48132c3c-7a74-4a3f-af61-075275ea2f43,emsl02,Montreal,7,Good
+9d40a1b3-7d11-4484-9829-856aa988579c,9d40a1b3-7d11-4484-9829-856aa988579c,xxxxx111,Vancouver,9,Very good product
+2a655f39-e501-40c4-8d35-7bee1eb5edb9,2a655f39-e501-40c4-8d35-7bee1eb5edb9,xxxxx111,Toronto,9,Bought
+ed4faf27-b1f3-4ca9-aaca-d7d37b989fad,ed4faf27-b1f3-4ca9-aaca-d7d37b989fad,xxxxx111,Toronto,4,Very good product
+4a3ba0ff-1ca0-4e36-97c0-f064b368f248,4a3ba0ff-1ca0-4e36-97c0-f064b368f248,apple123000,Toronto,1,Great
+2c450a02-7f77-4549-8e59-630880b96dce,2c450a02-7f77-4549-8e59-630880b96dce,emsl02,Montreal,5,Very good product
+40d1a45b-23aa-406e-a5e3-a3aec2678ee5,40d1a45b-23aa-406e-a5e3-a3aec2678ee5,hihihihi,Alberta,5,Do not buy it
+c55a2e3a-b508-42fa-a3af-4d8e119cca59,c55a2e3a-b508-42fa-a3af-4d8e119cca59,yingyi888,Alberta,5,Not bad
+f4c3c239-8fa6-4103-9203-b86b1b7ff966,f4c3c239-8fa6-4103-9203-b86b1b7ff966,hihihihi,Calgary,10,Bought
+7eeaf9fa-af33-4719-b74d-0492fce0e1e2,7eeaf9fa-af33-4719-b74d-0492fce0e1e2,xxxxx111,Toronto,2,Very good product
+491271cb-4570-47a4-bf9f-5b283a5ac9c8,491271cb-4570-47a4-bf9f-5b283a5ac9c8,emsl02,Montreal,7,Good
+e9c6e397-2910-4a61-a6f5-f43852f6aca4,e9c6e397-2910-4a61-a6f5-f43852f6aca4,lwe_s,Calgary,3,It is ok
+f0eddcf2-8849-4b4c-8f8d-bf51f3f6dcd8,f0eddcf2-8849-4b4c-8f8d-bf51f3f6dcd8,lwe_s,Alberta,0,Good
+88249393-d63c-4639-9f30-5d377eba3061,88249393-d63c-4639-9f30-5d377eba3061,emsl02,Toronto,1,Bought
+315b479a-360e-4f1f-8273-27d7c825d99f,315b479a-360e-4f1f-8273-27d7c825d99f,yingyi888,Toronto,9,It is ok
+cd1735d5-d613-4629-9127-e14ea7e3dd31,cd1735d5-d613-4629-9127-e14ea7e3dd31,yingyi888,Toronto,4,Good
+12e989e2-b8e3-4f3a-b3f8-22600c517e9a,12e989e2-b8e3-4f3a-b3f8-22600c517e9a,emsl02,Toronto,5,Good
+9a4a4406-9dc6-4f8a-aa96-5c4764584ac2,9a4a4406-9dc6-4f8a-aa96-5c4764584ac2,yingyi888,Toronto,5,Very good product
+405eabe0-f491-47dc-9742-b14f8c322af1,405eabe0-f491-47dc-9742-b14f8c322af1,lwe_s,Alberta,4,Very good product
+3a30bb4a-4848-47e7-b648-6e4a97da1e20,3a30bb4a-4848-47e7-b648-6e4a97da1e20,yingyi888,Toronto,1,Good
+a4ed2aa2-8bc5-4fcf-afa6-055ad5aba533,a4ed2aa2-8bc5-4fcf-afa6-055ad5aba533,hihihihi,Vancouver,3,Very good product
+e2ecffe2-ce75-4943-accc-36603416be43,e2ecffe2-ce75-4943-accc-36603416be43,xxxxx111,Vancouver,2,Bought
+c833db66-730c-47b9-8d14-a3f2ae6dc59b,c833db66-730c-47b9-8d14-a3f2ae6dc59b,xxxxx111,Toronto,8,Do not buy it
+dc1f8c80-e780-4e6f-9782-ce752fb921e4,dc1f8c80-e780-4e6f-9782-ce752fb921e4,xxxxx111,Toronto,9,Great
+d7960ea2-8674-4cd4-8e4e-eb32c96898ee,d7960ea2-8674-4cd4-8e4e-eb32c96898ee,hihihihi,Montreal,2,Great
+e643a6bd-0313-43fd-900f-7f052248f497,e643a6bd-0313-43fd-900f-7f052248f497,emsl02,Vancouver,4,Good
+37c310f2-b5b1-4dd6-a0bf-688a70a59841,37c310f2-b5b1-4dd6-a0bf-688a70a59841,yingyi888,Calgary,6,Good
+f19fbc83-f82c-4fe2-a141-bec84c53bc1a,f19fbc83-f82c-4fe2-a141-bec84c53bc1a,emsl02,Montreal,2,Not bad
+8dcc853e-4b29-489d-b852-1e775148c639,8dcc853e-4b29-489d-b852-1e775148c639,apple123000,Montreal,3,Great
+50bd05ae-fcfc-4252-bb76-79d95c690055,50bd05ae-fcfc-4252-bb76-79d95c690055,xxxxx111,Vancouver,0,It is ok
+c592ec66-a7f0-4a74-9a9b-ab2ebf991dc8,c592ec66-a7f0-4a74-9a9b-ab2ebf991dc8,hihihihi,Vancouver,5,Good
+097cfdb6-64c7-4c81-b6ce-cd101946c19e,097cfdb6-64c7-4c81-b6ce-cd101946c19e,lwe_s,Vancouver,2,Great
+04a6b974-59b5-4e96-aa3d-fe1f7c4b956d,04a6b974-59b5-4e96-aa3d-fe1f7c4b956d,yingyi888,Toronto,9,Great
+56247897-6230-421e-a373-b01cb9255805,56247897-6230-421e-a373-b01cb9255805,yingyi888,Montreal,10,Not bad
+1d574946-ff6c-4ea4-877b-184eb5142d0b,1d574946-ff6c-4ea4-877b-184eb5142d0b,emsl02,Vancouver,0,Great
+fbded068-fbfe-488c-8084-dbdb0ee28d3c,fbded068-fbfe-488c-8084-dbdb0ee28d3c,lwe_s,Toronto,4,Good
+b91ca4a6-ac8e-480e-a0cb-ec94df2bdb4e,b91ca4a6-ac8e-480e-a0cb-ec94df2bdb4e,xxxxx111,Calgary,4,Bought
+ced47ede-0b39-4b37-a47b-bc9fad7313be,ced47ede-0b39-4b37-a47b-bc9fad7313be,xxxxx111,Calgary,9,Bought
+a726ca58-1725-4c33-bb7a-31e921d916de,a726ca58-1725-4c33-bb7a-31e921d916de,lwe_s,Toronto,10,Bought
+131f82f6-3bd6-4abb-821d-80e8c2229d9a,131f82f6-3bd6-4abb-821d-80e8c2229d9a,emsl02,Calgary,9,Great
+8a0c1c93-e9c6-44a1-bacc-bfa18a06fbd0,8a0c1c93-e9c6-44a1-bacc-bfa18a06fbd0,lwe_s,Montreal,1,Do not buy it
+a402f119-267d-4601-a85f-eede51f55b85,a402f119-267d-4601-a85f-eede51f55b85,yingyi888,Calgary,10,It is ok
+b074f956-7d0d-42c6-9fce-b1385fe15fa3,b074f956-7d0d-42c6-9fce-b1385fe15fa3,lwe_s,Alberta,10,Very good product
+b42d9070-cd30-4b1b-bafa-4aedf1d47780,b42d9070-cd30-4b1b-bafa-4aedf1d47780,emsl02,Alberta,2,Great
+b421c927-02e2-48e0-8967-e62c631c693b,b421c927-02e2-48e0-8967-e62c631c693b,apple123000,Calgary,3,Very good product
+706f4f1d-622e-47b6-8d09-56d0efafe40d,706f4f1d-622e-47b6-8d09-56d0efafe40d,xxxxx111,Vancouver,0,Not bad
+3f0eb425-79d8-446b-87d6-39adc53535e1,3f0eb425-79d8-446b-87d6-39adc53535e1,lwe_s,Toronto,0,Do not buy it
+99da96ea-2a70-44fd-a545-2a13a7551ec6,99da96ea-2a70-44fd-a545-2a13a7551ec6,emsl02,Toronto,5,It is ok
+fc6d33dd-e3fe-496e-be5d-d1011083bf45,fc6d33dd-e3fe-496e-be5d-d1011083bf45,emsl02,Calgary,5,Great
+c156f309-3ed6-4351-a47b-2656bf82113f,c156f309-3ed6-4351-a47b-2656bf82113f,xxxxx111,Calgary,1,Bought
+93e6f0e5-311a-4d53-bc17-359914068f52,93e6f0e5-311a-4d53-bc17-359914068f52,lwe_s,Calgary,7,It is ok
+6e69f1d5-fb62-4cb4-b446-90f3ec9129ac,6e69f1d5-fb62-4cb4-b446-90f3ec9129ac,emsl02,Toronto,9,It is ok
+3d8c1861-2a18-4865-8e09-c20440c10af7,3d8c1861-2a18-4865-8e09-c20440c10af7,emsl02,Vancouver,9,It is ok
+e355c271-cbb7-41ab-9b53-9990b13a4e27,e355c271-cbb7-41ab-9b53-9990b13a4e27,lwe_s,Montreal,2,Bought
+60ced610-31bd-40e7-97cc-bbb855140777,60ced610-31bd-40e7-97cc-bbb855140777,hihihihi,Vancouver,5,Very good product
+e9c63b79-5b11-4d72-a558-cf1a3282ef08,e9c63b79-5b11-4d72-a558-cf1a3282ef08,xxxxx111,Toronto,0,Good
+e68d87c5-0b20-45ad-9c81-6ff45245d25c,e68d87c5-0b20-45ad-9c81-6ff45245d25c,lwe_s,Calgary,0,Do not buy it
+8820e15d-a2d8-411b-bd33-d4d34a883b86,8820e15d-a2d8-411b-bd33-d4d34a883b86,hihihihi,Montreal,7,Not bad
+46bd1fda-c5e5-47f9-94ff-62d7a85a4678,46bd1fda-c5e5-47f9-94ff-62d7a85a4678,hihihihi,Vancouver,2,Do not buy it
+9679a1fe-0f47-4a7f-99b6-76a18e38bbcc,9679a1fe-0f47-4a7f-99b6-76a18e38bbcc,yingyi888,Calgary,4,Good
+f5b62fe4-cfa0-432e-9d73-442f74dc482a,f5b62fe4-cfa0-432e-9d73-442f74dc482a,lwe_s,Toronto,10,Very good product
+7514c5cf-1484-4ff1-8aa1-0930dd7d6d7c,7514c5cf-1484-4ff1-8aa1-0930dd7d6d7c,lwe_s,Alberta,5,Do not buy it
+274fb82f-19d3-4f44-83c3-b297c61f1c18,274fb82f-19d3-4f44-83c3-b297c61f1c18,yingyi888,Vancouver,10,It is ok
+e383f2ab-a6fd-4220-b50b-542b5a1eafa1,e383f2ab-a6fd-4220-b50b-542b5a1eafa1,yingyi888,Alberta,7,Not bad
+944afc29-0760-4374-b6ce-821e7c5340ab,944afc29-0760-4374-b6ce-821e7c5340ab,apple123000,Alberta,9,Bought
+657d5676-de60-4ab3-86e6-0420eae7cff0,657d5676-de60-4ab3-86e6-0420eae7cff0,emsl02,Alberta,1,Do not buy it
+9ac2908e-135e-4853-80d7-7a2749f0f1c7,9ac2908e-135e-4853-80d7-7a2749f0f1c7,yingyi888,Montreal,5,Good
+4210f82e-7044-4687-98ec-a3230eb66282,4210f82e-7044-4687-98ec-a3230eb66282,xxxxx111,Vancouver,2,Do not buy it
+46debe0d-d684-4917-8032-2ecb1540aacb,46debe0d-d684-4917-8032-2ecb1540aacb,emsl02,Montreal,4,Do not buy it
+a5c9d977-dcc1-4e99-933e-2cc2194ebe3c,a5c9d977-dcc1-4e99-933e-2cc2194ebe3c,hihihihi,Vancouver,10,Very good product
+46287bdc-4de5-4ed5-a61e-d50eaeacbc14,46287bdc-4de5-4ed5-a61e-d50eaeacbc14,apple123000,Vancouver,7,Do not buy it
+c3135d2d-c64e-4a02-ba79-44d8f5f94a21,c3135d2d-c64e-4a02-ba79-44d8f5f94a21,xxxxx111,Montreal,2,Bought
+22aaf005-d6a8-4e3b-af1e-359595743be9,22aaf005-d6a8-4e3b-af1e-359595743be9,yingyi888,Montreal,1,Great
+44ed45ef-b2d6-4044-a316-bc48dc4def67,44ed45ef-b2d6-4044-a316-bc48dc4def67,hihihihi,Vancouver,5,Great
+c1c36e9e-5ae5-409a-a81c-3fe5d4dd3848,c1c36e9e-5ae5-409a-a81c-3fe5d4dd3848,yingyi888,Alberta,6,Good
+9ab0fb14-16b6-48be-ade2-9ff19ddeae6d,9ab0fb14-16b6-48be-ade2-9ff19ddeae6d,hihihihi,Montreal,0,Not bad
+7500b586-503b-41a0-ba09-c3731c933386,7500b586-503b-41a0-ba09-c3731c933386,yingyi888,Alberta,5,Great
+0f6ac446-abd9-4ba4-a1de-68c3b01516ad,0f6ac446-abd9-4ba4-a1de-68c3b01516ad,yingyi888,Montreal,7,Bought
+a945059f-f86a-41c5-9733-2c39124735fd,a945059f-f86a-41c5-9733-2c39124735fd,yingyi888,Montreal,3,Good
+4a193bfe-28c2-43b7-8509-9054ff5f9706,4a193bfe-28c2-43b7-8509-9054ff5f9706,apple123000,Calgary,10,Not bad
+cd03d5d2-6174-4a02-8548-f632c34a8081,cd03d5d2-6174-4a02-8548-f632c34a8081,yingyi888,Vancouver,10,Great
+f15626b0-00ed-4028-bbe3-9f199c8de1ef,f15626b0-00ed-4028-bbe3-9f199c8de1ef,hihihihi,Montreal,3,Great
+09819e26-1a0f-4021-a6a9-c37056b6c551,09819e26-1a0f-4021-a6a9-c37056b6c551,emsl02,Alberta,6,Very good product
+f05a4103-783d-4f66-9945-cc120ece91c7,f05a4103-783d-4f66-9945-cc120ece91c7,yingyi888,Calgary,9,Not bad
+c659971a-cdfb-4b33-b0f4-f28f680d2753,c659971a-cdfb-4b33-b0f4-f28f680d2753,lwe_s,Alberta,6,Good
+bca01889-f3c9-4aa7-a95c-717c2377c658,bca01889-f3c9-4aa7-a95c-717c2377c658,emsl02,Vancouver,7,Good
+9108aa4f-b1fc-4fe4-b4ef-3ff8445010c1,9108aa4f-b1fc-4fe4-b4ef-3ff8445010c1,yingyi888,Toronto,10,Bought
+96d17a80-b8f0-4a59-b160-6d45b3420713,96d17a80-b8f0-4a59-b160-6d45b3420713,lwe_s,Toronto,0,Very good product
+535864ad-9eac-40d2-bd04-e5298c86489b,535864ad-9eac-40d2-bd04-e5298c86489b,lwe_s,Calgary,1,Great
+88b17953-0b19-495b-9228-7f1fd6330ef9,88b17953-0b19-495b-9228-7f1fd6330ef9,apple123000,Vancouver,1,Do not buy it
+a2ff0a27-5a3f-4616-8ecd-f015b52d649c,a2ff0a27-5a3f-4616-8ecd-f015b52d649c,yingyi888,Toronto,9,Not bad
+62731ca7-a702-4f6a-8748-49d71e5d6f8f,62731ca7-a702-4f6a-8748-49d71e5d6f8f,lwe_s,Toronto,7,Very good product
+3abe08b7-eb79-42dd-8c23-4743cfcfca98,3abe08b7-eb79-42dd-8c23-4743cfcfca98,emsl02,Vancouver,5,Bought
+69111af8-5b7b-419e-aed3-0da5c9870330,69111af8-5b7b-419e-aed3-0da5c9870330,lwe_s,Calgary,8,It is ok
+43a63aaa-7664-4943-861c-a0edfeef21e2,43a63aaa-7664-4943-861c-a0edfeef21e2,lwe_s,Calgary,10,Bought
+328f7c6e-f82e-41fd-ba51-075e89c09c4a,328f7c6e-f82e-41fd-ba51-075e89c09c4a,apple123000,Toronto,3,Good
+516e420c-356b-4b67-be97-6b0a78e83594,516e420c-356b-4b67-be97-6b0a78e83594,hihihihi,Toronto,6,Not bad
+ad5906c0-6e5e-4943-95fc-2b85c32b89ad,ad5906c0-6e5e-4943-95fc-2b85c32b89ad,xxxxx111,Toronto,0,Very good product
+d45000f4-be9f-497e-937a-f4c3d6600441,d45000f4-be9f-497e-937a-f4c3d6600441,emsl02,Montreal,1,Very good product
+64f07a9b-b2f0-4026-816f-974ae46ee98d,64f07a9b-b2f0-4026-816f-974ae46ee98d,emsl02,Calgary,5,Very good product
+bd76def5-4b13-4789-bb1b-09cfff528e63,bd76def5-4b13-4789-bb1b-09cfff528e63,yingyi888,Vancouver,1,Not bad
+7030d8e5-c4ed-4ee4-925b-78f170ed166f,7030d8e5-c4ed-4ee4-925b-78f170ed166f,apple123000,Vancouver,0,Good
+eb6de6d8-dcc8-4dce-8f13-39afabd6c5e5,eb6de6d8-dcc8-4dce-8f13-39afabd6c5e5,apple123000,Alberta,3,Do not buy it
+152f2dea-7db5-4642-bab1-fc5eba428076,152f2dea-7db5-4642-bab1-fc5eba428076,lwe_s,Calgary,7,Not bad
+ca1feb9a-79eb-4d01-a40b-37658846911c,ca1feb9a-79eb-4d01-a40b-37658846911c,hihihihi,Alberta,7,Bought
+8a365b6d-ec69-4463-aeab-95087b852479,8a365b6d-ec69-4463-aeab-95087b852479,yingyi888,Vancouver,1,Not bad
+f56a5726-ad13-41f4-bb3c-a7333c13c7c2,f56a5726-ad13-41f4-bb3c-a7333c13c7c2,hihihihi,Alberta,10,Very good product
+55004636-32e2-425c-a510-deca0c2c8ab3,55004636-32e2-425c-a510-deca0c2c8ab3,xxxxx111,Calgary,2,Bought
+d308b95b-0324-4fe1-88ef-ff5932301ca3,d308b95b-0324-4fe1-88ef-ff5932301ca3,hihihihi,Calgary,5,Good
+c6bd86c0-2bba-4c40-8804-adc7d34b2691,c6bd86c0-2bba-4c40-8804-adc7d34b2691,lwe_s,Vancouver,9,Very good product
+2d30d1f4-b5b1-4ac5-a401-2f54f58b1103,2d30d1f4-b5b1-4ac5-a401-2f54f58b1103,apple123000,Montreal,3,Not bad
+16f59978-aa40-4913-8be8-5b6513fcb064,16f59978-aa40-4913-8be8-5b6513fcb064,xxxxx111,Toronto,6,Very good product
+cea9fc16-4778-4e63-b84c-f575d82e4e68,cea9fc16-4778-4e63-b84c-f575d82e4e68,xxxxx111,Toronto,6,Good
+47aca90d-eb5c-47ca-98e2-27bb73a87c37,47aca90d-eb5c-47ca-98e2-27bb73a87c37,xxxxx111,Toronto,10,Bought
+cef89172-d136-49ec-8955-513aaf85f584,cef89172-d136-49ec-8955-513aaf85f584,emsl02,Vancouver,1,Very good product
+1b913bbe-28bf-4c65-93f9-672b449a0270,1b913bbe-28bf-4c65-93f9-672b449a0270,apple123000,Montreal,6,Very good product
+2ddb221e-89ea-4cd1-a93c-238ae6f3602c,2ddb221e-89ea-4cd1-a93c-238ae6f3602c,hihihihi,Montreal,1,Do not buy it
+546a059b-9a1e-4c8a-ab65-2f412c2f5a84,546a059b-9a1e-4c8a-ab65-2f412c2f5a84,apple123000,Alberta,8,Bought
+3817b348-b17f-411d-8d27-16974f193f28,3817b348-b17f-411d-8d27-16974f193f28,apple123000,Toronto,8,Very good product
+1b623146-e356-44ec-89ca-3b4c861b4991,1b623146-e356-44ec-89ca-3b4c861b4991,emsl02,Alberta,7,Do not buy it
+e44b4510-6683-4ab2-8bc3-27765e18d12e,e44b4510-6683-4ab2-8bc3-27765e18d12e,emsl02,Alberta,8,It is ok
+3be493d1-2077-4670-a0b4-9ed3376a17f2,3be493d1-2077-4670-a0b4-9ed3376a17f2,emsl02,Calgary,9,Bought
+91111300-388e-4c3b-91ad-ca748f813cf0,91111300-388e-4c3b-91ad-ca748f813cf0,xxxxx111,Calgary,8,Very good product
+b8c58bee-be3c-4930-9cd2-ffa822f757c3,b8c58bee-be3c-4930-9cd2-ffa822f757c3,yingyi888,Vancouver,6,Great
+d23819d6-c60f-4fe8-81ef-5c9e168eeded,d23819d6-c60f-4fe8-81ef-5c9e168eeded,emsl02,Calgary,3,Not bad
+ecbc86d7-9a7b-4b5a-9669-ab7b23305f27,ecbc86d7-9a7b-4b5a-9669-ab7b23305f27,lwe_s,Toronto,9,Not bad
+8e1b5810-22fd-401e-858e-e2b873ff6ecb,8e1b5810-22fd-401e-858e-e2b873ff6ecb,xxxxx111,Alberta,6,Very good product
+87c91f17-9388-4db3-bc11-f5ca99979788,87c91f17-9388-4db3-bc11-f5ca99979788,apple123000,Montreal,5,Do not buy it
+debfbeee-953b-4d56-8a0f-d3c99c8b16c9,debfbeee-953b-4d56-8a0f-d3c99c8b16c9,lwe_s,Montreal,7,Bought
+7cffb557-95d9-4f0e-9f7b-018dce7b4a7b,7cffb557-95d9-4f0e-9f7b-018dce7b4a7b,emsl02,Vancouver,9,Very good product
+1bf42dc9-f6d5-4ef4-bb7b-0202194d476d,1bf42dc9-f6d5-4ef4-bb7b-0202194d476d,lwe_s,Alberta,7,It is ok
+a8b32b3c-372f-46a5-956a-1eda0f415d06,a8b32b3c-372f-46a5-956a-1eda0f415d06,xxxxx111,Montreal,1,Great
+50435291-8b0d-45c3-9dda-e0a98c2b5454,50435291-8b0d-45c3-9dda-e0a98c2b5454,xxxxx111,Toronto,2,Do not buy it
+651e59f9-6fd9-481a-a273-0298b443c5c4,651e59f9-6fd9-481a-a273-0298b443c5c4,hihihihi,Toronto,10,Very good product
+bd525f92-715c-4b70-b559-4df8685f9cfe,bd525f92-715c-4b70-b559-4df8685f9cfe,emsl02,Vancouver,1,Very good product
+19a27470-5951-4594-a906-1f3c2d1ebe03,19a27470-5951-4594-a906-1f3c2d1ebe03,emsl02,Alberta,0,Good
+d35c23fe-326b-47bf-875d-759ce31ce9ba,d35c23fe-326b-47bf-875d-759ce31ce9ba,emsl02,Calgary,3,Good
+50245f96-a2a2-41a5-9b3d-aab7563f4cbd,50245f96-a2a2-41a5-9b3d-aab7563f4cbd,emsl02,Toronto,7,It is ok
+6dafe4c3-ae05-40eb-99d1-3df75e9c19fd,6dafe4c3-ae05-40eb-99d1-3df75e9c19fd,lwe_s,Calgary,8,Good
+c10104f8-b6f4-489e-9f7a-42662faf9513,c10104f8-b6f4-489e-9f7a-42662faf9513,hihihihi,Vancouver,6,Do not buy it
+2bb7229b-5f09-481c-a130-d4c94d05f18c,2bb7229b-5f09-481c-a130-d4c94d05f18c,emsl02,Montreal,1,Bought
+c3741562-ada3-4099-8d81-ba07bc9832c3,c3741562-ada3-4099-8d81-ba07bc9832c3,yingyi888,Alberta,0,Good
+6b4ea39f-e77c-40c9-ba20-77f202a150a2,6b4ea39f-e77c-40c9-ba20-77f202a150a2,emsl02,Alberta,4,Bought
+20635a84-da31-412c-a84f-bc64b8fa0f24,20635a84-da31-412c-a84f-bc64b8fa0f24,apple123000,Montreal,7,Very good product
+ada92191-3c27-4558-801f-786b0f2f0d06,ada92191-3c27-4558-801f-786b0f2f0d06,lwe_s,Toronto,1,Very good product
+18221d52-dda1-49d2-b5f6-f3ff953a4926,18221d52-dda1-49d2-b5f6-f3ff953a4926,xxxxx111,Toronto,2,Good
+e82260bb-ed66-4b29-b8a0-87e0f7fa8a19,e82260bb-ed66-4b29-b8a0-87e0f7fa8a19,yingyi888,Alberta,5,Great
+47728b76-f1f3-4489-a0fe-f57d34118d12,47728b76-f1f3-4489-a0fe-f57d34118d12,xxxxx111,Toronto,4,Great
+e35d3912-9fc3-446c-aa0a-14c96beede74,e35d3912-9fc3-446c-aa0a-14c96beede74,hihihihi,Toronto,6,Great
+61917559-9cd2-43f4-9629-55368bc80a23,61917559-9cd2-43f4-9629-55368bc80a23,lwe_s,Alberta,8,Do not buy it
+9cec315b-1b19-4084-b116-33f109d59636,9cec315b-1b19-4084-b116-33f109d59636,hihihihi,Montreal,4,Very good product
+6c159e7f-d9f6-4c11-a3e7-105bea6c35a1,6c159e7f-d9f6-4c11-a3e7-105bea6c35a1,xxxxx111,Calgary,3,Very good product
+8cf4ac4f-ce51-489b-a9aa-c1862df873e3,8cf4ac4f-ce51-489b-a9aa-c1862df873e3,xxxxx111,Alberta,2,Bought
+9f526228-98ae-4c09-bb0c-998977e25d61,9f526228-98ae-4c09-bb0c-998977e25d61,emsl02,Toronto,10,Great
+91555025-0d10-4410-b351-b98b57bdaea7,91555025-0d10-4410-b351-b98b57bdaea7,apple123000,Toronto,6,Do not buy it
+adc0c5af-1903-4e46-b797-ffd60cc3ba57,adc0c5af-1903-4e46-b797-ffd60cc3ba57,hihihihi,Toronto,5,It is ok
+bfa8305a-b334-4ff2-a9b0-f0ba516bc603,bfa8305a-b334-4ff2-a9b0-f0ba516bc603,yingyi888,Toronto,8,Do not buy it
+d46d2243-478f-40d6-9c3e-919d2f4f7ff7,d46d2243-478f-40d6-9c3e-919d2f4f7ff7,yingyi888,Vancouver,7,Bought
+d1686738-1b16-4f5b-b05a-58776910f373,d1686738-1b16-4f5b-b05a-58776910f373,emsl02,Montreal,0,It is ok
+a5899b5f-638f-4799-abaa-c0f4d9760601,a5899b5f-638f-4799-abaa-c0f4d9760601,xxxxx111,Alberta,10,Good
+572d27b2-0617-46a3-b5b9-6925af38e2f6,572d27b2-0617-46a3-b5b9-6925af38e2f6,xxxxx111,Toronto,10,Bought
+865b9b2f-76db-4422-a7f1-f5d89bdc4f67,865b9b2f-76db-4422-a7f1-f5d89bdc4f67,yingyi888,Toronto,8,Not bad
+95b0db19-1a8f-4237-b5a0-e165935c68fb,95b0db19-1a8f-4237-b5a0-e165935c68fb,xxxxx111,Montreal,5,It is ok
+d5fc04c1-7eff-45bc-91c1-2f9e89209e48,d5fc04c1-7eff-45bc-91c1-2f9e89209e48,lwe_s,Vancouver,9,Not bad
+d01ac446-1b0f-4f2e-8aed-57664852fc1e,d01ac446-1b0f-4f2e-8aed-57664852fc1e,yingyi888,Montreal,10,Bought
+50394c5f-b8a8-4cde-a661-a54895b50c59,50394c5f-b8a8-4cde-a661-a54895b50c59,emsl02,Montreal,5,Good
+28357256-1b8c-47e3-9918-7cbaf27d3fc7,28357256-1b8c-47e3-9918-7cbaf27d3fc7,lwe_s,Calgary,8,Do not buy it
+9e4953ce-1158-4457-852a-3c378d70ba3d,9e4953ce-1158-4457-852a-3c378d70ba3d,lwe_s,Alberta,0,Bought
+33a3dc77-284b-4882-a5d3-363a8f39dd85,33a3dc77-284b-4882-a5d3-363a8f39dd85,xxxxx111,Toronto,7,It is ok
+d5ec94f4-93c0-4142-adc4-020b9f0034f9,d5ec94f4-93c0-4142-adc4-020b9f0034f9,lwe_s,Alberta,4,Do not buy it
+3e997602-f67e-473f-a600-2df4416e4561,3e997602-f67e-473f-a600-2df4416e4561,apple123000,Calgary,10,It is ok
+3e3cb68a-9caa-4918-aff9-273857951e7d,3e3cb68a-9caa-4918-aff9-273857951e7d,xxxxx111,Calgary,5,Great
+075f81a3-6eb9-4288-8fa0-df1f534e8e51,075f81a3-6eb9-4288-8fa0-df1f534e8e51,apple123000,Vancouver,3,Good
+e48da239-de8b-4743-89a2-8d30bd4fc17d,e48da239-de8b-4743-89a2-8d30bd4fc17d,apple123000,Calgary,1,Very good product
+15461a16-750e-480a-81d8-159bcc20d5b0,15461a16-750e-480a-81d8-159bcc20d5b0,hihihihi,Montreal,0,Bought
+2cb792af-ac5c-445e-87b8-10506762a21e,2cb792af-ac5c-445e-87b8-10506762a21e,yingyi888,Vancouver,6,Not bad
+7ca943a6-1f02-4613-9945-fb8744abea64,7ca943a6-1f02-4613-9945-fb8744abea64,hihihihi,Toronto,1,Good
+d2c5db7b-015e-4f95-bf66-33451e5e8e9d,d2c5db7b-015e-4f95-bf66-33451e5e8e9d,hihihihi,Montreal,4,Not bad
+1e2e052b-19aa-4474-8b01-a0d9ec299b86,1e2e052b-19aa-4474-8b01-a0d9ec299b86,apple123000,Toronto,0,Good
+2f6f0b06-5bab-445f-9cf8-e2ebbd772013,2f6f0b06-5bab-445f-9cf8-e2ebbd772013,hihihihi,Calgary,1,Do not buy it
+15877288-a7be-481d-a72b-176f4c96938f,15877288-a7be-481d-a72b-176f4c96938f,apple123000,Calgary,5,Do not buy it
+c3ce2f35-bc98-4b30-87a3-6fdea3b0e45b,c3ce2f35-bc98-4b30-87a3-6fdea3b0e45b,yingyi888,Toronto,9,Good
+94a88830-faad-454a-8e74-b48c2ddfc543,94a88830-faad-454a-8e74-b48c2ddfc543,hihihihi,Vancouver,8,Very good product
+8358f511-3740-4ce9-a9f9-e65866cc6850,8358f511-3740-4ce9-a9f9-e65866cc6850,emsl02,Alberta,5,Very good product
+e8e74005-71b4-49af-a36e-bda789b147dc,e8e74005-71b4-49af-a36e-bda789b147dc,emsl02,Vancouver,10,It is ok
+7bffa23f-b8f8-4b5e-87b2-331f7bb68083,7bffa23f-b8f8-4b5e-87b2-331f7bb68083,hihihihi,Vancouver,7,Bought
+323a020e-6b98-4588-9dcc-dbd474a554e0,323a020e-6b98-4588-9dcc-dbd474a554e0,apple123000,Alberta,6,Do not buy it
+43b5d20c-2dd7-4807-9dee-c869057b94b0,43b5d20c-2dd7-4807-9dee-c869057b94b0,emsl02,Vancouver,8,Do not buy it
+bb66d44d-0bab-4536-84ab-dd1899be74cb,bb66d44d-0bab-4536-84ab-dd1899be74cb,emsl02,Vancouver,4,Do not buy it
+69d9cf40-50a4-4592-bb5b-8030fa6972f3,69d9cf40-50a4-4592-bb5b-8030fa6972f3,apple123000,Calgary,6,Bought
+36948747-b6c0-4370-9843-80f1ffc2a7f5,36948747-b6c0-4370-9843-80f1ffc2a7f5,apple123000,Calgary,1,Bought
+9b783249-d6c2-4150-97ee-64cba05acc91,9b783249-d6c2-4150-97ee-64cba05acc91,lwe_s,Montreal,4,Very good product
+141dcd38-60c3-4d82-bbd6-a0943e53c598,141dcd38-60c3-4d82-bbd6-a0943e53c598,xxxxx111,Vancouver,9,Very good product
+271dd913-a176-43c6-b647-1478cfc7929e,271dd913-a176-43c6-b647-1478cfc7929e,emsl02,Alberta,10,Bought
+165ce2c7-b9e9-4ab2-9beb-9180638e24b2,165ce2c7-b9e9-4ab2-9beb-9180638e24b2,yingyi888,Toronto,4,Good
+64545bb6-892c-4b7c-99cd-2659410f1d2e,64545bb6-892c-4b7c-99cd-2659410f1d2e,hihihihi,Calgary,6,Good
+4368bbcd-cc26-42d4-8ae7-80c22209e27c,4368bbcd-cc26-42d4-8ae7-80c22209e27c,emsl02,Montreal,1,Good
+98722ff7-d8d5-4656-8f38-a6a1104dcd21,98722ff7-d8d5-4656-8f38-a6a1104dcd21,xxxxx111,Toronto,9,Great
+7d752b06-6324-4ee9-8e99-979cf344af0d,7d752b06-6324-4ee9-8e99-979cf344af0d,lwe_s,Alberta,6,Great
+33df3769-5611-4cc9-99ca-900d394929ac,33df3769-5611-4cc9-99ca-900d394929ac,hihihihi,Calgary,5,It is ok
+aadf1830-99ad-41b8-8402-918cb57a309c,aadf1830-99ad-41b8-8402-918cb57a309c,hihihihi,Alberta,10,Not bad
+c0efebb9-bd52-4f28-b79a-15fda7d3b699,c0efebb9-bd52-4f28-b79a-15fda7d3b699,xxxxx111,Montreal,7,Do not buy it
+64f083fd-c7b3-4e8a-b360-3131d292aaae,64f083fd-c7b3-4e8a-b360-3131d292aaae,yingyi888,Toronto,4,Great
+dfc66e43-40af-4fd9-ab74-df22193ddbfb,dfc66e43-40af-4fd9-ab74-df22193ddbfb,yingyi888,Vancouver,9,Bought
+cb81420b-120f-4c37-acd0-3b02954b8927,cb81420b-120f-4c37-acd0-3b02954b8927,emsl02,Montreal,1,Good
+cf4bbbea-4972-40ee-8bed-22d537b7a625,cf4bbbea-4972-40ee-8bed-22d537b7a625,yingyi888,Calgary,8,Do not buy it
+2d07435f-2a2d-43fe-a62f-3a8f4da91471,2d07435f-2a2d-43fe-a62f-3a8f4da91471,hihihihi,Alberta,2,Do not buy it
+ebd0fa8d-48ae-4e08-a3e0-1a32336c5987,ebd0fa8d-48ae-4e08-a3e0-1a32336c5987,xxxxx111,Vancouver,8,It is ok
+093bc70a-a31e-4af8-ba36-ffe77f24bfc5,093bc70a-a31e-4af8-ba36-ffe77f24bfc5,hihihihi,Alberta,4,Great
+c2e670ca-88b1-47c9-91fe-7c726ef8712c,c2e670ca-88b1-47c9-91fe-7c726ef8712c,emsl02,Toronto,8,Good
+a6893b1b-7a84-4e2e-9a52-3f68b821224d,a6893b1b-7a84-4e2e-9a52-3f68b821224d,emsl02,Calgary,2,It is ok
+51fa58f0-ae12-4e7f-b445-4c24f1112392,51fa58f0-ae12-4e7f-b445-4c24f1112392,yingyi888,Toronto,6,Bought
+f35db8f5-f7fc-4bb6-b77b-c33451ad83d8,f35db8f5-f7fc-4bb6-b77b-c33451ad83d8,hihihihi,Vancouver,2,Do not buy it
+d3eb1ac8-e3fa-4618-94e1-6b10ac584309,d3eb1ac8-e3fa-4618-94e1-6b10ac584309,xxxxx111,Vancouver,10,Bought
+810c0a35-48cb-4fda-ba69-4504ed5155b2,810c0a35-48cb-4fda-ba69-4504ed5155b2,emsl02,Vancouver,5,Good
+45a6cd5b-2d73-4eb5-b2bd-36a940e0e51d,45a6cd5b-2d73-4eb5-b2bd-36a940e0e51d,emsl02,Toronto,2,Do not buy it
+af8fbe9f-c576-41f5-bd04-f6d9d63419e6,af8fbe9f-c576-41f5-bd04-f6d9d63419e6,apple123000,Vancouver,0,Do not buy it
+868d9dd0-f236-4722-82cb-c5c6ba13b120,868d9dd0-f236-4722-82cb-c5c6ba13b120,lwe_s,Calgary,8,Good
+bc8409c2-b9ef-4c6b-b3e6-15b1f3dd540d,bc8409c2-b9ef-4c6b-b3e6-15b1f3dd540d,lwe_s,Toronto,2,Bought
+9a0edc34-4734-42c5-99c7-04322f3a3474,9a0edc34-4734-42c5-99c7-04322f3a3474,emsl02,Vancouver,4,It is ok
+d88005a8-a5b6-4ae5-85ac-effe463fba26,d88005a8-a5b6-4ae5-85ac-effe463fba26,emsl02,Toronto,0,Good
+576a93a4-f00f-4e96-8d4e-471193388b36,576a93a4-f00f-4e96-8d4e-471193388b36,hihihihi,Calgary,7,Great
+d531e1ed-0212-447c-9bc7-6f9046b456dd,d531e1ed-0212-447c-9bc7-6f9046b456dd,apple123000,Toronto,2,Do not buy it
+44bbbc40-89e8-4879-bc97-09608790a941,44bbbc40-89e8-4879-bc97-09608790a941,xxxxx111,Vancouver,0,Very good product
+b6db75dd-93ef-49d7-b10d-8f957c465a0a,b6db75dd-93ef-49d7-b10d-8f957c465a0a,lwe_s,Montreal,0,Good
+43d8a702-5ebf-4ea4-a687-b1ef6521d800,43d8a702-5ebf-4ea4-a687-b1ef6521d800,xxxxx111,Toronto,0,It is ok
+6f53f509-3b55-4b33-bbd7-13f6fbb0aee6,6f53f509-3b55-4b33-bbd7-13f6fbb0aee6,yingyi888,Montreal,6,Good
+b2aba73f-db7f-41d2-b58d-066d07358f48,b2aba73f-db7f-41d2-b58d-066d07358f48,yingyi888,Montreal,10,Good
+33a511a7-5821-4a3d-a63c-a341e2fcdac0,33a511a7-5821-4a3d-a63c-a341e2fcdac0,emsl02,Montreal,1,It is ok
+eff38214-4c24-4d80-96d0-f8ef5ab682c9,eff38214-4c24-4d80-96d0-f8ef5ab682c9,lwe_s,Toronto,7,Do not buy it
+e85d3b10-ca2e-4b13-9ac8-15e862a22f16,e85d3b10-ca2e-4b13-9ac8-15e862a22f16,yingyi888,Montreal,1,It is ok
+59595665-a50d-4739-a754-7311c5406ec6,59595665-a50d-4739-a754-7311c5406ec6,yingyi888,Alberta,10,Good
+b17b9295-91e9-4a96-8bc9-88b0133de4b6,b17b9295-91e9-4a96-8bc9-88b0133de4b6,yingyi888,Toronto,6,Great
+e6c46395-799d-4b6c-9111-3e7faf7ebc73,e6c46395-799d-4b6c-9111-3e7faf7ebc73,yingyi888,Toronto,2,Very good product
+127be7dc-1be3-4b6e-bd5f-0fd533a5d30c,127be7dc-1be3-4b6e-bd5f-0fd533a5d30c,lwe_s,Toronto,4,Do not buy it
+59e00db2-1d36-4191-8cc4-ca1a43a3dfa2,59e00db2-1d36-4191-8cc4-ca1a43a3dfa2,yingyi888,Vancouver,1,Not bad
+1a87aa5f-a37a-4dc3-b491-c6ce6feab91e,1a87aa5f-a37a-4dc3-b491-c6ce6feab91e,emsl02,Calgary,9,Great
+b1566f60-c401-4db7-b046-26d4eb23a19b,b1566f60-c401-4db7-b046-26d4eb23a19b,apple123000,Vancouver,4,Not bad
+57245449-f111-44c1-857f-3016dc95022a,57245449-f111-44c1-857f-3016dc95022a,apple123000,Calgary,0,Great
+1c378a6b-ddda-4727-9c63-23ae038c9087,1c378a6b-ddda-4727-9c63-23ae038c9087,xxxxx111,Vancouver,4,Good
+b7448e28-2691-4bec-b7c4-f13036c70bfc,b7448e28-2691-4bec-b7c4-f13036c70bfc,hihihihi,Vancouver,0,Not bad
+2ee470d7-32fe-4085-87b1-077d62159aaf,2ee470d7-32fe-4085-87b1-077d62159aaf,emsl02,Vancouver,2,Do not buy it
+4b58ceb0-de4b-40ce-b35a-9d3407951790,4b58ceb0-de4b-40ce-b35a-9d3407951790,apple123000,Vancouver,9,It is ok
+6bec3775-3422-4215-8380-220ea8151632,6bec3775-3422-4215-8380-220ea8151632,hihihihi,Calgary,9,Great
+c3d1ff2a-68df-48f5-8b8e-ac4ddabd4237,c3d1ff2a-68df-48f5-8b8e-ac4ddabd4237,lwe_s,Montreal,10,Bought
+1b3d320e-3865-4520-8587-e8a9fde9994e,1b3d320e-3865-4520-8587-e8a9fde9994e,lwe_s,Calgary,9,Very good product
+40a51bca-f4d4-48c1-b0e1-541bef8ed049,40a51bca-f4d4-48c1-b0e1-541bef8ed049,emsl02,Montreal,10,Very good product
+7eda490a-f35b-47cd-8dc6-78a753ec51c1,7eda490a-f35b-47cd-8dc6-78a753ec51c1,apple123000,Toronto,10,Do not buy it
+53ef3f7e-930e-4c40-ba11-9c4ccd434dd6,53ef3f7e-930e-4c40-ba11-9c4ccd434dd6,apple123000,Alberta,2,Bought
+b7f82c4f-2617-4e4e-b2a2-31e2974d1bb8,b7f82c4f-2617-4e4e-b2a2-31e2974d1bb8,lwe_s,Alberta,0,It is ok
+c97736f5-c31a-4c27-83e2-ecd4650c62da,c97736f5-c31a-4c27-83e2-ecd4650c62da,emsl02,Vancouver,5,Bought
+06473020-88a8-434b-922e-ee7046624564,06473020-88a8-434b-922e-ee7046624564,apple123000,Vancouver,10,Good
+afeaeb4e-3966-4ad4-9913-7c23f5a942c3,afeaeb4e-3966-4ad4-9913-7c23f5a942c3,hihihihi,Vancouver,7,It is ok
+caba2fe2-1d69-40de-bbcd-049d02a374ed,caba2fe2-1d69-40de-bbcd-049d02a374ed,yingyi888,Toronto,5,Bought
+cdadadd8-2a89-412f-b8a5-a63efa13866c,cdadadd8-2a89-412f-b8a5-a63efa13866c,apple123000,Montreal,8,Bought
+41db7b87-241b-4b8d-8c64-a7014fbb50f4,41db7b87-241b-4b8d-8c64-a7014fbb50f4,apple123000,Alberta,10,Good
+6ecdb404-31d1-4ce1-ace7-9dae88e58c4b,6ecdb404-31d1-4ce1-ace7-9dae88e58c4b,emsl02,Montreal,8,Not bad
+dd1c1f16-af87-4a58-8d24-b9ff3aab73f1,dd1c1f16-af87-4a58-8d24-b9ff3aab73f1,emsl02,Vancouver,5,Bought
+c451b865-2146-46d7-8876-c9bca238d57c,c451b865-2146-46d7-8876-c9bca238d57c,xxxxx111,Montreal,0,It is ok
+27788a2a-afbc-4519-a802-cee5b56b3ff3,27788a2a-afbc-4519-a802-cee5b56b3ff3,xxxxx111,Toronto,4,Bought
+01368c93-16f1-4e4e-95a6-fba4f618aaf9,01368c93-16f1-4e4e-95a6-fba4f618aaf9,emsl02,Calgary,5,Good
+5a67b4a1-4d2b-4a38-8d01-333c833b3a1b,5a67b4a1-4d2b-4a38-8d01-333c833b3a1b,hihihihi,Montreal,8,Very good product
+1506c133-e5bc-4a40-8cac-b2fd1955ef0d,1506c133-e5bc-4a40-8cac-b2fd1955ef0d,lwe_s,Vancouver,0,Good
+8b6b7486-738a-41b6-9e97-d7d0b5a54e7b,8b6b7486-738a-41b6-9e97-d7d0b5a54e7b,apple123000,Vancouver,0,Great
+1b489b44-f605-434f-ac82-1926dcb4752c,1b489b44-f605-434f-ac82-1926dcb4752c,xxxxx111,Toronto,7,Do not buy it
+228b7247-1a5d-43c6-986b-c2afac3b03cb,228b7247-1a5d-43c6-986b-c2afac3b03cb,yingyi888,Alberta,3,Great
+3d268b85-e533-49d8-9814-b449c69c91c5,3d268b85-e533-49d8-9814-b449c69c91c5,xxxxx111,Alberta,6,Very good product
+490a7257-6330-4049-9144-7565ec0982c0,490a7257-6330-4049-9144-7565ec0982c0,hihihihi,Vancouver,7,Do not buy it
+9cd1798e-325f-4fa2-9349-ef17cff64909,9cd1798e-325f-4fa2-9349-ef17cff64909,lwe_s,Alberta,4,It is ok
+94067198-cde4-48f1-80bd-ce8ea92265d2,94067198-cde4-48f1-80bd-ce8ea92265d2,apple123000,Toronto,4,It is ok
+e7b1dd71-ceab-4c10-a272-f9a2a1e93983,e7b1dd71-ceab-4c10-a272-f9a2a1e93983,hihihihi,Montreal,0,Bought
+9750711b-7479-4c75-aecb-32f94ad896b7,9750711b-7479-4c75-aecb-32f94ad896b7,lwe_s,Vancouver,9,Very good product
+d38da5ce-83e8-47ed-8434-fa486945f062,d38da5ce-83e8-47ed-8434-fa486945f062,hihihihi,Toronto,10,Do not buy it
+ea783f2e-f938-4eaf-b718-28ab78b4152f,ea783f2e-f938-4eaf-b718-28ab78b4152f,hihihihi,Montreal,2,Very good product
+d6f6c771-73dc-4be5-848d-e11a9f306ff6,d6f6c771-73dc-4be5-848d-e11a9f306ff6,yingyi888,Calgary,3,Very good product
+43a0a23a-50ec-4ebd-9028-863cc68c42ab,43a0a23a-50ec-4ebd-9028-863cc68c42ab,apple123000,Vancouver,7,Bought
+799da9dd-f0f9-4450-80cc-635f21e2afb1,799da9dd-f0f9-4450-80cc-635f21e2afb1,xxxxx111,Vancouver,1,Very good product
+2716eab2-3b5b-4aed-8fdd-8add5773d3cc,2716eab2-3b5b-4aed-8fdd-8add5773d3cc,hihihihi,Vancouver,0,Bought
+d84f5c5c-1f09-4546-863b-a6a84d92a79d,d84f5c5c-1f09-4546-863b-a6a84d92a79d,xxxxx111,Alberta,1,Do not buy it
+26486e37-5158-4818-8e2a-21f9a5393aee,26486e37-5158-4818-8e2a-21f9a5393aee,apple123000,Calgary,6,It is ok
+4361a4a4-09c9-47a3-81ba-5f734f42ad4b,4361a4a4-09c9-47a3-81ba-5f734f42ad4b,hihihihi,Montreal,7,Great
+b730f6b4-304b-4cb3-8c2f-5221b97213d8,b730f6b4-304b-4cb3-8c2f-5221b97213d8,lwe_s,Vancouver,2,Not bad
+3c2c63ae-2316-4495-81e3-684b6d319104,3c2c63ae-2316-4495-81e3-684b6d319104,xxxxx111,Alberta,8,It is ok
+5cc5136f-0e81-4381-9206-328da9b102d3,5cc5136f-0e81-4381-9206-328da9b102d3,apple123000,Toronto,3,Good
+68388642-2b9c-4db2-97c9-bae2a641dba0,68388642-2b9c-4db2-97c9-bae2a641dba0,hihihihi,Alberta,3,Great
+917b3892-b252-4a48-8f54-4f9b1afe7b7c,917b3892-b252-4a48-8f54-4f9b1afe7b7c,hihihihi,Alberta,3,Do not buy it
+86946e75-c9c8-43c4-9eb0-4fe03e3a6269,86946e75-c9c8-43c4-9eb0-4fe03e3a6269,yingyi888,Vancouver,6,Do not buy it
+3c674f23-04ab-4fbf-8b55-8b1f1c05e86a,3c674f23-04ab-4fbf-8b55-8b1f1c05e86a,emsl02,Toronto,2,Bought
+633831bd-0a28-4b21-b99c-d7064413affa,633831bd-0a28-4b21-b99c-d7064413affa,xxxxx111,Montreal,7,Do not buy it
+137de3c9-730a-4a46-a083-6952d476c80c,137de3c9-730a-4a46-a083-6952d476c80c,hihihihi,Vancouver,9,Good
+4cc341be-5466-4a7e-bf0c-37a28cb4260e,4cc341be-5466-4a7e-bf0c-37a28cb4260e,hihihihi,Alberta,2,Very good product
+cb0bc879-3c03-4acc-bc55-b3444c16c723,cb0bc879-3c03-4acc-bc55-b3444c16c723,hihihihi,Alberta,6,Not bad
+5619313d-7cfa-4e28-9acc-65fc0ebbb4cc,5619313d-7cfa-4e28-9acc-65fc0ebbb4cc,lwe_s,Toronto,7,Bought
+4b7ea7b3-3bb0-4327-ac25-64b580a934d1,4b7ea7b3-3bb0-4327-ac25-64b580a934d1,hihihihi,Alberta,3,Not bad
+c8ced2dc-a2c4-4ab7-bb9f-1aafb820839a,c8ced2dc-a2c4-4ab7-bb9f-1aafb820839a,xxxxx111,Alberta,2,Good
+4c476010-95e0-4679-bfa5-a3b74fb5cd35,4c476010-95e0-4679-bfa5-a3b74fb5cd35,xxxxx111,Toronto,10,Not bad
+2477842e-94e2-41c5-91b2-0b54a0bca8bf,2477842e-94e2-41c5-91b2-0b54a0bca8bf,xxxxx111,Vancouver,10,Great
+df73c05b-ee3e-4ac3-ad6b-b4c9d05ab4c0,df73c05b-ee3e-4ac3-ad6b-b4c9d05ab4c0,lwe_s,Montreal,9,Not bad
+ce5e0729-0461-40b7-82a5-2fb4380a3a65,ce5e0729-0461-40b7-82a5-2fb4380a3a65,hihihihi,Calgary,3,Very good product
+4361a3b9-469e-43ae-bcae-b57ea7317f94,4361a3b9-469e-43ae-bcae-b57ea7317f94,apple123000,Calgary,7,Very good product
+2998a54f-3509-46da-a9b0-3f1c29428679,2998a54f-3509-46da-a9b0-3f1c29428679,lwe_s,Calgary,5,Good
+02011d56-ce75-4194-92e6-8d4935222f72,02011d56-ce75-4194-92e6-8d4935222f72,emsl02,Montreal,6,Do not buy it
+2526a72b-db0c-4d65-a1f1-5223490f05d8,2526a72b-db0c-4d65-a1f1-5223490f05d8,lwe_s,Calgary,4,Not bad
+fec5642b-80ee-4440-975b-0dd16131262f,fec5642b-80ee-4440-975b-0dd16131262f,yingyi888,Alberta,3,Bought
+99aeb46a-11c4-4f23-9615-98a1a62101dd,99aeb46a-11c4-4f23-9615-98a1a62101dd,xxxxx111,Calgary,0,Good
+455b9dca-fe37-4a7c-b6fc-7888b57cc7c5,455b9dca-fe37-4a7c-b6fc-7888b57cc7c5,apple123000,Calgary,4,Good
+be2ccab5-3937-4821-b309-3b594d5f153e,be2ccab5-3937-4821-b309-3b594d5f153e,yingyi888,Montreal,4,Not bad
+6e1f61c0-5478-4bde-a122-ed67dec8d7ee,6e1f61c0-5478-4bde-a122-ed67dec8d7ee,lwe_s,Calgary,10,It is ok
+187389f1-7f61-45b5-b109-b2195ee11b1d,187389f1-7f61-45b5-b109-b2195ee11b1d,apple123000,Alberta,10,Bought
+e6cbd1c0-fbb5-43b1-a37e-6674c8d0f382,e6cbd1c0-fbb5-43b1-a37e-6674c8d0f382,hihihihi,Montreal,9,It is ok
+606a3e71-686a-470f-af4a-5a66d4815359,606a3e71-686a-470f-af4a-5a66d4815359,lwe_s,Montreal,4,Very good product
+fe3c1f9c-3113-4769-83e3-e5608104eebf,fe3c1f9c-3113-4769-83e3-e5608104eebf,xxxxx111,Calgary,1,Very good product
+9ae2c482-9c23-4f91-9901-89d3b6b4d86f,9ae2c482-9c23-4f91-9901-89d3b6b4d86f,yingyi888,Vancouver,9,Do not buy it
+f3139d5a-5851-453b-8e18-2fe920cb8cd9,f3139d5a-5851-453b-8e18-2fe920cb8cd9,apple123000,Montreal,5,Great
+df9c1101-2abf-4ee1-b312-a5471c57d470,df9c1101-2abf-4ee1-b312-a5471c57d470,apple123000,Alberta,10,Not bad
+168e99f3-b86c-486a-bf7f-df1ff92c2093,168e99f3-b86c-486a-bf7f-df1ff92c2093,hihihihi,Toronto,6,It is ok
+bcbd5411-b900-417c-aa29-61e3006a07e1,bcbd5411-b900-417c-aa29-61e3006a07e1,apple123000,Vancouver,8,Not bad
+a4c8c41d-c8fa-4481-b246-cd6fcfd286f2,a4c8c41d-c8fa-4481-b246-cd6fcfd286f2,lwe_s,Montreal,10,Bought
+9ef0a9b9-430e-4e71-b197-118544617fb4,9ef0a9b9-430e-4e71-b197-118544617fb4,apple123000,Vancouver,8,Do not buy it
+7fa2d84c-cf6c-4ca8-ac39-45f16510885d,7fa2d84c-cf6c-4ca8-ac39-45f16510885d,yingyi888,Calgary,1,Bought
+b4597bd2-ebf9-4348-bc57-30e49b72c881,b4597bd2-ebf9-4348-bc57-30e49b72c881,emsl02,Vancouver,6,It is ok
+498e700a-8f93-4251-bd6a-16f8af1f1f1e,498e700a-8f93-4251-bd6a-16f8af1f1f1e,lwe_s,Toronto,3,Great
+647308a6-c549-4937-b1eb-b9701064f95b,647308a6-c549-4937-b1eb-b9701064f95b,apple123000,Alberta,9,It is ok
+ec7d866a-9cbc-4bad-a7cd-5e1f37df972a,ec7d866a-9cbc-4bad-a7cd-5e1f37df972a,xxxxx111,Alberta,2,It is ok
+4da8c5a9-bebd-4c28-815f-5176beb167dd,4da8c5a9-bebd-4c28-815f-5176beb167dd,lwe_s,Vancouver,2,Do not buy it
+8f2982c7-9123-4bd3-a646-f36307bc43f8,8f2982c7-9123-4bd3-a646-f36307bc43f8,yingyi888,Montreal,0,Bought
+41dc2bb8-8b72-4da3-87e6-1ca5a6a4c881,41dc2bb8-8b72-4da3-87e6-1ca5a6a4c881,yingyi888,Toronto,7,Bought
+4392dcb4-b5fc-4e69-bb52-60f42190958f,4392dcb4-b5fc-4e69-bb52-60f42190958f,yingyi888,Alberta,5,Not bad
+267ed76e-e610-4ec3-8935-88e74113dfd3,267ed76e-e610-4ec3-8935-88e74113dfd3,hihihihi,Montreal,7,Not bad
+8f758cac-2f44-496d-bcf1-52b3d1c03940,8f758cac-2f44-496d-bcf1-52b3d1c03940,apple123000,Calgary,3,Very good product
+7a0a7aac-687c-4f2a-a4fd-95fb23fec7dd,7a0a7aac-687c-4f2a-a4fd-95fb23fec7dd,yingyi888,Montreal,10,Do not buy it
+d39f6fb2-8cf1-4a0a-817a-94eaa5c8431a,d39f6fb2-8cf1-4a0a-817a-94eaa5c8431a,emsl02,Calgary,5,Not bad
+d3095398-0532-408d-84fd-66d034261740,d3095398-0532-408d-84fd-66d034261740,xxxxx111,Calgary,1,Very good product
+9fdb708e-907f-4f3b-8093-09843e362a6d,9fdb708e-907f-4f3b-8093-09843e362a6d,emsl02,Toronto,5,Do not buy it
+0cad84f6-d35f-4e06-a608-74083fd020b5,0cad84f6-d35f-4e06-a608-74083fd020b5,hihihihi,Alberta,5,Do not buy it
+a9f8e6e5-807a-4d66-842c-0223b8c37c2f,a9f8e6e5-807a-4d66-842c-0223b8c37c2f,lwe_s,Calgary,6,It is ok
+2dfd7629-605d-4ceb-aa39-fbd6b6e13c45,2dfd7629-605d-4ceb-aa39-fbd6b6e13c45,hihihihi,Alberta,0,Great
+bc0f696f-e9a9-45fb-aa45-1b6f4eb1ad6d,bc0f696f-e9a9-45fb-aa45-1b6f4eb1ad6d,hihihihi,Alberta,2,Do not buy it
+c655596e-4c09-497c-9dfc-5fc20600721d,c655596e-4c09-497c-9dfc-5fc20600721d,apple123000,Toronto,5,Very good product
+4aa30b64-9e8e-4a87-adec-7a3d982a47a2,4aa30b64-9e8e-4a87-adec-7a3d982a47a2,yingyi888,Calgary,5,Not bad
+6351a776-89a7-4864-a70c-77de06ea17a5,6351a776-89a7-4864-a70c-77de06ea17a5,lwe_s,Calgary,1,Very good product
+12e03a7c-fe4e-4b1d-9d97-438fad1fe803,12e03a7c-fe4e-4b1d-9d97-438fad1fe803,apple123000,Calgary,9,Very good product
+544fdc4a-be08-40ea-9fb8-4b0254e2f874,544fdc4a-be08-40ea-9fb8-4b0254e2f874,apple123000,Alberta,9,Great
+83d09c2b-e044-4870-94d9-4970d5f2a2c3,83d09c2b-e044-4870-94d9-4970d5f2a2c3,hihihihi,Toronto,8,It is ok
+4067e39a-39de-4b2c-9e3f-9680e8fe8630,4067e39a-39de-4b2c-9e3f-9680e8fe8630,lwe_s,Montreal,1,Very good product
+337aa571-6659-450d-8dba-dcf2fdeb1bff,337aa571-6659-450d-8dba-dcf2fdeb1bff,xxxxx111,Vancouver,3,Great
+afc31054-a51b-448a-ac17-a9956d78e768,afc31054-a51b-448a-ac17-a9956d78e768,emsl02,Alberta,1,It is ok
+b135100b-65dd-4150-8a42-37323abcad8e,b135100b-65dd-4150-8a42-37323abcad8e,lwe_s,Montreal,3,It is ok
+384e918b-a919-47d9-9406-62275c66586a,384e918b-a919-47d9-9406-62275c66586a,hihihihi,Calgary,5,It is ok
+b8ac4dcf-5ed6-4452-859a-24bbaea5b94e,b8ac4dcf-5ed6-4452-859a-24bbaea5b94e,emsl02,Alberta,1,Not bad
+608947d5-bc5a-4de9-83d4-bd77c5921da5,608947d5-bc5a-4de9-83d4-bd77c5921da5,hihihihi,Calgary,3,Very good product
+436aff9a-78bb-4b43-b251-1b319bb3bded,436aff9a-78bb-4b43-b251-1b319bb3bded,hihihihi,Calgary,2,It is ok
+01a7937b-e278-4667-b1fd-f488e4d73c41,01a7937b-e278-4667-b1fd-f488e4d73c41,hihihihi,Toronto,4,Do not buy it
+17c95996-7291-4389-a608-42c9f6ecf8d4,17c95996-7291-4389-a608-42c9f6ecf8d4,apple123000,Vancouver,0,Good
+0ad44eeb-9d83-4a81-9305-96705e0c988e,0ad44eeb-9d83-4a81-9305-96705e0c988e,emsl02,Vancouver,4,Great
+553abaa2-635c-4a02-8387-6f95fe2f7191,553abaa2-635c-4a02-8387-6f95fe2f7191,apple123000,Montreal,2,Very good product
+43865ff1-5d24-4756-bfb2-b13bbdbd0ce6,43865ff1-5d24-4756-bfb2-b13bbdbd0ce6,hihihihi,Montreal,3,It is ok
+bf0ba538-7312-4c01-a18a-f28b839e58f2,bf0ba538-7312-4c01-a18a-f28b839e58f2,hihihihi,Montreal,3,Bought
+6ddce566-2f54-40c4-bb63-04740cdc38b6,6ddce566-2f54-40c4-bb63-04740cdc38b6,yingyi888,Vancouver,7,Do not buy it
+1e3342b0-d39a-4ef3-bd2e-7175ee01a13f,1e3342b0-d39a-4ef3-bd2e-7175ee01a13f,yingyi888,Montreal,3,Good
+ceee810e-fa9e-4cfd-8416-abb688970292,ceee810e-fa9e-4cfd-8416-abb688970292,apple123000,Alberta,10,Great
+49e93b7f-dc97-4e1e-999a-c029cc2aed6a,49e93b7f-dc97-4e1e-999a-c029cc2aed6a,apple123000,Alberta,3,It is ok
+c8a57b7d-f32e-4b12-af95-e5613d7dfd83,c8a57b7d-f32e-4b12-af95-e5613d7dfd83,emsl02,Montreal,1,Bought
+b7dcf2a3-c7ba-44b5-8507-7a0acf760fb3,b7dcf2a3-c7ba-44b5-8507-7a0acf760fb3,apple123000,Calgary,6,Good
+820780e6-364a-4220-afe0-a2be8bc871ca,820780e6-364a-4220-afe0-a2be8bc871ca,xxxxx111,Alberta,8,Bought
+3a663595-5ccc-4a60-8c6f-3c57f2b74046,3a663595-5ccc-4a60-8c6f-3c57f2b74046,hihihihi,Toronto,6,Very good product
+5ae1a2e2-ea07-4de1-a1e4-46caac3be4c9,5ae1a2e2-ea07-4de1-a1e4-46caac3be4c9,emsl02,Montreal,9,It is ok
+b5a5bc38-1c1a-472f-91bb-9f37d1f0b7a0,b5a5bc38-1c1a-472f-91bb-9f37d1f0b7a0,lwe_s,Montreal,2,Not bad
+8380c05e-bf49-4031-ab1c-fcd5b4f82a29,8380c05e-bf49-4031-ab1c-fcd5b4f82a29,yingyi888,Toronto,8,It is ok
+1dfb0b2a-f1e0-4741-aae4-36761b25be51,1dfb0b2a-f1e0-4741-aae4-36761b25be51,xxxxx111,Alberta,3,Bought
+a2df45e5-d05f-4cf8-a4d9-4fb3c47a0809,a2df45e5-d05f-4cf8-a4d9-4fb3c47a0809,yingyi888,Alberta,7,Do not buy it
+1ac0fe72-8e84-4735-81ba-0f308e50a125,1ac0fe72-8e84-4735-81ba-0f308e50a125,xxxxx111,Toronto,8,Great
+232089db-3117-4ff3-a293-b5e68d6b9706,232089db-3117-4ff3-a293-b5e68d6b9706,lwe_s,Calgary,8,Great
+86e06875-8ef4-4f27-ba66-b3d482237730,86e06875-8ef4-4f27-ba66-b3d482237730,xxxxx111,Alberta,2,Very good product
+398a7f30-2e7e-44f7-8851-c7fcc9fa7069,398a7f30-2e7e-44f7-8851-c7fcc9fa7069,lwe_s,Montreal,6,It is ok
+006d67e8-a316-4c37-bd35-616c17bbc9f5,006d67e8-a316-4c37-bd35-616c17bbc9f5,emsl02,Calgary,6,Do not buy it
+8c70cbfd-d969-4aa7-b453-25b743cc426c,8c70cbfd-d969-4aa7-b453-25b743cc426c,lwe_s,Alberta,8,Good
+7638d5b8-4c06-4ad2-9eac-17cf54d11544,7638d5b8-4c06-4ad2-9eac-17cf54d11544,xxxxx111,Vancouver,8,Good
+af31b37b-502c-4557-a98e-43d57be43991,af31b37b-502c-4557-a98e-43d57be43991,lwe_s,Montreal,2,Good
+9771a74a-822c-435f-b84a-a41204944684,9771a74a-822c-435f-b84a-a41204944684,xxxxx111,Toronto,0,It is ok
+eaf2f71c-7958-428c-8a97-a65bd08f1793,eaf2f71c-7958-428c-8a97-a65bd08f1793,hihihihi,Vancouver,1,Not bad
+d0353e52-5de8-4b7e-a6e4-6b54f5da2527,d0353e52-5de8-4b7e-a6e4-6b54f5da2527,apple123000,Alberta,5,It is ok
+df521891-1091-4817-aa4e-ea046d55b955,df521891-1091-4817-aa4e-ea046d55b955,lwe_s,Toronto,9,It is ok
+9f0b1abc-f33c-4bc1-a734-32b77ab72f4c,9f0b1abc-f33c-4bc1-a734-32b77ab72f4c,hihihihi,Vancouver,4,Not bad
+48f27938-bc5d-44b0-9deb-ece1d524abc6,48f27938-bc5d-44b0-9deb-ece1d524abc6,hihihihi,Montreal,5,Not bad
+43f1bd63-48a9-4e81-8a43-1afe4a6ce60b,43f1bd63-48a9-4e81-8a43-1afe4a6ce60b,lwe_s,Vancouver,7,Do not buy it
+f789bb80-e9c3-457e-a898-2e7df24b91f5,f789bb80-e9c3-457e-a898-2e7df24b91f5,yingyi888,Calgary,6,Do not buy it
+40b56cf2-6b92-4a29-862b-71fdfda54c67,40b56cf2-6b92-4a29-862b-71fdfda54c67,hihihihi,Alberta,5,Bought
+a7ae4a33-c5d5-4afe-a2bf-29217d6fd469,a7ae4a33-c5d5-4afe-a2bf-29217d6fd469,emsl02,Alberta,10,Great
+8f85e872-0c91-482f-846c-83ac284bd3dc,8f85e872-0c91-482f-846c-83ac284bd3dc,emsl02,Toronto,1,Very good product
+cee58460-e101-495f-992c-a6afa96561e1,cee58460-e101-495f-992c-a6afa96561e1,xxxxx111,Toronto,0,Very good product
+b60a7749-aa3f-44d2-8bea-bb2206ad43fb,b60a7749-aa3f-44d2-8bea-bb2206ad43fb,hihihihi,Alberta,2,Good
+45189533-fff6-4722-b428-d91adc7f3628,45189533-fff6-4722-b428-d91adc7f3628,apple123000,Vancouver,10,Bought
+0dc4a86e-1b14-4fc6-9f04-8c2409b7a6fc,0dc4a86e-1b14-4fc6-9f04-8c2409b7a6fc,xxxxx111,Alberta,5,Do not buy it
+0e1dd37c-6645-4935-8e18-7ea3d6e9eeed,0e1dd37c-6645-4935-8e18-7ea3d6e9eeed,hihihihi,Calgary,9,Bought
+c020467d-4b08-494a-90a7-8818fb445250,c020467d-4b08-494a-90a7-8818fb445250,apple123000,Vancouver,10,Great
+18161435-13c3-45ee-80c5-5d084375e56a,18161435-13c3-45ee-80c5-5d084375e56a,apple123000,Montreal,7,Great
+b4839050-4dd5-451a-ad00-817230b4363f,b4839050-4dd5-451a-ad00-817230b4363f,yingyi888,Vancouver,5,Do not buy it
+99f1e620-8adb-428c-a98f-bb2084a25f8c,99f1e620-8adb-428c-a98f-bb2084a25f8c,xxxxx111,Calgary,10,Not bad
+0ac04507-8e6f-4052-b1b1-8a5776b5daac,0ac04507-8e6f-4052-b1b1-8a5776b5daac,apple123000,Vancouver,0,Do not buy it
+4b19a83f-a032-4dec-aa7d-cc1ceb1547a9,4b19a83f-a032-4dec-aa7d-cc1ceb1547a9,apple123000,Vancouver,6,Very good product
+e75d332f-8d34-4512-97a7-1e957fae3f39,e75d332f-8d34-4512-97a7-1e957fae3f39,xxxxx111,Toronto,2,Great
+b4b2171c-3c8b-40ce-b4e1-cd3e575b0fc4,b4b2171c-3c8b-40ce-b4e1-cd3e575b0fc4,apple123000,Alberta,0,Not bad
+cc2ff283-b92f-4f42-8352-a97cd7a7d408,cc2ff283-b92f-4f42-8352-a97cd7a7d408,hihihihi,Toronto,2,Very good product
+249b66cc-cac4-4209-8138-b19dc1a84b04,249b66cc-cac4-4209-8138-b19dc1a84b04,xxxxx111,Vancouver,4,Very good product
+76b7528a-38df-4963-b4bd-8a3debd0bba9,76b7528a-38df-4963-b4bd-8a3debd0bba9,emsl02,Toronto,8,Not bad
+a9167558-6f5b-4544-90d9-37c2ee5fa03b,a9167558-6f5b-4544-90d9-37c2ee5fa03b,lwe_s,Vancouver,4,Very good product
+4e5c00e9-d9e2-41ee-83dd-d33cd24a0da4,4e5c00e9-d9e2-41ee-83dd-d33cd24a0da4,lwe_s,Montreal,1,Do not buy it
+ff7d5106-1576-4cb2-a5ff-6fdc2f6d8715,ff7d5106-1576-4cb2-a5ff-6fdc2f6d8715,hihihihi,Calgary,6,Not bad
+f7c76cb7-7c46-4819-8a49-6f749ca091e1,f7c76cb7-7c46-4819-8a49-6f749ca091e1,lwe_s,Toronto,6,Great
+fa6ed1db-0b15-4217-a11e-359b54ec25b7,fa6ed1db-0b15-4217-a11e-359b54ec25b7,emsl02,Calgary,0,Do not buy it
+5a763838-7b3f-47c0-9c3a-5d952d4eca18,5a763838-7b3f-47c0-9c3a-5d952d4eca18,hihihihi,Calgary,1,Do not buy it
+23b34db6-803a-404d-8fa2-fa17443e46b1,23b34db6-803a-404d-8fa2-fa17443e46b1,apple123000,Toronto,1,Great
+2919af82-cbfe-44d4-848f-d951342131d1,2919af82-cbfe-44d4-848f-d951342131d1,hihihihi,Alberta,10,Not bad
+7f9f1082-1c63-46de-adec-7a882c77dee0,7f9f1082-1c63-46de-adec-7a882c77dee0,hihihihi,Calgary,7,Very good product
+ebc6d10e-04f6-498c-9e41-db54e25d839a,ebc6d10e-04f6-498c-9e41-db54e25d839a,xxxxx111,Montreal,8,It is ok
+ace25d70-77a8-4e6a-998b-fae51a3d5b49,ace25d70-77a8-4e6a-998b-fae51a3d5b49,apple123000,Vancouver,10,Very good product
+37bbb14e-a12c-4695-91ac-b2f696f2aa5d,37bbb14e-a12c-4695-91ac-b2f696f2aa5d,yingyi888,Alberta,3,Bought
+1ec23338-eee5-4881-8d4f-cae919d255c2,1ec23338-eee5-4881-8d4f-cae919d255c2,apple123000,Alberta,7,Do not buy it
+f3be6131-c080-4f40-b2c5-e40f1a32d68a,f3be6131-c080-4f40-b2c5-e40f1a32d68a,hihihihi,Calgary,2,Bought
+60fc1d57-5b76-40be-9c8d-05a73d5b72ec,60fc1d57-5b76-40be-9c8d-05a73d5b72ec,apple123000,Alberta,5,Good
+af32784c-67ac-427e-b9bc-a8aa08c7fe41,af32784c-67ac-427e-b9bc-a8aa08c7fe41,xxxxx111,Alberta,7,Bought
+da6f6152-97a7-4e02-819d-7040c3b19a85,da6f6152-97a7-4e02-819d-7040c3b19a85,hihihihi,Montreal,4,Great
+e4e2e0f7-2356-407a-9053-7c0f89d80343,e4e2e0f7-2356-407a-9053-7c0f89d80343,hihihihi,Vancouver,9,Good
+635047d4-b90d-407b-898a-a988c5eee9e9,635047d4-b90d-407b-898a-a988c5eee9e9,lwe_s,Calgary,7,Very good product
+f92aedbb-22a9-42ed-93e3-9158bd4e3360,f92aedbb-22a9-42ed-93e3-9158bd4e3360,apple123000,Calgary,10,Very good product
+75a37858-b982-4f17-bfd7-d8d6962f2bbc,75a37858-b982-4f17-bfd7-d8d6962f2bbc,hihihihi,Calgary,7,Bought
+265d015d-d140-4ad0-88f3-e75f8c3c4710,265d015d-d140-4ad0-88f3-e75f8c3c4710,xxxxx111,Calgary,5,Do not buy it
+a68e45ff-6872-4944-aadd-f80384df2e82,a68e45ff-6872-4944-aadd-f80384df2e82,yingyi888,Toronto,0,Not bad
+a3546a85-8950-4672-b2e7-7606c062c7e6,a3546a85-8950-4672-b2e7-7606c062c7e6,lwe_s,Montreal,1,It is ok
+b7625bac-df41-4bd7-bcec-acbff9300615,b7625bac-df41-4bd7-bcec-acbff9300615,xxxxx111,Toronto,5,Not bad
+c4258375-9223-4f76-9249-698ea9b69456,c4258375-9223-4f76-9249-698ea9b69456,apple123000,Alberta,8,Very good product
+e7521da1-981a-42ad-a7ef-35f9c72ab738,e7521da1-981a-42ad-a7ef-35f9c72ab738,apple123000,Vancouver,5,Not bad
+cbdd2e5c-ac06-4b56-8680-1f1857421c9d,cbdd2e5c-ac06-4b56-8680-1f1857421c9d,yingyi888,Calgary,6,Not bad
+b023c472-9e0f-42cf-81a1-017ede7145f8,b023c472-9e0f-42cf-81a1-017ede7145f8,lwe_s,Montreal,6,Bought
+3972a2b9-23cc-42da-b5b7-93ae985647b0,3972a2b9-23cc-42da-b5b7-93ae985647b0,hihihihi,Montreal,0,Not bad
+e5e38f40-ac25-4789-b3a5-93413279b06f,e5e38f40-ac25-4789-b3a5-93413279b06f,emsl02,Alberta,5,Bought
+b82bfe8c-dd18-45bf-8825-3e3468daa8ac,b82bfe8c-dd18-45bf-8825-3e3468daa8ac,apple123000,Toronto,0,It is ok
+62489fcb-c86b-4d13-90d9-bfed7b81fbf7,62489fcb-c86b-4d13-90d9-bfed7b81fbf7,lwe_s,Montreal,4,Do not buy it
+1e1d4457-1209-4641-b7ed-da89e07c8efc,1e1d4457-1209-4641-b7ed-da89e07c8efc,emsl02,Vancouver,7,Do not buy it
+6998b109-80fb-4bcd-a23d-18742de46948,6998b109-80fb-4bcd-a23d-18742de46948,lwe_s,Vancouver,7,Great
+574c11e5-452c-4bec-958c-c34136ac70ab,574c11e5-452c-4bec-958c-c34136ac70ab,apple123000,Montreal,4,Very good product
+38e92928-dca2-417a-af89-a99b6b2b6be1,38e92928-dca2-417a-af89-a99b6b2b6be1,emsl02,Montreal,0,Bought
+3f2a9a2e-9e73-41bc-b824-2468c516bfa3,3f2a9a2e-9e73-41bc-b824-2468c516bfa3,lwe_s,Toronto,5,Do not buy it
+9e4baded-d4f9-4574-b3d1-eaf5f2f3b787,9e4baded-d4f9-4574-b3d1-eaf5f2f3b787,xxxxx111,Alberta,3,Do not buy it
+69edee1e-7eb8-40bd-8d7a-1959bf5b548d,69edee1e-7eb8-40bd-8d7a-1959bf5b548d,yingyi888,Alberta,7,It is ok
+617674fb-5695-49af-9434-9f8ac1ab6362,617674fb-5695-49af-9434-9f8ac1ab6362,lwe_s,Calgary,0,Bought
+fb6705cb-ed65-498c-9fe0-6b5969cb316e,fb6705cb-ed65-498c-9fe0-6b5969cb316e,xxxxx111,Vancouver,6,Very good product
+dc87091d-829a-40ae-9366-f6f4d156bf2f,dc87091d-829a-40ae-9366-f6f4d156bf2f,yingyi888,Alberta,2,Do not buy it
+ae67ce3c-bbd0-4b40-885f-d0de8de57fee,ae67ce3c-bbd0-4b40-885f-d0de8de57fee,apple123000,Vancouver,2,Bought
+913aa6ed-569c-41f9-b7ae-d19cbb7e5ed9,913aa6ed-569c-41f9-b7ae-d19cbb7e5ed9,hihihihi,Alberta,8,It is ok
+2ce1deec-acdb-42c1-bb27-217b90b3d7a5,2ce1deec-acdb-42c1-bb27-217b90b3d7a5,lwe_s,Montreal,8,Good
+df3762e1-92e0-46d0-9d71-18041e178f04,df3762e1-92e0-46d0-9d71-18041e178f04,apple123000,Toronto,9,Bought
+b1b5398b-c2d9-4fc2-b6b1-f8c3253fb239,b1b5398b-c2d9-4fc2-b6b1-f8c3253fb239,emsl02,Alberta,5,Great
+72d1caf7-99b9-4237-acc8-73347737140b,72d1caf7-99b9-4237-acc8-73347737140b,lwe_s,Montreal,1,Very good product
+96215332-aa9c-476c-bbd3-9deac0e4f853,96215332-aa9c-476c-bbd3-9deac0e4f853,hihihihi,Montreal,9,Bought
+5940f0a3-8ece-4f50-a470-39f95c6dc05e,5940f0a3-8ece-4f50-a470-39f95c6dc05e,lwe_s,Montreal,4,Great
+7a201fb6-5574-4acd-bf63-80dc60d04b80,7a201fb6-5574-4acd-bf63-80dc60d04b80,xxxxx111,Calgary,0,Very good product
+6887a867-558a-42d9-9134-9ed413ae24d0,6887a867-558a-42d9-9134-9ed413ae24d0,hihihihi,Calgary,0,It is ok
+12f8d584-65e1-497e-8415-85995718eba5,12f8d584-65e1-497e-8415-85995718eba5,xxxxx111,Alberta,7,Great
+f7abc958-f608-43cc-b5d0-6154c63741c5,f7abc958-f608-43cc-b5d0-6154c63741c5,xxxxx111,Alberta,4,Bought
+5277ac1f-a54e-49fd-8975-3f8389ce42d9,5277ac1f-a54e-49fd-8975-3f8389ce42d9,xxxxx111,Toronto,9,Very good product
+8c841946-33f5-47da-af00-84f5cbfa5d6b,8c841946-33f5-47da-af00-84f5cbfa5d6b,lwe_s,Alberta,7,Very good product
+cde48392-f006-4050-ac30-89b014c82bed,cde48392-f006-4050-ac30-89b014c82bed,lwe_s,Toronto,5,Good
+3a5b3fdf-f90c-46dc-bf5b-dac334fc879e,3a5b3fdf-f90c-46dc-bf5b-dac334fc879e,xxxxx111,Vancouver,2,Bought
+a034032c-b147-4daa-b5b7-5dffa5cf9435,a034032c-b147-4daa-b5b7-5dffa5cf9435,emsl02,Montreal,4,Do not buy it
+b920613e-3331-48ab-82f6-cb1d92ea5443,b920613e-3331-48ab-82f6-cb1d92ea5443,hihihihi,Toronto,1,Great
+96f767bf-65cc-454d-b3af-664f425ca67a,96f767bf-65cc-454d-b3af-664f425ca67a,apple123000,Alberta,10,Not bad
+cfb2266b-5f3c-421c-b00d-472ac603d487,cfb2266b-5f3c-421c-b00d-472ac603d487,apple123000,Alberta,0,It is ok
+2e1667d0-742e-4886-88c9-d66d01e836b9,2e1667d0-742e-4886-88c9-d66d01e836b9,lwe_s,Montreal,2,Do not buy it
+6a6e6e12-c74a-4554-84c4-c5e9153006d0,6a6e6e12-c74a-4554-84c4-c5e9153006d0,hihihihi,Alberta,3,Good
+78389fca-84ef-4c91-8c72-9ec6a13c85c0,78389fca-84ef-4c91-8c72-9ec6a13c85c0,yingyi888,Vancouver,8,It is ok
+cabb4a83-1f78-46a1-92f0-7156acf0e795,cabb4a83-1f78-46a1-92f0-7156acf0e795,hihihihi,Calgary,10,Great
+5ac141e5-5648-4120-8c42-8a29731c59ef,5ac141e5-5648-4120-8c42-8a29731c59ef,emsl02,Montreal,7,Not bad
+5b238768-a153-4290-8f44-a8388c471e72,5b238768-a153-4290-8f44-a8388c471e72,emsl02,Toronto,4,Do not buy it
+a8b6e155-c0d0-44ee-aa83-8379ef95ebc0,a8b6e155-c0d0-44ee-aa83-8379ef95ebc0,emsl02,Toronto,6,Great
+7cdb3bd1-406c-44dd-a9e3-4c75f5ebe2e8,7cdb3bd1-406c-44dd-a9e3-4c75f5ebe2e8,apple123000,Vancouver,6,Do not buy it
+39881a3e-8f52-4c0c-993d-7dad14ec015d,39881a3e-8f52-4c0c-993d-7dad14ec015d,lwe_s,Montreal,9,Very good product
+c1796389-3b3e-45da-b98d-99425a3d3354,c1796389-3b3e-45da-b98d-99425a3d3354,xxxxx111,Montreal,5,Not bad
+87fd8fa9-96e5-4271-9f7b-0c7cd8aaf7fe,87fd8fa9-96e5-4271-9f7b-0c7cd8aaf7fe,apple123000,Vancouver,2,It is ok
+f4e434ae-89c4-4d96-aa5a-6f840b0c6d72,f4e434ae-89c4-4d96-aa5a-6f840b0c6d72,lwe_s,Vancouver,6,Bought
+1907f178-c8c4-4876-b7f2-b974f6076630,1907f178-c8c4-4876-b7f2-b974f6076630,apple123000,Toronto,1,Very good product
+8b382c4d-cef3-484b-87dd-a0522176147c,8b382c4d-cef3-484b-87dd-a0522176147c,hihihihi,Vancouver,7,Not bad
+13c9a68d-3da9-4f66-82ae-3d45620fda1a,13c9a68d-3da9-4f66-82ae-3d45620fda1a,emsl02,Montreal,0,Good
+5cf36307-12a1-429a-9310-7fb765c332e8,5cf36307-12a1-429a-9310-7fb765c332e8,lwe_s,Alberta,5,Bought
+ade0af47-aecf-4331-8328-ae20053ea7f7,ade0af47-aecf-4331-8328-ae20053ea7f7,hihihihi,Alberta,9,It is ok
+5535e3b6-bb39-4d36-bef4-bb17526bd723,5535e3b6-bb39-4d36-bef4-bb17526bd723,lwe_s,Toronto,6,Very good product
+7ebc3909-1db3-44e6-86a0-c2f9bb389a69,7ebc3909-1db3-44e6-86a0-c2f9bb389a69,hihihihi,Alberta,4,It is ok
+824eff26-dcb8-469f-9575-4ce6d3b47c98,824eff26-dcb8-469f-9575-4ce6d3b47c98,hihihihi,Vancouver,6,Not bad
+2c043264-6844-40df-9beb-c406a499baa9,2c043264-6844-40df-9beb-c406a499baa9,lwe_s,Toronto,2,Very good product
+4f020f8e-7c07-49de-99c9-c4c76eac5498,4f020f8e-7c07-49de-99c9-c4c76eac5498,emsl02,Calgary,5,Do not buy it
+a5feb741-9a49-4399-90e4-4d5579207623,a5feb741-9a49-4399-90e4-4d5579207623,emsl02,Vancouver,1,Great
+bf10709d-7743-478a-9916-a0452e912fbb,bf10709d-7743-478a-9916-a0452e912fbb,lwe_s,Alberta,2,Not bad
+45722cf1-a6e2-480a-a226-f4573809c56e,45722cf1-a6e2-480a-a226-f4573809c56e,hihihihi,Toronto,0,Bought
+8bd0e450-9f67-4b6c-945c-5abb43044037,8bd0e450-9f67-4b6c-945c-5abb43044037,xxxxx111,Alberta,3,Bought
+bf211cd8-22b0-4e45-872e-d1ea4e43412a,bf211cd8-22b0-4e45-872e-d1ea4e43412a,yingyi888,Calgary,2,Bought
+d1d515e6-f536-452c-958e-90cc1b630486,d1d515e6-f536-452c-958e-90cc1b630486,yingyi888,Alberta,6,Good
+d2349e3d-2178-4b63-9d85-87bfd1326366,d2349e3d-2178-4b63-9d85-87bfd1326366,lwe_s,Alberta,1,Great
+44527ca1-ff9d-4485-b4d4-f82c80f18273,44527ca1-ff9d-4485-b4d4-f82c80f18273,yingyi888,Toronto,3,Do not buy it
+fa030d12-a0a3-408b-8c4e-9dbe98c265d8,fa030d12-a0a3-408b-8c4e-9dbe98c265d8,xxxxx111,Calgary,0,It is ok
+05d1ec7b-5f2b-4eff-a4d4-8263e7330fa1,05d1ec7b-5f2b-4eff-a4d4-8263e7330fa1,xxxxx111,Montreal,9,Great
+996857b0-e630-4a6d-9f4f-13633aa07f38,996857b0-e630-4a6d-9f4f-13633aa07f38,emsl02,Calgary,7,It is ok
+c9d34957-e71b-4e48-bab7-e62c56b24831,c9d34957-e71b-4e48-bab7-e62c56b24831,lwe_s,Toronto,10,Not bad
+533519e6-cbab-4019-9e9c-d1a1a50bc213,533519e6-cbab-4019-9e9c-d1a1a50bc213,lwe_s,Montreal,8,Very good product
+6e24b7f2-01a1-4ceb-9d24-0b5972b3a39d,6e24b7f2-01a1-4ceb-9d24-0b5972b3a39d,xxxxx111,Vancouver,6,Bought
+f954b084-0083-425c-bdf8-28d973da3e93,f954b084-0083-425c-bdf8-28d973da3e93,emsl02,Vancouver,10,It is ok
+dd3ae526-c1bb-42e1-bbdf-5d943e2d624e,dd3ae526-c1bb-42e1-bbdf-5d943e2d624e,emsl02,Vancouver,3,Very good product
+51906ed7-54fa-4bd8-969c-aed6ef0e1255,51906ed7-54fa-4bd8-969c-aed6ef0e1255,yingyi888,Toronto,7,Great
+8b7674bf-5769-4255-a437-4f2b6311a2f5,8b7674bf-5769-4255-a437-4f2b6311a2f5,apple123000,Toronto,9,It is ok
+d1da52bc-c8b8-45d9-936a-b2fcc74719ff,d1da52bc-c8b8-45d9-936a-b2fcc74719ff,lwe_s,Montreal,10,Do not buy it
+c8569a56-6408-4d5f-8272-59375c541fc3,c8569a56-6408-4d5f-8272-59375c541fc3,yingyi888,Calgary,1,Very good product
+ea4ab3c2-ca50-4764-b07a-a1122c5fbab8,ea4ab3c2-ca50-4764-b07a-a1122c5fbab8,xxxxx111,Vancouver,5,Do not buy it
+4d23aa83-9e0d-4827-aa63-099880657b0a,4d23aa83-9e0d-4827-aa63-099880657b0a,apple123000,Toronto,1,Very good product
+66b5c4c6-b936-4bee-81db-e83c83baf5d4,66b5c4c6-b936-4bee-81db-e83c83baf5d4,hihihihi,Toronto,3,Not bad
+fb5b2ab9-daf6-4ff5-9309-1239737b6784,fb5b2ab9-daf6-4ff5-9309-1239737b6784,emsl02,Alberta,2,Good
+c039196f-4af7-4279-9279-85bf6379f0b1,c039196f-4af7-4279-9279-85bf6379f0b1,emsl02,Toronto,0,Good
+0c03287d-e527-4d67-ad46-0400513c2735,0c03287d-e527-4d67-ad46-0400513c2735,lwe_s,Toronto,10,Great
+c3943800-d6f7-46c8-aaa6-289b303921e1,c3943800-d6f7-46c8-aaa6-289b303921e1,yingyi888,Montreal,1,Good
+9c4f6a5e-8de5-4e36-99f5-8225698c8f1f,9c4f6a5e-8de5-4e36-99f5-8225698c8f1f,hihihihi,Montreal,3,Do not buy it
+2690b6ed-59c2-4149-bcd5-4640fcce0b2c,2690b6ed-59c2-4149-bcd5-4640fcce0b2c,emsl02,Vancouver,1,Do not buy it
+173595cf-9e0b-4a87-98f6-7f60b7c28198,173595cf-9e0b-4a87-98f6-7f60b7c28198,yingyi888,Toronto,8,Not bad
+575dd4b5-5da0-46c5-b6b8-39582289c41d,575dd4b5-5da0-46c5-b6b8-39582289c41d,hihihihi,Toronto,1,Good
+4f41e44a-bb48-488a-b222-003d7a8638ab,4f41e44a-bb48-488a-b222-003d7a8638ab,xxxxx111,Calgary,7,It is ok
+96529a9c-b0e6-4d69-8de9-d3ed445e0afe,96529a9c-b0e6-4d69-8de9-d3ed445e0afe,emsl02,Vancouver,8,It is ok
+e3f7db8f-6a47-4ac4-953c-f765cf72522d,e3f7db8f-6a47-4ac4-953c-f765cf72522d,hihihihi,Vancouver,5,Bought
+63931c4a-6df1-4c42-9c04-a3ee63ae2743,63931c4a-6df1-4c42-9c04-a3ee63ae2743,xxxxx111,Calgary,7,Good
+acff0175-ee61-4e83-9d6a-112244f110c3,acff0175-ee61-4e83-9d6a-112244f110c3,xxxxx111,Calgary,6,Great
+e3f13c5b-05c8-42a4-832b-3d4ebf9ac2a2,e3f13c5b-05c8-42a4-832b-3d4ebf9ac2a2,xxxxx111,Alberta,10,Very good product
+8ca9a47c-f403-4527-a44a-398ef79a6ba4,8ca9a47c-f403-4527-a44a-398ef79a6ba4,emsl02,Calgary,9,Great
+9371ab1a-599b-4feb-b065-af15d13f9d1b,9371ab1a-599b-4feb-b065-af15d13f9d1b,xxxxx111,Montreal,1,Good
+387c3c8d-cfca-4840-8450-0dfc260dbdbd,387c3c8d-cfca-4840-8450-0dfc260dbdbd,apple123000,Calgary,6,Bought
+89cd593b-57bb-48ac-93aa-0ea65be7b383,89cd593b-57bb-48ac-93aa-0ea65be7b383,yingyi888,Vancouver,0,Good
+53b7ac1c-ea2b-4874-9499-fb83b6dd46be,53b7ac1c-ea2b-4874-9499-fb83b6dd46be,apple123000,Alberta,10,Bought
+9fbc8ac5-7c83-42f2-8e6f-b2950ff2c9f1,9fbc8ac5-7c83-42f2-8e6f-b2950ff2c9f1,emsl02,Toronto,1,Not bad
+b4e0b849-fbde-4c4b-a60f-3c8526401b65,b4e0b849-fbde-4c4b-a60f-3c8526401b65,lwe_s,Vancouver,10,It is ok
+a4fdf295-5341-43ed-8d25-9a8a5a76f969,a4fdf295-5341-43ed-8d25-9a8a5a76f969,hihihihi,Calgary,4,Great
+b5e813d1-5900-44c0-8472-c3e4fa55ef81,b5e813d1-5900-44c0-8472-c3e4fa55ef81,hihihihi,Calgary,8,Do not buy it
+c413020a-01a0-4d3b-9f58-a2c882cf9568,c413020a-01a0-4d3b-9f58-a2c882cf9568,yingyi888,Alberta,10,Do not buy it
+570b7de2-aaef-4b28-b4e8-e6ea34fe8290,570b7de2-aaef-4b28-b4e8-e6ea34fe8290,apple123000,Calgary,5,Do not buy it
+89f80b15-cb5e-4fba-9592-442604f0fd85,89f80b15-cb5e-4fba-9592-442604f0fd85,hihihihi,Alberta,5,Great
+0f16d0c2-8080-46ae-b816-c96606b76503,0f16d0c2-8080-46ae-b816-c96606b76503,yingyi888,Vancouver,8,Not bad
+af52c8e4-45c1-4b1c-86a1-6e49ddf0c16e,af52c8e4-45c1-4b1c-86a1-6e49ddf0c16e,apple123000,Toronto,9,Do not buy it
+0a004d91-488a-4819-9917-bda2e45a7f08,0a004d91-488a-4819-9917-bda2e45a7f08,emsl02,Montreal,2,Very good product
+667fc7be-5b79-495b-920a-c2bdb264109d,667fc7be-5b79-495b-920a-c2bdb264109d,xxxxx111,Montreal,5,Good
+ff1668cd-f1fd-4f5f-8e2f-dd11d4b3aeb1,ff1668cd-f1fd-4f5f-8e2f-dd11d4b3aeb1,hihihihi,Alberta,5,Bought
+58303f5d-c7b1-4d4b-a56f-b5ff512d664a,58303f5d-c7b1-4d4b-a56f-b5ff512d664a,emsl02,Alberta,2,Do not buy it
+cc8d983a-0a58-4dda-81ed-4bc164be7ca4,cc8d983a-0a58-4dda-81ed-4bc164be7ca4,xxxxx111,Alberta,3,Not bad
+965c6bea-b86d-4763-8714-ae87045c2771,965c6bea-b86d-4763-8714-ae87045c2771,lwe_s,Toronto,1,Very good product
+a427e067-20e1-4ee1-9c5d-b78538a89695,a427e067-20e1-4ee1-9c5d-b78538a89695,yingyi888,Montreal,1,Not bad
+c708e6bb-1769-4fd3-8d4f-3745f13437a8,c708e6bb-1769-4fd3-8d4f-3745f13437a8,xxxxx111,Calgary,4,Not bad
+7323a4a2-da23-457a-a697-c350cd17c55b,7323a4a2-da23-457a-a697-c350cd17c55b,apple123000,Montreal,8,Good
+13e3959b-805e-4ad3-86b3-8dc3454a8139,13e3959b-805e-4ad3-86b3-8dc3454a8139,apple123000,Vancouver,2,It is ok
+5baa9741-8bfa-4872-9cbc-6ebac97011d3,5baa9741-8bfa-4872-9cbc-6ebac97011d3,xxxxx111,Toronto,7,Do not buy it
+7b335232-b582-4966-84ce-6121efeaff2f,7b335232-b582-4966-84ce-6121efeaff2f,xxxxx111,Vancouver,8,Not bad
+13be6446-9a10-4c20-86fd-46d642ba687c,13be6446-9a10-4c20-86fd-46d642ba687c,lwe_s,Calgary,6,Do not buy it
+e53d3f01-13b8-4f21-beef-2298e6a6e269,e53d3f01-13b8-4f21-beef-2298e6a6e269,lwe_s,Montreal,5,Very good product
+a5ed0535-e11c-48dc-93fe-7e73d602c4ac,a5ed0535-e11c-48dc-93fe-7e73d602c4ac,apple123000,Toronto,9,Great
+13b27c69-df67-4968-ad54-56b8a7a84dfb,13b27c69-df67-4968-ad54-56b8a7a84dfb,apple123000,Calgary,2,Great
+6bccb6f4-8243-469a-b128-679372d5cc6e,6bccb6f4-8243-469a-b128-679372d5cc6e,apple123000,Vancouver,1,Great
+f47f5655-c4e2-4296-9169-4a242c925e08,f47f5655-c4e2-4296-9169-4a242c925e08,apple123000,Calgary,4,Very good product
+5675507b-712f-44b5-bd98-dcce0385991f,5675507b-712f-44b5-bd98-dcce0385991f,hihihihi,Calgary,6,Good
+e7345a46-a10c-4047-adb5-edba556950bd,e7345a46-a10c-4047-adb5-edba556950bd,emsl02,Vancouver,8,It is ok
+76808111-44e1-4dce-8810-e863301e1e79,76808111-44e1-4dce-8810-e863301e1e79,apple123000,Vancouver,6,Bought
+d630a1b5-3897-45df-9154-977db31b06a4,d630a1b5-3897-45df-9154-977db31b06a4,xxxxx111,Montreal,10,Good
+6ec705f6-90e4-4dbf-99ad-4634082664c1,6ec705f6-90e4-4dbf-99ad-4634082664c1,emsl02,Toronto,10,Great
+c71ca64b-37a4-4801-a70e-ae3bc71b229a,c71ca64b-37a4-4801-a70e-ae3bc71b229a,hihihihi,Montreal,1,Not bad
+56849c8c-2c53-4b70-b171-8caee1a6c832,56849c8c-2c53-4b70-b171-8caee1a6c832,lwe_s,Calgary,10,Not bad
+044dd00a-842a-43a8-b42d-b8d7bf10142c,044dd00a-842a-43a8-b42d-b8d7bf10142c,emsl02,Montreal,4,Great
+3e4bbd42-7abd-48a0-9d2e-dbac7133f903,3e4bbd42-7abd-48a0-9d2e-dbac7133f903,yingyi888,Alberta,9,Bought
+f7a3ba44-a90f-4ef5-b6bd-9b8b91cb1399,f7a3ba44-a90f-4ef5-b6bd-9b8b91cb1399,xxxxx111,Alberta,9,Good
+c6b85b3e-7bbc-4403-9a52-974f25e54f77,c6b85b3e-7bbc-4403-9a52-974f25e54f77,apple123000,Montreal,5,Do not buy it
+b2bc3581-d4dc-4f5b-8e1b-e0b99c572cd1,b2bc3581-d4dc-4f5b-8e1b-e0b99c572cd1,lwe_s,Toronto,8,Good
+5d78c4c5-dd53-42a1-873f-8e41d5ae3f16,5d78c4c5-dd53-42a1-873f-8e41d5ae3f16,xxxxx111,Alberta,6,Very good product
+03b37982-76f2-4332-8e9b-dd6793dc52d5,03b37982-76f2-4332-8e9b-dd6793dc52d5,lwe_s,Toronto,10,Great
+20387889-6f0e-41bd-84e8-834af27f3a24,20387889-6f0e-41bd-84e8-834af27f3a24,lwe_s,Montreal,5,Great
+806ebd10-d0b2-4635-ab8c-4e1cecfd7995,806ebd10-d0b2-4635-ab8c-4e1cecfd7995,xxxxx111,Toronto,7,It is ok
+7737a413-9bfe-452b-ac12-5b2235643d12,7737a413-9bfe-452b-ac12-5b2235643d12,emsl02,Vancouver,6,Do not buy it
+c080a7e4-5119-4686-abc0-1bf1e474905c,c080a7e4-5119-4686-abc0-1bf1e474905c,apple123000,Alberta,9,It is ok
+de45397b-718e-4f84-85f4-1ea2be09066a,de45397b-718e-4f84-85f4-1ea2be09066a,yingyi888,Montreal,2,Great
+622dac4f-ac3a-45ec-b28b-31c8260fa9b7,622dac4f-ac3a-45ec-b28b-31c8260fa9b7,lwe_s,Toronto,10,Very good product
+2637fe10-c58a-49e8-964c-e2a65c4bc6b8,2637fe10-c58a-49e8-964c-e2a65c4bc6b8,lwe_s,Vancouver,9,Do not buy it
+ac530b11-e2e2-4638-be7e-3955648cb1ca,ac530b11-e2e2-4638-be7e-3955648cb1ca,xxxxx111,Montreal,8,It is ok
+21c7477d-5873-4aa0-8460-b3c8cc969b98,21c7477d-5873-4aa0-8460-b3c8cc969b98,emsl02,Montreal,8,Good
+92948d57-aacc-4728-b475-f38649f3925c,92948d57-aacc-4728-b475-f38649f3925c,lwe_s,Toronto,10,Do not buy it
+7f54e313-2e48-44a8-ac5a-a8fb38730a2b,7f54e313-2e48-44a8-ac5a-a8fb38730a2b,xxxxx111,Vancouver,3,Bought
+f6b481de-c52d-40ea-a23a-c36bc15263ff,f6b481de-c52d-40ea-a23a-c36bc15263ff,hihihihi,Vancouver,0,It is ok
+492082de-1336-49ba-bf74-acd03cf86857,492082de-1336-49ba-bf74-acd03cf86857,emsl02,Alberta,9,Good
+e6da7aa1-6546-46cd-abb9-4a207d41478a,e6da7aa1-6546-46cd-abb9-4a207d41478a,apple123000,Vancouver,10,Not bad
+b462d608-ab5e-443f-8582-f1df3388b290,b462d608-ab5e-443f-8582-f1df3388b290,yingyi888,Vancouver,6,It is ok
+00081d95-b4f5-4670-9e9d-898ac45a85b3,00081d95-b4f5-4670-9e9d-898ac45a85b3,emsl02,Calgary,0,It is ok
+3aee0315-3d5c-433a-8884-3b6ee95098f7,3aee0315-3d5c-433a-8884-3b6ee95098f7,emsl02,Montreal,6,Very good product
+98aa09c1-5371-476a-a992-a77d8c96c965,98aa09c1-5371-476a-a992-a77d8c96c965,apple123000,Calgary,6,It is ok
+1e3ae469-80c4-4e79-96c4-4efc21fed437,1e3ae469-80c4-4e79-96c4-4efc21fed437,apple123000,Montreal,9,Do not buy it
+c783240f-9c3a-4a98-b822-c6bd6c67220b,c783240f-9c3a-4a98-b822-c6bd6c67220b,hihihihi,Vancouver,6,Not bad
+cb1efc25-e91d-40e8-9e0d-2d60c51bffd8,cb1efc25-e91d-40e8-9e0d-2d60c51bffd8,lwe_s,Toronto,1,Great
+d8e4b3ae-1fdb-4138-9f19-dd2be257cf25,d8e4b3ae-1fdb-4138-9f19-dd2be257cf25,yingyi888,Montreal,5,Bought
+e5e0ae11-24d1-4efa-bf6d-27c7e5a3f9ab,e5e0ae11-24d1-4efa-bf6d-27c7e5a3f9ab,xxxxx111,Calgary,5,Great
+92415654-3379-4b9f-b582-3e4e3a89527c,92415654-3379-4b9f-b582-3e4e3a89527c,hihihihi,Alberta,5,Good
+a770751d-4be7-4160-b677-bfc979070cb7,a770751d-4be7-4160-b677-bfc979070cb7,emsl02,Calgary,2,It is ok
+6e33c033-8430-4802-a463-cc64883b1b27,6e33c033-8430-4802-a463-cc64883b1b27,yingyi888,Calgary,1,Not bad
+cf78831b-b603-4997-b6a8-2db3f50dc3de,cf78831b-b603-4997-b6a8-2db3f50dc3de,hihihihi,Toronto,6,Bought
+e9195ca8-c674-4157-b558-b408c79b141d,e9195ca8-c674-4157-b558-b408c79b141d,apple123000,Vancouver,6,Great
+1263649b-ff69-40ab-b30e-7dfa0d122ace,1263649b-ff69-40ab-b30e-7dfa0d122ace,xxxxx111,Alberta,7,Great
+0b7a0793-7501-4c86-bacc-d464bddab23e,0b7a0793-7501-4c86-bacc-d464bddab23e,xxxxx111,Toronto,7,It is ok
+d4a35b22-167e-44d0-98e0-9428ac2246f7,d4a35b22-167e-44d0-98e0-9428ac2246f7,yingyi888,Vancouver,8,Do not buy it
+6bcb4a7f-1e9c-42c5-b8c6-56d64f6f4b30,6bcb4a7f-1e9c-42c5-b8c6-56d64f6f4b30,yingyi888,Vancouver,2,Good
+d304a2fe-3bb4-40bd-8e72-b1b3f25ca8d1,d304a2fe-3bb4-40bd-8e72-b1b3f25ca8d1,apple123000,Toronto,8,Good
+4c914548-5ed4-42e2-8e51-c660fb810c7a,4c914548-5ed4-42e2-8e51-c660fb810c7a,xxxxx111,Montreal,10,Good
+12ee29a4-6995-4a89-abde-379f4c44eef5,12ee29a4-6995-4a89-abde-379f4c44eef5,xxxxx111,Calgary,1,It is ok
+7ca35985-1ee2-46af-be32-e27c0bca106c,7ca35985-1ee2-46af-be32-e27c0bca106c,xxxxx111,Vancouver,1,Not bad
+a762c096-95c1-47c6-9638-85b489c07bb8,a762c096-95c1-47c6-9638-85b489c07bb8,hihihihi,Toronto,10,It is ok
+34b73f61-8616-4c58-ad85-970e5de29c22,34b73f61-8616-4c58-ad85-970e5de29c22,lwe_s,Calgary,7,Do not buy it
+835f15d4-0d1a-4d0d-9a8a-a61a572f9194,835f15d4-0d1a-4d0d-9a8a-a61a572f9194,yingyi888,Vancouver,8,Very good product
+2e390c47-22c0-4d5b-976d-8918fa9eab61,2e390c47-22c0-4d5b-976d-8918fa9eab61,xxxxx111,Toronto,5,Very good product
+fb88c3be-ec73-4341-9136-dd83e1856ac2,fb88c3be-ec73-4341-9136-dd83e1856ac2,hihihihi,Vancouver,6,It is ok
+35a75973-6e77-4edf-8427-e001dd9bb411,35a75973-6e77-4edf-8427-e001dd9bb411,hihihihi,Calgary,4,Do not buy it
+b342c8b3-b790-47cf-861e-39270c8cc280,b342c8b3-b790-47cf-861e-39270c8cc280,emsl02,Alberta,6,Very good product
+d7ea640f-572c-4fb9-9722-7b89b0f0bd40,d7ea640f-572c-4fb9-9722-7b89b0f0bd40,apple123000,Calgary,5,Very good product
+ea360716-b3fd-4d86-9430-dba45c1bbb0b,ea360716-b3fd-4d86-9430-dba45c1bbb0b,yingyi888,Alberta,8,Bought
+6ba43e87-4ee2-4704-9a24-24bc66ec5e98,6ba43e87-4ee2-4704-9a24-24bc66ec5e98,yingyi888,Alberta,9,Do not buy it
+5d35101d-f91e-4b32-b544-fb37508e0bea,5d35101d-f91e-4b32-b544-fb37508e0bea,xxxxx111,Calgary,7,Good
+c4b28c6b-fe53-48f6-8dfb-049a86ad803b,c4b28c6b-fe53-48f6-8dfb-049a86ad803b,xxxxx111,Toronto,3,Do not buy it
+dc48038e-2e7b-41cc-8fd9-fddb09d4c423,dc48038e-2e7b-41cc-8fd9-fddb09d4c423,apple123000,Alberta,3,It is ok
+883d7239-3d8b-4369-85d9-217c5e840a62,883d7239-3d8b-4369-85d9-217c5e840a62,xxxxx111,Toronto,10,Good
+51b3998b-e826-4807-9636-4d4ce0fd84f3,51b3998b-e826-4807-9636-4d4ce0fd84f3,hihihihi,Toronto,2,Bought
+05505935-60be-4ff4-80fd-72eeea810cdd,05505935-60be-4ff4-80fd-72eeea810cdd,hihihihi,Alberta,10,Bought
+24322d73-fc33-4665-8f82-c99e4d433765,24322d73-fc33-4665-8f82-c99e4d433765,yingyi888,Montreal,2,It is ok
+1e031de1-2959-4996-96fa-ba987bb61587,1e031de1-2959-4996-96fa-ba987bb61587,xxxxx111,Vancouver,5,Very good product
+ebcda7bf-f215-4ab5-bd2b-356c3c619fde,ebcda7bf-f215-4ab5-bd2b-356c3c619fde,yingyi888,Calgary,5,Great
+3b8ef27b-ca1a-46fb-a630-e9b83092d08d,3b8ef27b-ca1a-46fb-a630-e9b83092d08d,xxxxx111,Calgary,10,Very good product
+b0e69622-e43f-42c0-9365-b391884fbff8,b0e69622-e43f-42c0-9365-b391884fbff8,emsl02,Calgary,5,Good
+7e3c3084-7e7b-4051-9057-d4b1836ce2ba,7e3c3084-7e7b-4051-9057-d4b1836ce2ba,apple123000,Toronto,2,Very good product
+18b19041-4e2f-4b5a-aa45-596046f99d2f,18b19041-4e2f-4b5a-aa45-596046f99d2f,emsl02,Toronto,3,It is ok
+1fa1d44a-cd4b-4747-8140-4966b62145b9,1fa1d44a-cd4b-4747-8140-4966b62145b9,xxxxx111,Alberta,2,Great
+ceb5db8e-2862-4fab-87f5-198ada81e30d,ceb5db8e-2862-4fab-87f5-198ada81e30d,hihihihi,Vancouver,4,Good
+9d86d106-364f-413c-8c41-d92756666a3f,9d86d106-364f-413c-8c41-d92756666a3f,lwe_s,Montreal,3,Bought
+255b0373-0214-440e-bbbb-4f16d93fe8d3,255b0373-0214-440e-bbbb-4f16d93fe8d3,hihihihi,Alberta,6,Not bad
+f0c08cb4-63ab-4be6-b395-b6f206baeb71,f0c08cb4-63ab-4be6-b395-b6f206baeb71,emsl02,Montreal,3,Good
+e2ef1a1a-fb1c-4117-b421-4bf410bf1a9d,e2ef1a1a-fb1c-4117-b421-4bf410bf1a9d,xxxxx111,Montreal,5,It is ok
+52d5ed5f-6506-499f-b4a4-903eb30cf949,52d5ed5f-6506-499f-b4a4-903eb30cf949,emsl02,Calgary,9,Very good product
+c7a29e52-d03f-4830-86d6-6d8a9d89eb70,c7a29e52-d03f-4830-86d6-6d8a9d89eb70,apple123000,Montreal,10,It is ok
+9b153c87-3e27-4caf-8d2b-3eae38978580,9b153c87-3e27-4caf-8d2b-3eae38978580,emsl02,Calgary,5,Very good product
+1a66f17a-1b22-481b-a838-c2bac67bfa65,1a66f17a-1b22-481b-a838-c2bac67bfa65,hihihihi,Montreal,0,Great
+876bd610-ec25-4c30-867e-0b9d41dc50d5,876bd610-ec25-4c30-867e-0b9d41dc50d5,hihihihi,Calgary,8,Good
+568842fd-6fd2-4042-9792-cd5008a39b5a,568842fd-6fd2-4042-9792-cd5008a39b5a,yingyi888,Vancouver,1,Do not buy it
+8ad8b617-d04a-46af-937b-9f3b6e84b19c,8ad8b617-d04a-46af-937b-9f3b6e84b19c,xxxxx111,Alberta,2,Good
+297c01fc-539f-44ad-b59e-fd4aa02c99bb,297c01fc-539f-44ad-b59e-fd4aa02c99bb,apple123000,Calgary,4,Good
+22ecf4ea-24c3-43c1-b66a-e703eeb3ea6d,22ecf4ea-24c3-43c1-b66a-e703eeb3ea6d,apple123000,Toronto,5,Do not buy it
+3e6c29e1-5fd0-40d5-827c-c0f005ce8c20,3e6c29e1-5fd0-40d5-827c-c0f005ce8c20,hihihihi,Montreal,7,Not bad
+c83aeaba-98e4-4a5d-8e59-92b68fc0ced8,c83aeaba-98e4-4a5d-8e59-92b68fc0ced8,xxxxx111,Montreal,3,It is ok
+8e9d10d9-4325-4a66-8bb2-186164c2ab7b,8e9d10d9-4325-4a66-8bb2-186164c2ab7b,hihihihi,Toronto,0,Bought
+e35fef1c-8efa-434a-bc0c-2dd5275c65b2,e35fef1c-8efa-434a-bc0c-2dd5275c65b2,hihihihi,Montreal,0,Not bad
+ece2ddc1-7943-4852-a456-b33146eac187,ece2ddc1-7943-4852-a456-b33146eac187,xxxxx111,Vancouver,1,Great
+2f5a0c24-121f-4813-a115-4f070690abd9,2f5a0c24-121f-4813-a115-4f070690abd9,emsl02,Toronto,0,Not bad
+43a5f415-3b6a-46a7-a079-0e40022350ec,43a5f415-3b6a-46a7-a079-0e40022350ec,apple123000,Calgary,3,It is ok
+8919d266-cb9c-4517-ae4d-db2fc15a713c,8919d266-cb9c-4517-ae4d-db2fc15a713c,xxxxx111,Calgary,9,Bought
+7f0a01b7-0abf-4dd6-bb92-530ee26f0b87,7f0a01b7-0abf-4dd6-bb92-530ee26f0b87,apple123000,Toronto,4,Very good product
+6d8bfc6b-aa4d-41c5-9801-c31c36f43056,6d8bfc6b-aa4d-41c5-9801-c31c36f43056,apple123000,Toronto,10,Good
+d3a2451b-adf6-4c8f-aab1-bd3e772ab5d0,d3a2451b-adf6-4c8f-aab1-bd3e772ab5d0,emsl02,Toronto,6,Not bad
+120f665a-93c8-49a6-bc7f-ca85f846fdf2,120f665a-93c8-49a6-bc7f-ca85f846fdf2,lwe_s,Calgary,9,Do not buy it
+ffd632b2-1a46-45eb-855c-d69916cb5434,ffd632b2-1a46-45eb-855c-d69916cb5434,hihihihi,Calgary,0,Very good product
+cb6aed76-d304-41e1-aeff-5c216dd5b46d,cb6aed76-d304-41e1-aeff-5c216dd5b46d,xxxxx111,Toronto,8,Do not buy it
+b554354b-8acf-441b-a6c7-f1aecc606e43,b554354b-8acf-441b-a6c7-f1aecc606e43,lwe_s,Calgary,5,Good
+20c6a998-761a-42bd-9e07-b52e2fada5b1,20c6a998-761a-42bd-9e07-b52e2fada5b1,apple123000,Calgary,0,Great
+3f117c18-82a0-4982-b762-ad90dcc68cb8,3f117c18-82a0-4982-b762-ad90dcc68cb8,lwe_s,Alberta,9,Great
+6d4aae0e-02a8-4aa4-bc37-d86d38d16375,6d4aae0e-02a8-4aa4-bc37-d86d38d16375,hihihihi,Calgary,4,Not bad
+612f227a-1432-4459-861f-a080339ee059,612f227a-1432-4459-861f-a080339ee059,apple123000,Calgary,4,Do not buy it
+a1d5ee40-5bd5-4b39-aadc-339c2192c062,a1d5ee40-5bd5-4b39-aadc-339c2192c062,xxxxx111,Montreal,2,Not bad
+6e2cf315-eef0-4bf1-b466-bf6c952f8fe0,6e2cf315-eef0-4bf1-b466-bf6c952f8fe0,xxxxx111,Alberta,3,Good
+da1d8000-2f7e-44d1-8f9b-7c0df5351ee4,da1d8000-2f7e-44d1-8f9b-7c0df5351ee4,hihihihi,Toronto,3,It is ok
+32fde2ab-a9dd-4ca7-af19-16048b0d1506,32fde2ab-a9dd-4ca7-af19-16048b0d1506,xxxxx111,Toronto,1,Very good product
+8450dfc0-6253-447c-9fb2-e50eb6558a5d,8450dfc0-6253-447c-9fb2-e50eb6558a5d,emsl02,Calgary,9,Good
+d204504d-bd86-479b-b70d-33360da3b18a,d204504d-bd86-479b-b70d-33360da3b18a,xxxxx111,Calgary,1,Very good product
+45c50eca-c77c-4b50-9501-953af01c43d6,45c50eca-c77c-4b50-9501-953af01c43d6,hihihihi,Calgary,2,Not bad
+f82f1ff8-7bd9-47e5-8406-db321b00f94a,f82f1ff8-7bd9-47e5-8406-db321b00f94a,xxxxx111,Alberta,1,Bought
+5d0127fb-79d5-4d96-a5ba-31bbfb03fd0a,5d0127fb-79d5-4d96-a5ba-31bbfb03fd0a,yingyi888,Toronto,1,Bought
+565b37ff-c4b1-44dd-835a-793e194e6261,565b37ff-c4b1-44dd-835a-793e194e6261,emsl02,Calgary,9,Bought
+34e3910c-ac05-469f-ac78-0b6a7288630f,34e3910c-ac05-469f-ac78-0b6a7288630f,xxxxx111,Vancouver,9,Bought
+88a40697-879b-4996-b69e-ede4b1c6c43a,88a40697-879b-4996-b69e-ede4b1c6c43a,hihihihi,Alberta,0,Good
+31b87456-6a30-4170-86a2-b8aa0e6caab6,31b87456-6a30-4170-86a2-b8aa0e6caab6,lwe_s,Toronto,8,Bought
+207f47fc-672f-4751-963e-e0982cc35ec3,207f47fc-672f-4751-963e-e0982cc35ec3,hihihihi,Toronto,0,Good
+fd9dc2c7-b845-4b2f-b667-804026deb9a2,fd9dc2c7-b845-4b2f-b667-804026deb9a2,lwe_s,Montreal,8,Great
+ab9043dd-2c69-42ac-a342-70953c160294,ab9043dd-2c69-42ac-a342-70953c160294,lwe_s,Calgary,4,Not bad
+30883ab6-58d5-47b7-bb17-d296a7db22f5,30883ab6-58d5-47b7-bb17-d296a7db22f5,hihihihi,Vancouver,4,Great
+a8d8b429-614e-415e-b851-1fe8982a9918,a8d8b429-614e-415e-b851-1fe8982a9918,xxxxx111,Vancouver,0,Very good product
+aa401d8f-546b-4388-850e-57fd73795540,aa401d8f-546b-4388-850e-57fd73795540,hihihihi,Calgary,9,Not bad
+309bccca-02f2-442b-a88f-c7359c42ca1c,309bccca-02f2-442b-a88f-c7359c42ca1c,lwe_s,Vancouver,9,Good
+b1a6d88c-4171-460f-a28c-9d86cdcc1c1b,b1a6d88c-4171-460f-a28c-9d86cdcc1c1b,apple123000,Toronto,0,Good
+0ece3f7a-cd66-49a3-a266-86548407add5,0ece3f7a-cd66-49a3-a266-86548407add5,apple123000,Calgary,10,Great
+856e7a91-ef58-47e7-9ac7-287e25cd7099,856e7a91-ef58-47e7-9ac7-287e25cd7099,apple123000,Montreal,8,Very good product
+0ae042dd-e669-455f-8d6a-c6fbbe56284e,0ae042dd-e669-455f-8d6a-c6fbbe56284e,emsl02,Toronto,4,Do not buy it
+efc02eff-04f5-4a97-9b99-24992081f54f,efc02eff-04f5-4a97-9b99-24992081f54f,hihihihi,Calgary,0,Not bad
+9a12ad1e-6edd-4cb0-9cb0-ba03f917fbee,9a12ad1e-6edd-4cb0-9cb0-ba03f917fbee,emsl02,Vancouver,7,Do not buy it
+87c1de9a-0cc1-456f-ae33-30d60817c000,87c1de9a-0cc1-456f-ae33-30d60817c000,hihihihi,Alberta,7,Very good product
+a5563442-bd75-4707-be91-ac40cded6436,a5563442-bd75-4707-be91-ac40cded6436,yingyi888,Toronto,6,It is ok
+ccb19ec2-fe4c-459b-bb93-f55bd78d183c,ccb19ec2-fe4c-459b-bb93-f55bd78d183c,hihihihi,Alberta,2,Very good product
+dab06ce1-95a7-423f-98be-2d86bd371203,dab06ce1-95a7-423f-98be-2d86bd371203,yingyi888,Alberta,9,Do not buy it
+d98da0a3-b5d3-40a8-8e5b-6330093b5a49,d98da0a3-b5d3-40a8-8e5b-6330093b5a49,apple123000,Toronto,5,Good
+fe8c8476-1328-46b6-8f72-c989cd23aeb2,fe8c8476-1328-46b6-8f72-c989cd23aeb2,yingyi888,Montreal,4,Do not buy it
+0deebab6-41e8-47a8-bc7a-2202070d84a8,0deebab6-41e8-47a8-bc7a-2202070d84a8,xxxxx111,Calgary,0,Not bad
+aede5b0f-d130-4836-a9d2-e9b23992e2b3,aede5b0f-d130-4836-a9d2-e9b23992e2b3,apple123000,Toronto,5,Bought
+a333bf90-0163-414f-afbd-f523c0b2a281,a333bf90-0163-414f-afbd-f523c0b2a281,yingyi888,Alberta,10,Great
+5e1965d3-40c9-4940-9e71-a372053c26c8,5e1965d3-40c9-4940-9e71-a372053c26c8,hihihihi,Toronto,3,Do not buy it
+1428f819-1083-45ad-802c-76ec2fd10a8a,1428f819-1083-45ad-802c-76ec2fd10a8a,lwe_s,Montreal,3,It is ok
+02277d6d-30c1-48f2-9376-2c5240c1c551,02277d6d-30c1-48f2-9376-2c5240c1c551,xxxxx111,Calgary,9,Very good product
+cbd1a53c-180b-4782-ab44-338800f1489d,cbd1a53c-180b-4782-ab44-338800f1489d,xxxxx111,Vancouver,10,It is ok
+7511c81a-f0a0-457b-9f2c-b60b52608747,7511c81a-f0a0-457b-9f2c-b60b52608747,xxxxx111,Vancouver,8,Bought
+a0e8f77c-a925-43b2-a6ca-d7200ac65182,a0e8f77c-a925-43b2-a6ca-d7200ac65182,yingyi888,Alberta,8,Good
+addd3bd7-0bd4-4462-a9ac-2b2816c6eaa5,addd3bd7-0bd4-4462-a9ac-2b2816c6eaa5,apple123000,Vancouver,8,Not bad
+6a7ef15c-7526-4336-aee9-2298d9374cf1,6a7ef15c-7526-4336-aee9-2298d9374cf1,xxxxx111,Montreal,2,It is ok
+1e051dd9-73b2-45a1-b775-fe169d23e687,1e051dd9-73b2-45a1-b775-fe169d23e687,apple123000,Montreal,1,It is ok
+c67b8805-b4f9-44e7-ab92-50d3266dc8fe,c67b8805-b4f9-44e7-ab92-50d3266dc8fe,lwe_s,Alberta,4,Good
+61b935b1-92db-4599-aa00-ff07ccf101e0,61b935b1-92db-4599-aa00-ff07ccf101e0,xxxxx111,Vancouver,3,Very good product
+bbf0f98d-985a-4617-9477-4cb9aafefac2,bbf0f98d-985a-4617-9477-4cb9aafefac2,lwe_s,Calgary,2,Great
+75342ce8-d107-4385-88b0-825b91e95bd1,75342ce8-d107-4385-88b0-825b91e95bd1,emsl02,Alberta,1,It is ok
+9a490d62-3af0-4a5e-9dec-1c2343a9c9b2,9a490d62-3af0-4a5e-9dec-1c2343a9c9b2,hihihihi,Montreal,1,Good
+32429908-4bc9-4cf3-ba55-499e3a6c6a4e,32429908-4bc9-4cf3-ba55-499e3a6c6a4e,xxxxx111,Montreal,9,It is ok
+782a2a7c-975c-40b9-aff9-9bcb82f1efa2,782a2a7c-975c-40b9-aff9-9bcb82f1efa2,xxxxx111,Vancouver,4,It is ok
+90c8c73b-b6ca-48ab-94d3-e4b42c128737,90c8c73b-b6ca-48ab-94d3-e4b42c128737,lwe_s,Calgary,2,Very good product
+83765f45-c2ef-4efb-9a9a-f480710c8cec,83765f45-c2ef-4efb-9a9a-f480710c8cec,xxxxx111,Vancouver,3,Great
+ef3457f1-fa08-42c0-888d-2e08173a0bf2,ef3457f1-fa08-42c0-888d-2e08173a0bf2,emsl02,Montreal,5,Do not buy it
+385be219-cedb-49ea-9e68-e4a551f333f0,385be219-cedb-49ea-9e68-e4a551f333f0,lwe_s,Vancouver,5,Do not buy it
+ec1b6cde-ab5b-434c-881c-0dcbbdcb770a,ec1b6cde-ab5b-434c-881c-0dcbbdcb770a,emsl02,Montreal,1,It is ok
+38534e68-52de-4c7c-a7ef-caa519c275d6,38534e68-52de-4c7c-a7ef-caa519c275d6,xxxxx111,Montreal,10,Bought
+86b16a0e-24b5-429b-9204-1ccb19819101,86b16a0e-24b5-429b-9204-1ccb19819101,lwe_s,Calgary,4,Very good product
+49a58318-81ac-43f5-b8a6-e7b33fcbd534,49a58318-81ac-43f5-b8a6-e7b33fcbd534,lwe_s,Toronto,10,It is ok
+fed086cc-7eef-4a48-9e43-1087fcc83392,fed086cc-7eef-4a48-9e43-1087fcc83392,hihihihi,Calgary,9,Good
+79dd663b-7dcc-4714-8201-0e883a27f8ad,79dd663b-7dcc-4714-8201-0e883a27f8ad,xxxxx111,Montreal,8,Good
+061f241e-5f10-49c4-abca-293a877e0a3d,061f241e-5f10-49c4-abca-293a877e0a3d,apple123000,Toronto,4,It is ok
+60a381e8-6aaa-42dc-9799-5b141e685b91,60a381e8-6aaa-42dc-9799-5b141e685b91,yingyi888,Calgary,3,Do not buy it
+73b99690-a626-4725-8d98-94d84643d221,73b99690-a626-4725-8d98-94d84643d221,yingyi888,Vancouver,4,Not bad
+3ff44920-91f0-43b4-bf84-f9fabeb6f07c,3ff44920-91f0-43b4-bf84-f9fabeb6f07c,emsl02,Montreal,4,Very good product
+f261712e-0769-4b07-b7e3-b74ced87c2f6,f261712e-0769-4b07-b7e3-b74ced87c2f6,hihihihi,Toronto,0,Great
+a372c457-69ce-4231-a3a8-ee72ab66d3f6,a372c457-69ce-4231-a3a8-ee72ab66d3f6,apple123000,Toronto,7,It is ok
+dd8be3af-4aba-43fe-91d6-25db843e89d3,dd8be3af-4aba-43fe-91d6-25db843e89d3,apple123000,Alberta,6,Bought
+c7b267aa-c6ee-4a18-9a33-e3ada58888b7,c7b267aa-c6ee-4a18-9a33-e3ada58888b7,emsl02,Montreal,0,Do not buy it
+b75a5a15-721b-4bed-b562-dca66e60c635,b75a5a15-721b-4bed-b562-dca66e60c635,lwe_s,Vancouver,2,Great
+7892d984-09ec-42d6-88a8-e4bb11054007,7892d984-09ec-42d6-88a8-e4bb11054007,hihihihi,Toronto,7,Very good product
+80a28717-3925-4adc-8452-b9436826b302,80a28717-3925-4adc-8452-b9436826b302,apple123000,Montreal,1,Very good product
+437ce1ea-4feb-4297-8d50-b5a69d14d8ce,437ce1ea-4feb-4297-8d50-b5a69d14d8ce,hihihihi,Toronto,6,It is ok
+30165297-dac5-4c1a-be35-7e70b6dbbba7,30165297-dac5-4c1a-be35-7e70b6dbbba7,emsl02,Alberta,2,Do not buy it
+66e9d31b-735e-4f47-b505-0b4df75e2423,66e9d31b-735e-4f47-b505-0b4df75e2423,yingyi888,Calgary,2,Good
+a5d540ca-22bc-44e6-9914-58b4d412be65,a5d540ca-22bc-44e6-9914-58b4d412be65,lwe_s,Vancouver,3,Great
+819c9071-5e9d-4fed-8fe0-dd695bfe2a84,819c9071-5e9d-4fed-8fe0-dd695bfe2a84,yingyi888,Toronto,5,Not bad
+cf61acc4-1cf5-4a95-81c8-ddf1be0e524b,cf61acc4-1cf5-4a95-81c8-ddf1be0e524b,lwe_s,Montreal,4,It is ok
+364ce1f9-6022-4c05-9862-705c35deea72,364ce1f9-6022-4c05-9862-705c35deea72,emsl02,Calgary,7,Do not buy it
+6582f1f1-9786-4cd0-b518-7fc70724e28c,6582f1f1-9786-4cd0-b518-7fc70724e28c,emsl02,Montreal,8,Do not buy it
+a8744b46-aa82-48a8-865e-72315fc30f20,a8744b46-aa82-48a8-865e-72315fc30f20,apple123000,Calgary,2,Good
+ba8ee4ea-e709-49bb-a57e-26484276ecbb,ba8ee4ea-e709-49bb-a57e-26484276ecbb,yingyi888,Montreal,5,Not bad
+ceb511fe-e819-4efe-beac-067262b47d3b,ceb511fe-e819-4efe-beac-067262b47d3b,hihihihi,Alberta,8,Bought
+f29a902d-6643-4a8f-aab4-c0b46f25b717,f29a902d-6643-4a8f-aab4-c0b46f25b717,emsl02,Vancouver,2,Very good product
+0e11f179-81b3-4a00-8f1b-8f17caa5cf1c,0e11f179-81b3-4a00-8f1b-8f17caa5cf1c,xxxxx111,Montreal,9,Do not buy it
+34b5f50c-0e88-45a3-b3d3-00d66d657eaf,34b5f50c-0e88-45a3-b3d3-00d66d657eaf,apple123000,Montreal,8,Do not buy it
+dac77d12-6cd8-4a81-9343-0f816148f951,dac77d12-6cd8-4a81-9343-0f816148f951,xxxxx111,Montreal,3,Not bad
+3791f151-bf80-4bb3-b139-7a89b14c4750,3791f151-bf80-4bb3-b139-7a89b14c4750,hihihihi,Vancouver,1,It is ok
+71a445dd-15b4-4a8c-9458-a9639fb1d30b,71a445dd-15b4-4a8c-9458-a9639fb1d30b,emsl02,Vancouver,8,Not bad
+f7c915a8-8960-42ff-b9f6-435938997e8c,f7c915a8-8960-42ff-b9f6-435938997e8c,yingyi888,Toronto,10,Do not buy it
+9e652f7f-992a-4ad9-82e5-85eeb816a80e,9e652f7f-992a-4ad9-82e5-85eeb816a80e,lwe_s,Toronto,2,Good
+32d1ceca-4289-413c-bf17-1cdbbe631647,32d1ceca-4289-413c-bf17-1cdbbe631647,apple123000,Montreal,8,Great
+5801c599-ba1c-4ebc-94f1-d9c320fa108d,5801c599-ba1c-4ebc-94f1-d9c320fa108d,apple123000,Toronto,9,It is ok
+db773c82-b04d-407b-a4e9-fff729c13078,db773c82-b04d-407b-a4e9-fff729c13078,hihihihi,Toronto,3,Very good product
+4e5a6eed-89fc-46de-aacf-70ab5fdf898e,4e5a6eed-89fc-46de-aacf-70ab5fdf898e,yingyi888,Toronto,0,It is ok
+56fb43ec-d7f5-4caa-92ec-b9ff699fefa8,56fb43ec-d7f5-4caa-92ec-b9ff699fefa8,apple123000,Alberta,3,Do not buy it
+756bea93-d328-408b-a207-6c4f297df7ce,756bea93-d328-408b-a207-6c4f297df7ce,xxxxx111,Montreal,4,Very good product
+f8641e15-651b-4614-bcf1-7ecd67333f47,f8641e15-651b-4614-bcf1-7ecd67333f47,apple123000,Vancouver,2,Very good product
+dc70bbe6-9f82-4388-b014-2b1195289c64,dc70bbe6-9f82-4388-b014-2b1195289c64,emsl02,Montreal,5,Good
+45960827-cc46-4797-a931-e58c10a3ef03,45960827-cc46-4797-a931-e58c10a3ef03,yingyi888,Alberta,3,Do not buy it
+5467f170-ecb2-429f-9318-08b2e99dfcfa,5467f170-ecb2-429f-9318-08b2e99dfcfa,lwe_s,Vancouver,4,It is ok
+f7cb18f7-a0f1-4321-9f70-571ae5f63d45,f7cb18f7-a0f1-4321-9f70-571ae5f63d45,emsl02,Montreal,5,Bought
+df2386bc-adb2-4c05-89f1-545a9d459d7a,df2386bc-adb2-4c05-89f1-545a9d459d7a,hihihihi,Alberta,10,It is ok
+51157f21-2198-43d8-a500-11d5592438c9,51157f21-2198-43d8-a500-11d5592438c9,lwe_s,Montreal,0,Very good product
+00503d43-77fe-4fc3-919a-5a4bbe2e291b,00503d43-77fe-4fc3-919a-5a4bbe2e291b,hihihihi,Alberta,5,Do not buy it
+025b1234-47a4-412d-a6c8-51138622e19d,025b1234-47a4-412d-a6c8-51138622e19d,lwe_s,Montreal,10,Bought
+b92ef0c4-049f-4c4f-9266-dc02e2b6ca96,b92ef0c4-049f-4c4f-9266-dc02e2b6ca96,apple123000,Vancouver,6,Not bad
+4b4cb0d7-9723-4d7f-b70f-ae417dda0150,4b4cb0d7-9723-4d7f-b70f-ae417dda0150,lwe_s,Toronto,3,Bought
+a70ac04a-4b3e-42b7-862d-499e0af7909f,a70ac04a-4b3e-42b7-862d-499e0af7909f,lwe_s,Toronto,3,Bought
+fa3db0eb-b13f-476c-91bc-c6edfbdda379,fa3db0eb-b13f-476c-91bc-c6edfbdda379,hihihihi,Alberta,7,Not bad
+091e0ba6-f6c8-44d8-821e-e48c8058b7c5,091e0ba6-f6c8-44d8-821e-e48c8058b7c5,apple123000,Montreal,7,Great
+18af0654-0a21-46f6-a1c1-6444ae2b71f5,18af0654-0a21-46f6-a1c1-6444ae2b71f5,apple123000,Calgary,0,Very good product
+f9c93a06-4de4-4093-856a-08a7f9f29f30,f9c93a06-4de4-4093-856a-08a7f9f29f30,hihihihi,Toronto,3,Great
+01e3f3d5-0cfd-4806-a516-52ce161bbc90,01e3f3d5-0cfd-4806-a516-52ce161bbc90,emsl02,Montreal,2,Great
+428f3d89-c549-4864-9aaa-31ba1ab323ee,428f3d89-c549-4864-9aaa-31ba1ab323ee,emsl02,Alberta,10,Very good product
+a862ff9c-e984-4d14-a260-8badc739bee9,a862ff9c-e984-4d14-a260-8badc739bee9,xxxxx111,Toronto,10,Bought
+3cc128b3-1373-4e2d-9f2d-31f4c359d795,3cc128b3-1373-4e2d-9f2d-31f4c359d795,lwe_s,Toronto,4,Bought
+f5d636ce-80df-4a1f-b921-08dbb5d3962c,f5d636ce-80df-4a1f-b921-08dbb5d3962c,emsl02,Alberta,7,Not bad
+4fb0a64e-ff0e-471b-a863-d1ba8ccabb49,4fb0a64e-ff0e-471b-a863-d1ba8ccabb49,hihihihi,Montreal,6,Do not buy it
+a44bd86d-4420-498f-9161-c9c2a7f14b6b,a44bd86d-4420-498f-9161-c9c2a7f14b6b,apple123000,Alberta,7,Great
+50ba6cf5-6445-4ecc-9bca-65346e741666,50ba6cf5-6445-4ecc-9bca-65346e741666,yingyi888,Vancouver,7,Bought
+548545d3-abd1-4047-958a-14a02867f0ee,548545d3-abd1-4047-958a-14a02867f0ee,emsl02,Alberta,3,Bought
+26ff9b11-4d72-4bbd-8bc2-6724460cf08c,26ff9b11-4d72-4bbd-8bc2-6724460cf08c,hihihihi,Vancouver,6,Not bad
+36b217e2-a944-4c72-9ba1-b505dedd7535,36b217e2-a944-4c72-9ba1-b505dedd7535,yingyi888,Vancouver,5,Not bad
+37474f93-94dd-4044-bef2-0ba6994af720,37474f93-94dd-4044-bef2-0ba6994af720,hihihihi,Alberta,7,Not bad
+6e707233-3142-4944-ba60-89dfaef916c9,6e707233-3142-4944-ba60-89dfaef916c9,xxxxx111,Montreal,3,It is ok
+ddfc1ff5-d879-410f-bc2a-5613173b711f,ddfc1ff5-d879-410f-bc2a-5613173b711f,yingyi888,Calgary,8,Do not buy it
+fe244523-a7f2-46c2-af5b-9fdee1ba168a,fe244523-a7f2-46c2-af5b-9fdee1ba168a,lwe_s,Vancouver,4,It is ok
+1a6ffdee-64e0-40fa-927a-94e31546e015,1a6ffdee-64e0-40fa-927a-94e31546e015,lwe_s,Calgary,5,Great
+b3d47050-8b8a-415f-b26e-9954a04819a2,b3d47050-8b8a-415f-b26e-9954a04819a2,lwe_s,Calgary,3,Great
+77a538ef-3131-43a8-b9fa-5df39c943c4f,77a538ef-3131-43a8-b9fa-5df39c943c4f,yingyi888,Calgary,0,Bought
+55d22a7f-8576-4420-aa53-69d725563927,55d22a7f-8576-4420-aa53-69d725563927,yingyi888,Calgary,10,Very good product
+6926332d-d8d6-4fad-8dd4-3e60c87462a9,6926332d-d8d6-4fad-8dd4-3e60c87462a9,emsl02,Toronto,3,Good
+5e076018-144d-469b-8d97-4b138e7a1fe8,5e076018-144d-469b-8d97-4b138e7a1fe8,apple123000,Calgary,3,Do not buy it
+5f22bf74-a13b-40b1-81a7-3455802b62d4,5f22bf74-a13b-40b1-81a7-3455802b62d4,emsl02,Calgary,0,Great
+040160f6-34d2-42c9-8d2e-c0b222de0759,040160f6-34d2-42c9-8d2e-c0b222de0759,apple123000,Alberta,1,Do not buy it
+93ce9980-28d0-4ca2-8308-5499a73f25ed,93ce9980-28d0-4ca2-8308-5499a73f25ed,hihihihi,Alberta,0,Bought
+d9da9c64-7086-42f8-b386-3d6e7a2b7458,d9da9c64-7086-42f8-b386-3d6e7a2b7458,lwe_s,Alberta,9,Do not buy it
+7e74c4a6-d950-434a-9c30-8398a9ebc11c,7e74c4a6-d950-434a-9c30-8398a9ebc11c,emsl02,Alberta,10,It is ok
+ee1edf5c-050b-44e3-ba86-c7e0bf20127c,ee1edf5c-050b-44e3-ba86-c7e0bf20127c,xxxxx111,Vancouver,7,It is ok
+7d9a65ab-df0f-4534-9e33-6f9fc3ee11a8,7d9a65ab-df0f-4534-9e33-6f9fc3ee11a8,apple123000,Montreal,9,Very good product
+254bacab-2bb5-4481-ae69-4c577cfdde23,254bacab-2bb5-4481-ae69-4c577cfdde23,lwe_s,Montreal,3,Good
+6b8ad140-d9af-4b6a-bdb2-8519c4f44c50,6b8ad140-d9af-4b6a-bdb2-8519c4f44c50,apple123000,Montreal,10,It is ok
+ccfd3fd7-d316-43d7-825e-0b1f17dfa10f,ccfd3fd7-d316-43d7-825e-0b1f17dfa10f,emsl02,Toronto,4,Very good product
+7844ed12-4f29-4f16-a274-83a99b841982,7844ed12-4f29-4f16-a274-83a99b841982,yingyi888,Montreal,8,Great
+cb0f7756-1d4a-405f-a8c9-7ef3d45c8ee6,cb0f7756-1d4a-405f-a8c9-7ef3d45c8ee6,yingyi888,Montreal,8,Not bad
+a9dc9703-bbc3-45b8-b1ad-f9de408c695b,a9dc9703-bbc3-45b8-b1ad-f9de408c695b,hihihihi,Vancouver,6,Do not buy it
+d89a7b0f-4ac3-4716-8a1a-12aafaa03e4d,d89a7b0f-4ac3-4716-8a1a-12aafaa03e4d,yingyi888,Calgary,2,Great
+d7088f2c-0298-4a27-a447-4f534f81a8b5,d7088f2c-0298-4a27-a447-4f534f81a8b5,apple123000,Toronto,1,Good
+15c87bc0-dec1-4b46-89c2-90df867ac108,15c87bc0-dec1-4b46-89c2-90df867ac108,lwe_s,Alberta,10,Not bad
+4fb5e2a3-247d-45af-a737-30169cfcc6a7,4fb5e2a3-247d-45af-a737-30169cfcc6a7,xxxxx111,Vancouver,10,Bought
+c1b7dae6-1381-4d61-9231-af98d0f0ce0a,c1b7dae6-1381-4d61-9231-af98d0f0ce0a,emsl02,Alberta,3,Not bad
+c46a9583-db16-44a6-80f9-2b0dbbcb92e8,c46a9583-db16-44a6-80f9-2b0dbbcb92e8,emsl02,Vancouver,6,Do not buy it
+27a3341a-67d6-44b0-83e0-d30f3fb905b1,27a3341a-67d6-44b0-83e0-d30f3fb905b1,emsl02,Toronto,0,Do not buy it
+04c741f5-97a1-405f-a5de-ab2eab34b0b5,04c741f5-97a1-405f-a5de-ab2eab34b0b5,apple123000,Calgary,7,It is ok
+1cdce766-5da5-4565-8f98-646a68069b30,1cdce766-5da5-4565-8f98-646a68069b30,lwe_s,Vancouver,1,Bought
+250b00e5-4d71-4d27-a019-1bf0f708c853,250b00e5-4d71-4d27-a019-1bf0f708c853,apple123000,Montreal,0,Good
+92fc35a6-7b06-4490-af6d-d23b589818a2,92fc35a6-7b06-4490-af6d-d23b589818a2,hihihihi,Toronto,5,Very good product
+6f865395-2c7e-4641-b39a-a1d7cd20e36d,6f865395-2c7e-4641-b39a-a1d7cd20e36d,xxxxx111,Vancouver,8,Bought
+992807d2-440b-4166-8ea5-9f12a9f311b9,992807d2-440b-4166-8ea5-9f12a9f311b9,lwe_s,Vancouver,4,Very good product
+302fcaa7-78a9-4220-88e8-8a116532e7eb,302fcaa7-78a9-4220-88e8-8a116532e7eb,lwe_s,Montreal,3,Not bad
+aec72894-1f06-469a-a2d4-0c4b4ddc6cc0,aec72894-1f06-469a-a2d4-0c4b4ddc6cc0,yingyi888,Alberta,1,Great
+7d2c037f-878a-4604-8f82-25fcc8471460,7d2c037f-878a-4604-8f82-25fcc8471460,apple123000,Vancouver,0,Bought
+e07afb8f-7da5-4410-8885-e997478c6330,e07afb8f-7da5-4410-8885-e997478c6330,apple123000,Vancouver,3,It is ok
+4bd9985a-25ac-423b-a791-5a8fd9d0ee7e,4bd9985a-25ac-423b-a791-5a8fd9d0ee7e,yingyi888,Vancouver,3,Very good product
+538e0208-c9d7-4778-b615-f1d8e4a33052,538e0208-c9d7-4778-b615-f1d8e4a33052,xxxxx111,Calgary,6,Good
+6ceb66d9-e092-4690-83d9-e2e64d0e82a1,6ceb66d9-e092-4690-83d9-e2e64d0e82a1,emsl02,Alberta,2,Bought
+76d37023-01db-416f-ace3-dcbd0df7a8e8,76d37023-01db-416f-ace3-dcbd0df7a8e8,emsl02,Toronto,4,Do not buy it
+c06c0529-6135-457c-97f4-0e27ab6b3ca7,c06c0529-6135-457c-97f4-0e27ab6b3ca7,hihihihi,Montreal,3,Good
+76ecc279-7f42-4d99-976e-ba451f79b76a,76ecc279-7f42-4d99-976e-ba451f79b76a,apple123000,Toronto,10,Very good product
+479489fa-0c30-4283-9b35-8fd5b3c2d111,479489fa-0c30-4283-9b35-8fd5b3c2d111,apple123000,Calgary,2,Do not buy it
+34835f90-df6a-4678-9019-6e18f55cfd21,34835f90-df6a-4678-9019-6e18f55cfd21,apple123000,Alberta,4,Very good product
+1ea5baeb-f94f-4b42-a8d9-bc7119ce0601,1ea5baeb-f94f-4b42-a8d9-bc7119ce0601,xxxxx111,Calgary,6,Not bad
+a94b66a4-97fc-4720-812f-d55e5d3081dc,a94b66a4-97fc-4720-812f-d55e5d3081dc,hihihihi,Montreal,10,Good
+b731e1d6-909a-46bb-8d0b-e9708ea86b04,b731e1d6-909a-46bb-8d0b-e9708ea86b04,xxxxx111,Vancouver,4,Very good product
+d334d34d-b203-41b2-8c94-5bf55ef43ead,d334d34d-b203-41b2-8c94-5bf55ef43ead,yingyi888,Vancouver,2,Do not buy it
+85710f7e-32d1-4fea-a9a9-592e8a670014,85710f7e-32d1-4fea-a9a9-592e8a670014,hihihihi,Vancouver,5,Not bad
+a689b6f5-a82d-4979-aea2-1ac332875c55,a689b6f5-a82d-4979-aea2-1ac332875c55,emsl02,Montreal,3,Bought
+186126eb-fe23-4cde-827c-f6ce84b8e95e,186126eb-fe23-4cde-827c-f6ce84b8e95e,xxxxx111,Alberta,2,Do not buy it
+a39a5a12-3d89-4424-b5a6-6f6d61f7574b,a39a5a12-3d89-4424-b5a6-6f6d61f7574b,emsl02,Calgary,4,Not bad
+888eb88f-8b14-4ee7-9d4a-df5bd8fb706d,888eb88f-8b14-4ee7-9d4a-df5bd8fb706d,hihihihi,Toronto,7,Bought
+08fdb2be-35b6-4d3e-b0bb-fc382dff51bd,08fdb2be-35b6-4d3e-b0bb-fc382dff51bd,emsl02,Montreal,10,Great
+b7ffa5f1-cd56-4585-aca2-c62fde07ee34,b7ffa5f1-cd56-4585-aca2-c62fde07ee34,emsl02,Calgary,1,It is ok
+24c100f5-d5ce-468b-a3b9-e3a0d6e67b3a,24c100f5-d5ce-468b-a3b9-e3a0d6e67b3a,yingyi888,Toronto,2,Do not buy it
+e34ea293-2f76-4f90-9dd1-feaa8a379568,e34ea293-2f76-4f90-9dd1-feaa8a379568,xxxxx111,Montreal,6,Great
+9f0ed93b-4ddb-4bbb-9ff1-8186644830f7,9f0ed93b-4ddb-4bbb-9ff1-8186644830f7,yingyi888,Calgary,8,It is ok
+545f7ff6-2eec-41f5-8a7e-f85138a626d6,545f7ff6-2eec-41f5-8a7e-f85138a626d6,apple123000,Alberta,8,It is ok
+e97414f8-e2ea-48b5-a4c2-ae37f85ae354,e97414f8-e2ea-48b5-a4c2-ae37f85ae354,lwe_s,Toronto,6,Not bad
+0f280b38-7f61-4dc8-b8fa-62240a5d7d1e,0f280b38-7f61-4dc8-b8fa-62240a5d7d1e,apple123000,Vancouver,8,Very good product
+21d1c7f9-c99b-4b57-96f0-6f6228435165,21d1c7f9-c99b-4b57-96f0-6f6228435165,xxxxx111,Toronto,8,Good
+eba602d2-6d3a-479b-9773-d790acfd414e,eba602d2-6d3a-479b-9773-d790acfd414e,emsl02,Alberta,5,It is ok
+7d2f730e-dd55-4b8b-980b-f2f4afbe79cc,7d2f730e-dd55-4b8b-980b-f2f4afbe79cc,hihihihi,Calgary,5,Good
+629fe8b2-fb0a-4f5f-9edc-10678eca204b,629fe8b2-fb0a-4f5f-9edc-10678eca204b,xxxxx111,Calgary,6,Good
+da19e87e-3e29-4241-9d44-941c7bd7d25c,da19e87e-3e29-4241-9d44-941c7bd7d25c,xxxxx111,Calgary,7,Very good product
+de9030c0-4bce-443d-9711-e4b0092cc6b7,de9030c0-4bce-443d-9711-e4b0092cc6b7,yingyi888,Montreal,5,Very good product
+f45a0e48-4fab-4dc1-b81d-eee73e0e7e98,f45a0e48-4fab-4dc1-b81d-eee73e0e7e98,hihihihi,Toronto,9,It is ok
+09b10ff3-f20c-4323-95c5-03bdb422b440,09b10ff3-f20c-4323-95c5-03bdb422b440,lwe_s,Toronto,3,It is ok
+501e0b4b-17b7-4427-8de1-040925cc7b5c,501e0b4b-17b7-4427-8de1-040925cc7b5c,lwe_s,Alberta,9,Do not buy it
+20976a19-a775-41cc-a74b-c2a19046d4c0,20976a19-a775-41cc-a74b-c2a19046d4c0,hihihihi,Montreal,6,Do not buy it
+05b0dcf7-2a90-4881-9f0a-c3e765661af4,05b0dcf7-2a90-4881-9f0a-c3e765661af4,emsl02,Calgary,3,Very good product
+065daa5e-e36b-432a-90f3-ec0613ce5752,065daa5e-e36b-432a-90f3-ec0613ce5752,lwe_s,Vancouver,5,Do not buy it
+4205181b-5efc-4836-bb4b-7c77a9d54c54,4205181b-5efc-4836-bb4b-7c77a9d54c54,hihihihi,Calgary,10,Do not buy it
+bf1f5492-bf69-480f-b8e9-ae78f46f3b4a,bf1f5492-bf69-480f-b8e9-ae78f46f3b4a,apple123000,Montreal,5,Bought
+6d2bf275-03df-45de-9b6b-2465529a740a,6d2bf275-03df-45de-9b6b-2465529a740a,xxxxx111,Calgary,4,It is ok
+ab326451-3aa8-43dc-9d42-b9a5f25ddfa1,ab326451-3aa8-43dc-9d42-b9a5f25ddfa1,apple123000,Calgary,9,Bought
+68eb1fea-d673-482a-a097-2cfaa3e01816,68eb1fea-d673-482a-a097-2cfaa3e01816,emsl02,Alberta,7,Do not buy it
+d713fbfb-d1a3-490f-9eb0-e62d8902b64b,d713fbfb-d1a3-490f-9eb0-e62d8902b64b,apple123000,Calgary,6,Good
+8d1675b7-2551-4640-9e98-a030644ff41e,8d1675b7-2551-4640-9e98-a030644ff41e,yingyi888,Alberta,9,It is ok
+20192305-96de-4c85-874d-bc547cead10f,20192305-96de-4c85-874d-bc547cead10f,apple123000,Toronto,2,It is ok
+8910bb88-b6e9-4b96-b583-ecade885bec0,8910bb88-b6e9-4b96-b583-ecade885bec0,apple123000,Toronto,0,Do not buy it
+e9ee6ddd-9fe6-4c97-9f24-d949e113a917,e9ee6ddd-9fe6-4c97-9f24-d949e113a917,hihihihi,Toronto,6,Do not buy it
+836bd4c9-6f61-444b-af28-48e80174fbe6,836bd4c9-6f61-444b-af28-48e80174fbe6,xxxxx111,Calgary,10,Not bad
+088f8a45-bb6a-4b08-a79f-4ea1cf425b18,088f8a45-bb6a-4b08-a79f-4ea1cf425b18,lwe_s,Toronto,9,Bought
+c2a05f7d-b334-49ba-a053-cab19d3c92bc,c2a05f7d-b334-49ba-a053-cab19d3c92bc,apple123000,Montreal,6,Do not buy it
+66520fba-c6af-497d-8743-b5e4b3c9f84b,66520fba-c6af-497d-8743-b5e4b3c9f84b,hihihihi,Alberta,6,Do not buy it
+c66cb69c-8e7e-4296-8e21-827c040dd4d3,c66cb69c-8e7e-4296-8e21-827c040dd4d3,hihihihi,Calgary,5,Very good product
+087d038a-2c52-42b9-a065-51d774c7c93c,087d038a-2c52-42b9-a065-51d774c7c93c,emsl02,Vancouver,7,Great
+df266cf2-2e1f-459d-a475-0f6b3e211633,df266cf2-2e1f-459d-a475-0f6b3e211633,emsl02,Toronto,1,Bought
+1096f10c-32d9-4bbc-b611-04ef457d7e6e,1096f10c-32d9-4bbc-b611-04ef457d7e6e,yingyi888,Montreal,2,Bought
+5d82124c-fd17-4ae4-bfab-7a66e5015aab,5d82124c-fd17-4ae4-bfab-7a66e5015aab,lwe_s,Vancouver,10,It is ok
+4e79a8eb-8976-40e6-bc56-98c8b10ad943,4e79a8eb-8976-40e6-bc56-98c8b10ad943,apple123000,Calgary,10,Great
+4589ae2f-14a2-4469-a972-31afa2ee7a65,4589ae2f-14a2-4469-a972-31afa2ee7a65,lwe_s,Alberta,6,It is ok
+45d756bb-36fc-493e-adb1-4d522d84aaf2,45d756bb-36fc-493e-adb1-4d522d84aaf2,apple123000,Vancouver,9,Not bad
+938949c7-3e3b-490b-977c-29a6b913a0d5,938949c7-3e3b-490b-977c-29a6b913a0d5,xxxxx111,Vancouver,10,It is ok
+ed4f87b0-1adf-4b04-b9f7-830bdd02d8ed,ed4f87b0-1adf-4b04-b9f7-830bdd02d8ed,xxxxx111,Montreal,2,Good
+e61b93c6-ca88-4f10-9ac6-b5989e5f06c0,e61b93c6-ca88-4f10-9ac6-b5989e5f06c0,hihihihi,Calgary,4,Very good product
+515f5d68-476a-4a50-abb4-cd79c56a810b,515f5d68-476a-4a50-abb4-cd79c56a810b,lwe_s,Toronto,9,Great
+e276b873-e818-4a07-81cc-bdfd9e63dd43,e276b873-e818-4a07-81cc-bdfd9e63dd43,hihihihi,Vancouver,5,Not bad
+2e5ea6a1-5bb1-4fee-8d8c-893c033d0f22,2e5ea6a1-5bb1-4fee-8d8c-893c033d0f22,lwe_s,Calgary,0,Bought
+0ecbccca-9e21-48e7-a45c-fa63689a9581,0ecbccca-9e21-48e7-a45c-fa63689a9581,lwe_s,Montreal,4,Good
+9ac48b02-8b1f-4d22-ba2d-5f9e00e74b3a,9ac48b02-8b1f-4d22-ba2d-5f9e00e74b3a,xxxxx111,Alberta,7,Great
+da189125-dc2e-49c0-b6a6-051ebb6de378,da189125-dc2e-49c0-b6a6-051ebb6de378,apple123000,Calgary,2,Bought
+b0e29be2-f617-4e58-8919-74e5d5375019,b0e29be2-f617-4e58-8919-74e5d5375019,yingyi888,Toronto,4,Great
+426c9790-2a6b-4113-8328-df4840625e14,426c9790-2a6b-4113-8328-df4840625e14,xxxxx111,Montreal,0,Good
+39e23548-43cd-4d70-b32d-2af16ad87e16,39e23548-43cd-4d70-b32d-2af16ad87e16,xxxxx111,Vancouver,5,Great
+b552d90e-256c-4f89-9ca6-afa3493e65b3,b552d90e-256c-4f89-9ca6-afa3493e65b3,yingyi888,Alberta,2,Great
+ac34f1e2-387c-4804-b697-b1eed672590e,ac34f1e2-387c-4804-b697-b1eed672590e,hihihihi,Alberta,9,Good
+025270b1-4532-4d7a-b947-7778160a60bd,025270b1-4532-4d7a-b947-7778160a60bd,lwe_s,Montreal,2,Do not buy it
+20f90e94-af81-421e-b3e7-2f16b54b42e1,20f90e94-af81-421e-b3e7-2f16b54b42e1,apple123000,Alberta,9,Great
+147104ca-10a3-4298-af23-cfa559adb005,147104ca-10a3-4298-af23-cfa559adb005,yingyi888,Montreal,10,Very good product
+f8c33465-627f-41b7-8ffa-5319fdb04318,f8c33465-627f-41b7-8ffa-5319fdb04318,xxxxx111,Toronto,10,Good
+8de61f5c-a707-4ec7-a871-6478da2d5161,8de61f5c-a707-4ec7-a871-6478da2d5161,yingyi888,Alberta,7,Great
+45dfb5fc-63b7-42de-a04a-ea54d8096bfc,45dfb5fc-63b7-42de-a04a-ea54d8096bfc,yingyi888,Alberta,8,Great
+56680fad-080b-4302-abe5-0c07c5f2560a,56680fad-080b-4302-abe5-0c07c5f2560a,hihihihi,Montreal,9,Good
+3d20c2e7-eaed-4ca7-91c3-627fb9a503e4,3d20c2e7-eaed-4ca7-91c3-627fb9a503e4,yingyi888,Alberta,9,Great
+071c9cd2-5a70-41de-a130-7f8550686471,071c9cd2-5a70-41de-a130-7f8550686471,xxxxx111,Toronto,4,Do not buy it
+35c0e154-0bd4-48c1-b4b0-dad1968cce11,35c0e154-0bd4-48c1-b4b0-dad1968cce11,xxxxx111,Montreal,5,Great
+d8f8f50a-2eae-4eaf-b757-0bc00ebeb453,d8f8f50a-2eae-4eaf-b757-0bc00ebeb453,emsl02,Toronto,0,Not bad
+dbd91dc0-7c14-4189-8cf6-9a93e313c7e6,dbd91dc0-7c14-4189-8cf6-9a93e313c7e6,apple123000,Montreal,8,Great
+42eb5568-eeb0-457b-a12b-31b84ad27db3,42eb5568-eeb0-457b-a12b-31b84ad27db3,yingyi888,Montreal,2,Good
+ccf998ee-ed48-41d1-a724-089303d4b178,ccf998ee-ed48-41d1-a724-089303d4b178,emsl02,Vancouver,8,Very good product
+a27709e3-15cc-47cb-8e50-b63d9cf81349,a27709e3-15cc-47cb-8e50-b63d9cf81349,apple123000,Toronto,4,Great
+05564c25-7aca-4e9e-a43a-67a9f7ef2781,05564c25-7aca-4e9e-a43a-67a9f7ef2781,apple123000,Toronto,8,Great
+1ad9c23e-bb78-4744-b44b-de6aec045ff8,1ad9c23e-bb78-4744-b44b-de6aec045ff8,lwe_s,Alberta,9,Good
+703b75e8-f635-4054-a0de-48ffb20806ec,703b75e8-f635-4054-a0de-48ffb20806ec,apple123000,Vancouver,8,Very good product
+1af94729-b2a6-4471-be87-033c6c9d32fd,1af94729-b2a6-4471-be87-033c6c9d32fd,yingyi888,Montreal,5,Great
+b084bb48-1cb9-4ccf-81ac-5c5881558b91,b084bb48-1cb9-4ccf-81ac-5c5881558b91,apple123000,Montreal,1,Not bad
+d8bce10d-7459-4bc6-8e85-153fc32573b2,d8bce10d-7459-4bc6-8e85-153fc32573b2,hihihihi,Calgary,2,Very good product
+6878c5a7-16b4-4a1a-ac2a-6712b3130ffa,6878c5a7-16b4-4a1a-ac2a-6712b3130ffa,apple123000,Calgary,10,It is ok
+458ac9a8-fa5b-4588-a040-c15c5c462148,458ac9a8-fa5b-4588-a040-c15c5c462148,lwe_s,Alberta,10,Very good product
+eb7e1d44-4393-48db-96f5-eaf02d2dbd92,eb7e1d44-4393-48db-96f5-eaf02d2dbd92,apple123000,Alberta,10,It is ok
+3790097a-a84e-4c6b-9d27-68ffc58049d4,3790097a-a84e-4c6b-9d27-68ffc58049d4,lwe_s,Montreal,5,Great
+86095f39-c80f-43a6-af93-506aa61ce9bd,86095f39-c80f-43a6-af93-506aa61ce9bd,hihihihi,Montreal,0,It is ok
+9b740e1b-0706-4bf8-a874-c86cec79f4bf,9b740e1b-0706-4bf8-a874-c86cec79f4bf,apple123000,Montreal,4,It is ok
+35703dcb-4c8f-4a23-9508-88132d8d9ac3,35703dcb-4c8f-4a23-9508-88132d8d9ac3,xxxxx111,Vancouver,5,Good
+8b4c39bc-1380-480d-8021-5e3e7cb86b30,8b4c39bc-1380-480d-8021-5e3e7cb86b30,hihihihi,Montreal,5,Very good product
+3be58678-60c0-4612-a6e1-822741e4e176,3be58678-60c0-4612-a6e1-822741e4e176,xxxxx111,Alberta,6,Good
+f0e52774-9f93-4e42-9ee1-e656e05492b8,f0e52774-9f93-4e42-9ee1-e656e05492b8,yingyi888,Montreal,2,Great
+ab326531-432e-445f-9a42-9da0691fd191,ab326531-432e-445f-9a42-9da0691fd191,lwe_s,Calgary,1,Not bad
+f50aa2d9-0652-4108-9406-a342292ae2a1,f50aa2d9-0652-4108-9406-a342292ae2a1,xxxxx111,Vancouver,10,Bought
+753a822f-0dbe-4bd3-a2fd-9921867734e2,753a822f-0dbe-4bd3-a2fd-9921867734e2,apple123000,Vancouver,1,Great
+4b9a153a-960a-42da-9ed3-d5c5ebf3782f,4b9a153a-960a-42da-9ed3-d5c5ebf3782f,emsl02,Toronto,10,It is ok
+03915373-d172-45ad-a639-a62594747897,03915373-d172-45ad-a639-a62594747897,lwe_s,Calgary,6,Good
+2b4f8583-41f8-4ce1-8b56-8ac60ff66664,2b4f8583-41f8-4ce1-8b56-8ac60ff66664,apple123000,Montreal,8,It is ok
+0b6f4daf-1980-4840-b3f7-fbcfb025690c,0b6f4daf-1980-4840-b3f7-fbcfb025690c,hihihihi,Vancouver,4,It is ok
+33a4902f-ef0b-4320-9805-df8851e42fc8,33a4902f-ef0b-4320-9805-df8851e42fc8,xxxxx111,Toronto,9,Very good product
+1b90b27a-2cc9-4f15-b83d-e4f322e1babe,1b90b27a-2cc9-4f15-b83d-e4f322e1babe,hihihihi,Vancouver,9,Very good product
+a348891b-21df-443d-9acc-82058d92f378,a348891b-21df-443d-9acc-82058d92f378,emsl02,Toronto,3,Very good product
+178378af-d042-440a-834a-ab0dfb171abb,178378af-d042-440a-834a-ab0dfb171abb,yingyi888,Alberta,6,Not bad
+a91cdcc4-706c-4e0e-ad66-73395d83462f,a91cdcc4-706c-4e0e-ad66-73395d83462f,hihihihi,Calgary,0,Bought
+4d3d6461-a848-4041-88a7-481bbea6f704,4d3d6461-a848-4041-88a7-481bbea6f704,apple123000,Alberta,3,Good
+a266fc1e-54de-458e-90b5-bbebde870d2f,a266fc1e-54de-458e-90b5-bbebde870d2f,xxxxx111,Vancouver,4,Very good product
+945e017f-a2cd-4e5a-9946-6da151ddea63,945e017f-a2cd-4e5a-9946-6da151ddea63,apple123000,Calgary,3,Good
+64d6707d-2b84-415a-a73d-8254dbe05989,64d6707d-2b84-415a-a73d-8254dbe05989,xxxxx111,Calgary,9,Great
+1567aeb4-ec6e-441b-b1fa-a08678c3698e,1567aeb4-ec6e-441b-b1fa-a08678c3698e,xxxxx111,Toronto,10,Not bad
+cacf3146-9181-427d-abca-cf62830d4baa,cacf3146-9181-427d-abca-cf62830d4baa,yingyi888,Calgary,7,It is ok
+3c635a93-718f-4b21-9c12-efeddecc6365,3c635a93-718f-4b21-9c12-efeddecc6365,xxxxx111,Montreal,6,Very good product
+c4e15d39-7555-4828-9bcb-4fa01ab866b7,c4e15d39-7555-4828-9bcb-4fa01ab866b7,xxxxx111,Montreal,9,Very good product
+bb823e2a-ccdf-4441-9e13-a750abb94c07,bb823e2a-ccdf-4441-9e13-a750abb94c07,hihihihi,Toronto,2,Do not buy it
+ed1a2dd3-5867-4053-b8de-e4ea25a7c838,ed1a2dd3-5867-4053-b8de-e4ea25a7c838,hihihihi,Vancouver,7,Do not buy it
+e93e79e4-15e0-4617-b1fe-4050253c9187,e93e79e4-15e0-4617-b1fe-4050253c9187,emsl02,Vancouver,7,Very good product
+e265fc9b-e6f6-4df1-a46c-57ca8d9638bd,e265fc9b-e6f6-4df1-a46c-57ca8d9638bd,hihihihi,Toronto,2,Very good product
+7032ea30-fa9a-4c98-94b4-d4fa17aeffa8,7032ea30-fa9a-4c98-94b4-d4fa17aeffa8,xxxxx111,Montreal,10,Very good product
+786ef4d4-898c-4dd8-acc2-c3e2fda20133,786ef4d4-898c-4dd8-acc2-c3e2fda20133,lwe_s,Montreal,4,Bought
+dbf98546-c605-4183-8c21-48430e3a4573,dbf98546-c605-4183-8c21-48430e3a4573,lwe_s,Montreal,3,Great
+65f2ed77-f6e2-420c-a78a-8ce443d5681a,65f2ed77-f6e2-420c-a78a-8ce443d5681a,emsl02,Montreal,6,Do not buy it
+61d29df2-b9d8-44da-a0e9-92e847264022,61d29df2-b9d8-44da-a0e9-92e847264022,apple123000,Vancouver,10,Great
+33df5d32-e7ad-4ceb-a319-d6e92a1f9a9b,33df5d32-e7ad-4ceb-a319-d6e92a1f9a9b,emsl02,Toronto,2,Great
+14175eb9-fb38-4dc3-a267-4abe1d53dee1,14175eb9-fb38-4dc3-a267-4abe1d53dee1,hihihihi,Montreal,2,It is ok
+e850a527-2dc5-44e0-be19-c1488dfb6b04,e850a527-2dc5-44e0-be19-c1488dfb6b04,lwe_s,Vancouver,4,Very good product
+73ce69d2-8c6b-4b8c-aa3a-d40280470529,73ce69d2-8c6b-4b8c-aa3a-d40280470529,xxxxx111,Alberta,5,Not bad
+e78dc5d4-56ae-44b4-89b3-f8254e1f84bf,e78dc5d4-56ae-44b4-89b3-f8254e1f84bf,apple123000,Vancouver,3,Great
+c1f85d1a-6895-4760-b6ab-4e42729d29e4,c1f85d1a-6895-4760-b6ab-4e42729d29e4,emsl02,Toronto,2,It is ok
+7be49338-285e-4fcb-9084-11eed8c2906f,7be49338-285e-4fcb-9084-11eed8c2906f,yingyi888,Alberta,8,Good
+1fc0ecc7-d36f-43d5-81c9-b357338f93ea,1fc0ecc7-d36f-43d5-81c9-b357338f93ea,emsl02,Montreal,8,Very good product
+8321448a-878a-4512-b012-31be85f78280,8321448a-878a-4512-b012-31be85f78280,yingyi888,Calgary,3,Good
+a3926116-805e-49dc-8d46-c4fbbdfb6569,a3926116-805e-49dc-8d46-c4fbbdfb6569,xxxxx111,Alberta,7,It is ok
+23e9fd2b-71ed-46fc-8393-5133aecb6963,23e9fd2b-71ed-46fc-8393-5133aecb6963,apple123000,Toronto,3,Good
+46514bbd-fb5e-4e16-a3a3-85037b127a39,46514bbd-fb5e-4e16-a3a3-85037b127a39,apple123000,Calgary,0,It is ok
+718e518c-ff30-41b3-97d7-333734d67de2,718e518c-ff30-41b3-97d7-333734d67de2,apple123000,Vancouver,9,Good
+3b0083b2-08a6-4b44-b92b-e00e3b962e5b,3b0083b2-08a6-4b44-b92b-e00e3b962e5b,hihihihi,Alberta,10,Bought
+ae8e7d06-5205-4e9e-90b8-0307ce808336,ae8e7d06-5205-4e9e-90b8-0307ce808336,emsl02,Vancouver,2,Good
+fb53859a-8b79-4458-a498-e4fd92935ee1,fb53859a-8b79-4458-a498-e4fd92935ee1,yingyi888,Montreal,3,It is ok
+82abd330-f90c-4c80-beb5-898c984bbc5b,82abd330-f90c-4c80-beb5-898c984bbc5b,yingyi888,Toronto,9,Not bad
