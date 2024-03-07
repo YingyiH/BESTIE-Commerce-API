@@ -78,6 +78,7 @@ services:
     build: ../Audit
     ports:
       - "8110:8110"
+      
 # Names our volume
 volumes:
   my-db:
