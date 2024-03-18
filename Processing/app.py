@@ -10,6 +10,8 @@ from apscheduler.schedulers.background import BackgroundScheduler
 from data_process import product_processing, review_processing
 from models import Stat
 from uuid import uuid4
+from connexion.middleware import MiddlewarePosition
+from starlette.middleware.cors import CORSMiddleware
 
 
 LOGGER = load_log_conf()
@@ -125,6 +127,17 @@ def processing():
 app = FlaskApp(__name__, specification_dir='')
 app.add_api("./openai.yml", strict_validation=True, validate_responses=True)
 
+# Core:
+app = FlaskApp(__name__)
+
+app.add_middleware(
+    CORSMiddleware,
+    position=MiddlewarePosition.BEFORE_EXCEPTION,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 if __name__ == "__main__":
     # create database
