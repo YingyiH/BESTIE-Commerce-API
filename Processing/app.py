@@ -56,7 +56,7 @@ def read_data():
             'num_reviews': 0, 
             'num_onsale_products': 0, 
             'max_price': 0, 
-            'last_updated': datetime.datetime.fromtimestamp(0) # datatime.now() - timedelta(100.0)
+            'last_updated': datetime.fromtimestamp(0) # datatime.now() - timedelta(100.0)
         }
     else:
         return data.to_dict()
@@ -128,7 +128,7 @@ app = FlaskApp(__name__, specification_dir='')
 app.add_api("./openai.yml", strict_validation=True, validate_responses=True)
 
 # Core:
-app = FlaskApp(__name__)
+# app = FlaskApp(__name__)
 
 app.add_middleware(
     CORSMiddleware,

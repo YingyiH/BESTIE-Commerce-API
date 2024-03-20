@@ -142,3 +142,4 @@
 2024-03-05 11:45:56,748 - basicLogger - INFO - Retrieving get review at index: 1 
 2024-03-05 11:45:59,068 - basicLogger - INFO - Retrieving get review at index: 300 
 2024-03-05 11:46:00,230 - basicLogger - ERROR - Could not find get review at index 300
+2024-03-19 22:30:34,946 - basicLogger - INFO - Retrieving get review at index: 1 

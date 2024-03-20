@@ -10,11 +10,12 @@ from starlette.middleware.cors import CORSMiddleware
 LOGGER = load_log_conf()
 
 KAFKA_HOST, KAFKA_PORT, KAFKA_TOPIC= load_db_conf()
+client = KafkaClient(hosts=f'{KAFKA_HOST}:{KAFKA_PORT}')
+topic = client.topics[str.encode(KAFKA_TOPIC)]
 
 def get_products(index):
     hostname = "%s:%d" % (KAFKA_HOST,KAFKA_PORT)
     print(hostname)
-    print("-------------------------------------------")
     client = KafkaClient(hosts=hostname)
     topic = client.topics[str.encode(KAFKA_TOPIC)]
     print("-------------------------------------------")
@@ -42,12 +43,6 @@ def get_products(index):
 
 def get_reviews(index):
     """ Process event messages """
-    hostname = "%s:%d" % (KAFKA_HOST,KAFKA_PORT)
-    print(hostname)
-    print("-------------------------------------------")
-    client = KafkaClient(hosts=hostname)
-    topic = client.topics[str.encode(KAFKA_TOPIC)]
-    print("-------------------------------------------")
     consumer = topic.get_simple_consumer(reset_offset_on_start=True, consumer_timeout_ms=1000)
 
     LOGGER.info(f"Retrieving get review at index: {index} ")
@@ -75,8 +70,8 @@ def get_reviews(index):
 app = FlaskApp(__name__, specification_dir='')
 app.add_api("./BESTIE-commerce.yaml", strict_validation=True, validate_responses=True)
 
-# Core:
-app = FlaskApp(__name__)
+# # Core:
+# app = FlaskApp(__name__)
 
 app.add_middleware(
     CORSMiddleware,

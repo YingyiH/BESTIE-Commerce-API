@@ -33,7 +33,7 @@ def add_new_product(body):
     
     producer = TOPIC.get_sync_producer()
     msg = { "type": "add product create",
-            "datetime" :datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S"),
+            "datetime" :datetime.now().strftime("%Y-%m-%dT%H:%M:%S"),
             "payload": body
         }
     msg_str = json.dumps(msg)
@@ -53,7 +53,7 @@ def add_product_review(body):
     
     producer = TOPIC.get_sync_producer()
     msg = { "type": "add product review",
-            "datetime" :datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S"),
+            "datetime" :datetime.now().strftime("%Y-%m-%dT%H:%M:%S"),
             "payload": body
         }
     msg_str = json.dumps(msg)

@@ -10,7 +10,6 @@ from create_table_mysql import create_database, engine
 from load_config import load_log_conf
 from database_config import load_db_conf
 from pykafka import KafkaClient
-import datetime
 import json
 from pykafka.common import OffsetType 
 from threading import Thread
