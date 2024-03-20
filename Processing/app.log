@@ -7050,3 +7050,403 @@
 2024-03-19 22:33:47,645 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
 2024-03-19 22:33:47,651 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
 2024-03-19 22:33:47,651 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:33:52,705 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:33:52,705 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:33:52,717 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:33:52,717 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:33:57,660 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:33:57,660 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:33:57,664 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:33:57,664 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:34:02,653 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:34:02,653 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:34:02,658 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:34:02,658 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:34:07,623 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:34:07,623 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:34:07,648 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:34:07,649 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:34:12,648 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:34:12,649 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:34:12,656 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:34:12,656 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:34:17,652 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:34:17,653 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:34:17,659 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:34:17,659 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:34:22,692 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:34:22,692 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:34:22,697 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:34:22,697 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:34:27,675 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:34:27,675 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:34:27,679 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:34:27,679 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:34:32,645 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:34:32,646 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:34:32,651 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:34:32,651 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:34:37,658 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:34:37,659 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:34:37,663 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:34:37,663 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:34:42,636 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:34:42,637 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:34:42,643 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:34:42,644 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:34:47,641 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:34:47,642 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:34:47,654 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:34:47,655 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:34:52,623 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:34:52,624 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:34:52,626 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:34:52,626 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:34:57,641 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:34:57,641 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:34:57,645 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:34:57,645 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:35:02,701 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:35:02,702 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:35:02,705 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:35:02,706 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:35:07,639 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:35:07,639 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:35:07,643 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:35:07,644 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:35:12,653 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:35:12,654 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:35:12,654 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:35:12,655 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:35:17,608 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:35:17,608 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:35:17,620 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:35:17,620 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:35:22,619 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:35:22,620 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:35:22,622 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:35:22,622 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:35:27,627 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:35:27,627 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:35:27,630 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:35:27,630 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:35:32,651 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:35:32,651 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:35:32,653 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:35:32,653 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:35:37,611 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:35:37,612 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:35:37,616 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:35:37,616 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:35:42,610 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:35:42,610 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:35:42,617 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:35:42,617 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:35:47,697 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:35:47,698 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:35:47,700 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:35:47,700 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:35:52,646 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:35:52,646 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:35:52,651 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:35:52,651 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:35:57,628 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:35:57,628 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:35:57,631 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:35:57,631 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:36:02,619 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:36:02,620 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:36:02,646 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:36:02,646 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:36:07,620 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:36:07,620 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:36:07,623 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:36:07,623 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:36:12,640 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:36:12,640 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:36:12,643 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:36:12,643 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:36:17,660 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:36:17,661 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:36:17,668 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:36:17,668 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:36:22,636 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:36:22,636 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:36:22,639 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:36:22,639 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:36:27,628 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:36:27,629 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:36:27,635 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:36:27,635 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:36:32,616 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:36:32,616 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:36:32,632 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:36:32,632 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:36:37,615 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:36:37,616 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:36:37,629 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:36:37,629 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:36:42,632 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:36:42,632 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:36:42,634 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:36:42,634 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:36:47,624 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:36:47,625 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:36:47,627 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:36:47,627 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:36:52,631 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:36:52,631 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:36:52,634 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:36:52,634 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:36:57,650 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:36:57,651 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:36:57,656 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:36:57,656 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:37:02,626 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:37:02,626 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:37:02,638 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:37:02,638 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:37:07,625 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:37:07,626 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:37:07,627 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:37:07,627 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:37:12,619 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:37:12,620 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:37:12,622 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:37:12,622 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:37:17,667 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:37:17,668 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:37:17,670 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:37:17,670 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:37:22,627 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:37:22,627 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:37:22,660 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:37:22,660 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:37:27,619 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:37:27,619 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:37:27,621 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:37:27,621 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:37:32,604 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:37:32,604 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:37:32,621 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:37:32,621 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:37:37,643 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:37:37,643 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:37:37,649 - basicLogger - INFO - app.py:115 - Received 4 products and 4 reviews.
+2024-03-19 22:37:37,649 - basicLogger - ERROR - app.py:26 - string indices must be integers, not 'str'
+2024-03-19 22:37:42,889 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:37:42,889 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:37:42,889 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'da22e90b-f63d-420a-987c-8b4d670602a3', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 32, 32, 739177)}
+2024-03-19 22:37:42,892 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:37:42,892 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:37:42,893 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'da22e90b-f63d-420a-987c-8b4d670602a3', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 32, 32, 739177)}
+2024-03-19 22:37:47,735 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:37:47,736 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:37:47,736 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:37:47,737 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:37:47,737 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '71cee841-9cda-4e26-9790-e4229402fc43', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 37, 42, 893368)}
+2024-03-19 22:37:47,737 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '71cee841-9cda-4e26-9790-e4229402fc43', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 37, 42, 893368)}
+2024-03-19 22:37:52,698 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:37:52,698 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:37:52,698 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '0d5e193d-e901-47db-882b-8ddb25743272', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 37, 47, 740366)}
+2024-03-19 22:37:52,716 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:37:52,716 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:37:52,717 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '0d5e193d-e901-47db-882b-8ddb25743272', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 37, 47, 740366)}
+2024-03-19 22:37:57,718 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:37:57,718 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:37:57,718 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'e3b7301d-c178-45ca-a034-83c635ffc83f', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 37, 52, 717616)}
+2024-03-19 22:37:57,725 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:37:57,725 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:37:57,726 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'e3b7301d-c178-45ca-a034-83c635ffc83f', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 37, 52, 717616)}
+2024-03-19 22:38:02,688 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:38:02,689 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:38:02,690 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'e4a50a91-08a1-47a2-92ed-e161592f5936', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 37, 57, 726468)}
+2024-03-19 22:38:02,696 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:38:02,696 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:38:02,696 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'e4a50a91-08a1-47a2-92ed-e161592f5936', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 37, 57, 726468)}
+2024-03-19 22:38:07,737 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:38:07,737 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:38:07,737 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '4ee5ffd6-df7a-42ac-88e5-3832512d19ae', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 38, 2, 696983)}
+2024-03-19 22:38:07,886 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:38:07,887 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:38:07,887 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '4ee5ffd6-df7a-42ac-88e5-3832512d19ae', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 38, 2, 696983)}
+2024-03-19 22:38:12,713 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:38:12,714 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:38:12,714 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '7b0e4b60-2dad-4f04-9ab0-339f511eaba3', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 38, 7, 887395)}
+2024-03-19 22:38:12,715 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:38:12,715 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:38:12,715 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '7b0e4b60-2dad-4f04-9ab0-339f511eaba3', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 38, 7, 887395)}
+2024-03-19 22:38:17,714 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:38:17,715 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:38:17,715 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '00c7ca00-5643-4d04-9724-ffe86c03dd1c', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 38, 12, 716057)}
+2024-03-19 22:38:17,722 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:38:17,722 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:38:17,722 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '00c7ca00-5643-4d04-9724-ffe86c03dd1c', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 38, 12, 716057)}
+2024-03-19 22:38:22,707 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:38:22,708 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:38:22,708 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'e9c16f7c-49b4-42c1-bb34-8bafa9f05598', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 38, 17, 723007)}
+2024-03-19 22:38:22,715 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:38:22,715 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:38:22,715 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'e9c16f7c-49b4-42c1-bb34-8bafa9f05598', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 38, 17, 723007)}
+2024-03-19 22:38:27,708 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:38:27,709 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:38:27,709 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '41518453-4770-4034-96a6-a92c647c35fd', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 38, 22, 716068)}
+2024-03-19 22:38:27,715 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:38:27,715 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:38:27,716 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '41518453-4770-4034-96a6-a92c647c35fd', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 38, 22, 716068)}
+2024-03-19 22:38:32,715 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:38:32,716 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:38:32,717 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:38:32,717 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'da85f8fc-4540-4db5-9c4c-3732bfbce0f0', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 38, 27, 716606)}
+2024-03-19 22:38:32,717 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:38:32,720 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'da85f8fc-4540-4db5-9c4c-3732bfbce0f0', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 38, 27, 716606)}
+2024-03-19 22:38:37,708 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:38:37,708 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:38:37,708 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'ce591158-e78a-49a6-99a1-8b3ab4c3d155', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 38, 32, 720790)}
+2024-03-19 22:38:37,715 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:38:37,715 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:38:37,715 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'ce591158-e78a-49a6-99a1-8b3ab4c3d155', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 38, 32, 720790)}
+2024-03-19 22:38:42,713 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:38:42,714 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:38:42,714 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'f83203f6-7b2b-4afe-bdb9-59e298c11e7d', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 38, 37, 716194)}
+2024-03-19 22:38:42,721 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:38:42,722 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:38:42,722 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'f83203f6-7b2b-4afe-bdb9-59e298c11e7d', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 38, 37, 716194)}
+2024-03-19 22:38:47,689 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:38:47,690 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:38:47,690 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'd191e0a0-add5-4705-b6d7-547eab940941', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 38, 42, 722540)}
+2024-03-19 22:38:47,708 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:38:47,709 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:38:47,709 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'd191e0a0-add5-4705-b6d7-547eab940941', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 38, 42, 722540)}
+2024-03-19 22:38:52,748 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:38:52,749 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:38:52,749 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:38:52,749 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:38:52,749 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'f5107cd3-134c-4bf7-9a51-edc67c1c7b57', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 38, 47, 710145)}
+2024-03-19 22:38:52,749 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'f5107cd3-134c-4bf7-9a51-edc67c1c7b57', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 38, 47, 710145)}
+2024-03-19 22:38:57,689 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:38:57,689 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:38:57,689 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'e1119fc5-4ba1-4636-b1fd-a0e3eee3ef4f', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 38, 52, 750467)}
+2024-03-19 22:38:57,709 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:38:57,709 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:38:57,709 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'e1119fc5-4ba1-4636-b1fd-a0e3eee3ef4f', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 38, 52, 750467)}
+2024-03-19 22:39:02,724 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:39:02,724 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:39:02,724 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'c3151368-fe54-4748-9761-c6a94af835a5', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 38, 57, 709821)}
+2024-03-19 22:39:02,726 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:39:02,726 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:39:02,726 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'c3151368-fe54-4748-9761-c6a94af835a5', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 38, 57, 709821)}
+2024-03-19 22:39:07,690 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:39:07,690 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:39:07,690 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '7c7e5069-6235-4944-8706-0ced5ee3cadd', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 39, 2, 727105)}
+2024-03-19 22:39:07,714 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:39:07,714 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:39:07,714 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '7c7e5069-6235-4944-8706-0ced5ee3cadd', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 39, 2, 727105)}
+2024-03-19 22:39:12,716 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:39:12,716 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:39:12,716 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:39:12,717 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:39:12,717 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'd0294338-38b2-4e8c-aab9-71de9ae47beb', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 39, 7, 714900)}
+2024-03-19 22:39:12,717 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'd0294338-38b2-4e8c-aab9-71de9ae47beb', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 39, 7, 714900)}
+2024-03-19 22:39:17,738 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:39:17,739 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:39:17,739 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'e1b4942a-6880-4fc9-b756-554bb4ad7157', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 39, 12, 718074)}
+2024-03-19 22:39:17,745 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:39:17,745 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:39:17,745 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'e1b4942a-6880-4fc9-b756-554bb4ad7157', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 39, 12, 718074)}
+2024-03-19 22:39:22,854 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:39:22,855 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:39:22,855 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'bf28d9a4-94a9-486f-8e0a-f51ecbbfb112', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 39, 17, 746889)}
+2024-03-19 22:39:22,857 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:39:22,858 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:39:22,858 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'bf28d9a4-94a9-486f-8e0a-f51ecbbfb112', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 39, 17, 746889)}
+2024-03-19 22:39:27,697 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:39:27,697 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:39:27,697 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'b7ce9bd9-0bbd-444f-ac97-d9253b454980', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 39, 22, 859207)}
+2024-03-19 22:39:27,704 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:39:27,704 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:39:27,704 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'b7ce9bd9-0bbd-444f-ac97-d9253b454980', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 39, 22, 859207)}
+2024-03-19 22:39:32,718 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:39:32,719 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:39:32,719 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '40ab65fd-108d-413c-a219-a002266bcfaf', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 39, 27, 705136)}
+2024-03-19 22:39:32,720 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:39:32,721 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:39:32,721 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '40ab65fd-108d-413c-a219-a002266bcfaf', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 39, 27, 705136)}
+2024-03-19 22:39:37,687 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:39:37,687 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:39:37,687 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '9ad416d0-9a15-4404-a765-31f5f7d5b2ac', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 39, 32, 721279)}
+2024-03-19 22:39:37,694 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:39:37,694 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:39:37,694 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '9ad416d0-9a15-4404-a765-31f5f7d5b2ac', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 39, 32, 721279)}
+2024-03-19 22:39:42,695 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:39:42,695 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:39:42,695 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'cd190f15-2317-43ee-a0af-dbb0d05ed199', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 39, 37, 694996)}
+2024-03-19 22:39:42,709 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:39:42,710 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:39:42,710 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'cd190f15-2317-43ee-a0af-dbb0d05ed199', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 39, 37, 694996)}
+2024-03-19 22:39:47,688 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:39:47,689 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:39:47,689 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '32d5b58c-9304-4c6f-b904-e578c30514f7', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 39, 42, 710770)}
+2024-03-19 22:39:47,718 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:39:47,718 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:39:47,718 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '32d5b58c-9304-4c6f-b904-e578c30514f7', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 39, 42, 710770)}
+2024-03-19 22:39:52,677 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:39:52,678 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:39:52,678 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '634f59f4-555a-4c55-8782-23c813eaa39a', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 39, 47, 718418)}
+2024-03-19 22:39:52,705 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:39:52,705 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:39:52,705 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '634f59f4-555a-4c55-8782-23c813eaa39a', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 39, 47, 718418)}
+2024-03-19 22:39:57,682 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:39:57,683 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:39:57,683 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '5bc7aeeb-3b5c-4c98-8f9f-647f1524e796', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 39, 52, 705826)}
+2024-03-19 22:39:57,708 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:39:57,708 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:39:57,708 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '5bc7aeeb-3b5c-4c98-8f9f-647f1524e796', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 39, 52, 705826)}
+2024-03-19 22:40:02,712 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:40:02,712 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:40:02,712 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '63057b75-ac39-441e-a996-6e576144e762', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 39, 57, 708467)}
+2024-03-19 22:40:02,720 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:40:02,720 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:40:02,720 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '63057b75-ac39-441e-a996-6e576144e762', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 39, 57, 708467)}
+2024-03-19 22:40:07,726 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:40:07,727 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:40:07,727 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'c902a253-795f-4ef3-b17e-ba6576bfc1e9', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 40, 2, 720786)}
+2024-03-19 22:40:07,751 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:40:07,751 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:40:07,751 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'c902a253-795f-4ef3-b17e-ba6576bfc1e9', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 40, 2, 720786)}
+2024-03-19 22:40:13,009 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:40:13,009 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:40:13,009 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '1b55a074-a673-4107-8bef-986531876577', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 40, 7, 751556)}
+2024-03-19 22:40:13,012 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:40:13,012 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:40:13,012 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '1b55a074-a673-4107-8bef-986531876577', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 40, 7, 751556)}
+2024-03-19 22:40:17,714 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:40:17,715 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:40:17,715 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '45ecdc0e-a5bb-4fa2-b3aa-dc2e6151ac37', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 40, 13, 12725)}
+2024-03-19 22:40:17,723 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:40:17,723 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:40:17,723 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '45ecdc0e-a5bb-4fa2-b3aa-dc2e6151ac37', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 40, 13, 12725)}
+2024-03-19 22:40:22,692 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:40:22,692 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:40:22,692 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'c446f311-1bb3-425f-9567-ed888506b7d6', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 40, 17, 723328)}
+2024-03-19 22:40:22,706 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:40:22,706 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:40:22,706 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'c446f311-1bb3-425f-9567-ed888506b7d6', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 40, 17, 723328)}
+2024-03-19 22:40:27,688 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:40:27,689 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:40:27,689 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '849f9e25-33ff-47be-8ba7-a1aa857f2c7b', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 40, 22, 706435)}
+2024-03-19 22:40:27,703 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:40:27,703 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:40:27,703 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '849f9e25-33ff-47be-8ba7-a1aa857f2c7b', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 40, 22, 706435)}
+2024-03-19 22:40:32,857 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:40:32,858 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:40:32,858 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:40:32,858 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:40:32,858 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'eccb2d92-ff2e-4391-8f41-61cc07d520f1', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 40, 27, 703365)}
+2024-03-19 22:40:32,858 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'eccb2d92-ff2e-4391-8f41-61cc07d520f1', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 40, 27, 703365)}
+2024-03-19 22:40:37,838 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:40:37,839 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:40:37,839 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '1c685bee-aaa9-4cda-b092-ae18a3e7a4a1', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 40, 32, 861371)}
+2024-03-19 22:40:37,848 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-19 22:40:37,848 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-19 22:40:37,848 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '1c685bee-aaa9-4cda-b092-ae18a3e7a4a1', 'num_products': 287, 'num_reviews': 280, 'num_onsale_products': 147, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 22, 40, 32, 861371)}

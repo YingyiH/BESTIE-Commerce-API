@@ -6,6 +6,8 @@ import time
 from pykafka import KafkaClient
 import datetime
 import json
+from connexion.middleware import MiddlewarePosition
+from starlette.middleware.cors import CORSMiddleware
 
 LOGGER = config_setting.logger
 
@@ -67,6 +69,15 @@ def add_product_review(body):
 # use the openapi in the Receiver Service:
 app = connexion.FlaskApp(__name__, specification_dir='')
 app.add_api("BESTIE-commerce.yaml", strict_validation=True, validate_responses=True)
+
+app.add_middleware(
+    CORSMiddleware,
+    position=MiddlewarePosition.BEFORE_EXCEPTION,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0",port=8080)
