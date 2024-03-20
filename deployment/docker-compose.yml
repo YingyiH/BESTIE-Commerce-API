@@ -76,6 +76,15 @@ services:
     build: ../Audit
     ports:
       - "8110:8110"
+
+  dashboard:
+    image: dashboard
+    build: ../dashboard_ui/Sample_Code
+    ports:
+      - "3000:3000"
+    depends_on:
+      - "processing"
+      - "audit"
       
 # Names our volume
 volumes:
