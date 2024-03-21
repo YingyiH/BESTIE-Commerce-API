@@ -67,11 +67,11 @@ def get_reviews(index):
     return { "message": "Not Found"}, 404
 
 
-app = FlaskApp(__name__, specification_dir='')
-app.add_api("./BESTIE-commerce.yaml", strict_validation=True, validate_responses=True)
+# app = FlaskApp(__name__, specification_dir='')
+# app.add_api("./BESTIE-commerce.yaml", strict_validation=True, validate_responses=True)
 
 # # Core:
-# app = FlaskApp(__name__)
+app = FlaskApp(__name__)
 
 app.add_middleware(
     CORSMiddleware,
@@ -81,6 +81,8 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+app.add_api("BESTIE-commerce.yaml")
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0",port=8110)
