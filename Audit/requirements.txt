@@ -5,4 +5,4 @@ pykafka==2.4.0
 protobuf==3.19.6
 flask_cors==4.0.0
 openapi-spec-validator==0.2.9
-Flask==3.0.1
+Flask==2.2.5
