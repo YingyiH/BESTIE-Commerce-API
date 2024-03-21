@@ -1204,3 +1204,216 @@
 2024-03-19 23:01:06,730 - basicLogger - ERROR - app.py:26 - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /products?start_timestamp=2024-03-19T23%3A00%3A06&end_timestamp=2024-03-19T23%3A01%3A06 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104285550>: Failed to establish a new connection: [Errno 61] Connection refused'))
 2024-03-19 23:01:06,737 - basicLogger - ERROR - app.py:26 - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /products?start_timestamp=2024-03-19T23%3A00%3A06&end_timestamp=2024-03-19T23%3A01%3A06 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104254a10>: Failed to establish a new connection: [Errno 61] Connection refused'))
 2024-03-19 23:01:06,750 - basicLogger - ERROR - app.py:26 - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /products?start_timestamp=2024-03-19T23%3A00%3A06&end_timestamp=2024-03-19T23%3A01%3A06 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104294450>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-03-21 10:16:51,583 - basicLogger - ERROR - app.py:26 - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /products?start_timestamp=2024-03-19T23%3A00%3A06&end_timestamp=2024-03-21T10%3A16%3A51 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10449da50>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-03-21 10:16:51,583 - basicLogger - ERROR - app.py:26 - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /products?start_timestamp=2024-03-19T23%3A00%3A06&end_timestamp=2024-03-21T10%3A16%3A51 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10449d050>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-03-21 10:16:51,585 - basicLogger - ERROR - app.py:26 - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /products?start_timestamp=2024-03-19T23%3A00%3A06&end_timestamp=2024-03-21T10%3A16%3A51 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10449d610>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-03-21 10:16:56,562 - basicLogger - ERROR - app.py:26 - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /products?start_timestamp=2024-03-19T23%3A00%3A06&end_timestamp=2024-03-21T10%3A16%3A56 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1044ce050>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-03-21 10:16:56,572 - basicLogger - ERROR - app.py:26 - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /products?start_timestamp=2024-03-19T23%3A00%3A06&end_timestamp=2024-03-21T10%3A16%3A56 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1044d4090>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-03-21 10:16:56,591 - basicLogger - ERROR - app.py:26 - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /products?start_timestamp=2024-03-19T23%3A00%3A06&end_timestamp=2024-03-21T10%3A16%3A56 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1044cedd0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-03-21 10:17:01,557 - basicLogger - ERROR - app.py:26 - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /products?start_timestamp=2024-03-19T23%3A00%3A06&end_timestamp=2024-03-21T10%3A17%3A01 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1044cd550>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-03-21 10:17:01,568 - basicLogger - ERROR - app.py:26 - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /products?start_timestamp=2024-03-19T23%3A00%3A06&end_timestamp=2024-03-21T10%3A17%3A01 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1044983d0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-03-21 10:17:01,586 - basicLogger - ERROR - app.py:26 - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /products?start_timestamp=2024-03-19T23%3A00%3A06&end_timestamp=2024-03-21T10%3A17%3A01 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10449e5d0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-03-21 10:17:06,579 - basicLogger - ERROR - app.py:26 - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /products?start_timestamp=2024-03-19T23%3A00%3A06&end_timestamp=2024-03-21T10%3A17%3A06 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10449e590>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-03-21 10:17:06,580 - basicLogger - ERROR - app.py:26 - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /products?start_timestamp=2024-03-19T23%3A00%3A06&end_timestamp=2024-03-21T10%3A17%3A06 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10449e9d0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-03-21 10:17:06,584 - basicLogger - ERROR - app.py:26 - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /products?start_timestamp=2024-03-19T23%3A00%3A06&end_timestamp=2024-03-21T10%3A17%3A06 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1044cc650>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-03-21 10:17:11,560 - basicLogger - ERROR - app.py:26 - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /products?start_timestamp=2024-03-19T23%3A00%3A06&end_timestamp=2024-03-21T10%3A17%3A11 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1044ce910>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-03-21 10:17:11,571 - basicLogger - ERROR - app.py:26 - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /products?start_timestamp=2024-03-19T23%3A00%3A06&end_timestamp=2024-03-21T10%3A17%3A11 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1044d5a50>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-03-21 10:17:11,586 - basicLogger - ERROR - app.py:26 - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /products?start_timestamp=2024-03-19T23%3A00%3A06&end_timestamp=2024-03-21T10%3A17%3A11 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1044cdfd0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-03-21 10:17:16,554 - basicLogger - ERROR - app.py:26 - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /products?start_timestamp=2024-03-19T23%3A00%3A06&end_timestamp=2024-03-21T10%3A17%3A16 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1044cfe90>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-03-21 10:17:16,567 - basicLogger - ERROR - app.py:26 - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /products?start_timestamp=2024-03-19T23%3A00%3A06&end_timestamp=2024-03-21T10%3A17%3A16 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10449c2d0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-03-21 10:17:16,582 - basicLogger - ERROR - app.py:26 - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /products?start_timestamp=2024-03-19T23%3A00%3A06&end_timestamp=2024-03-21T10%3A17%3A16 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10449b650>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-03-21 10:17:21,562 - basicLogger - ERROR - app.py:26 - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /products?start_timestamp=2024-03-19T23%3A00%3A06&end_timestamp=2024-03-21T10%3A17%3A21 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1044d4c50>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-03-21 10:17:21,565 - basicLogger - ERROR - app.py:26 - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /products?start_timestamp=2024-03-19T23%3A00%3A06&end_timestamp=2024-03-21T10%3A17%3A21 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104498f90>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-03-21 10:17:21,586 - basicLogger - ERROR - app.py:26 - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /products?start_timestamp=2024-03-19T23%3A00%3A06&end_timestamp=2024-03-21T10%3A17%3A21 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10449d910>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-03-21 10:17:26,557 - basicLogger - ERROR - app.py:26 - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /products?start_timestamp=2024-03-19T23%3A00%3A06&end_timestamp=2024-03-21T10%3A17%3A26 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1044cf950>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-03-21 10:17:26,563 - basicLogger - ERROR - app.py:26 - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /products?start_timestamp=2024-03-19T23%3A00%3A06&end_timestamp=2024-03-21T10%3A17%3A26 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1044d7390>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-03-21 10:17:26,586 - basicLogger - ERROR - app.py:26 - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /products?start_timestamp=2024-03-19T23%3A00%3A06&end_timestamp=2024-03-21T10%3A17%3A26 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1044d9110>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-03-21 10:17:31,564 - basicLogger - ERROR - app.py:26 - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /products?start_timestamp=2024-03-19T23%3A00%3A06&end_timestamp=2024-03-21T10%3A17%3A31 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10449c290>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-03-21 10:17:31,570 - basicLogger - ERROR - app.py:26 - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /products?start_timestamp=2024-03-19T23%3A00%3A06&end_timestamp=2024-03-21T10%3A17%3A31 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10449f950>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-03-21 10:17:31,588 - basicLogger - ERROR - app.py:26 - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /products?start_timestamp=2024-03-19T23%3A00%3A06&end_timestamp=2024-03-21T10%3A17%3A31 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1044cd450>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-03-21 10:17:36,564 - basicLogger - ERROR - app.py:26 - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /products?start_timestamp=2024-03-19T23%3A00%3A06&end_timestamp=2024-03-21T10%3A17%3A36 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1044d77d0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-03-21 10:17:36,566 - basicLogger - ERROR - app.py:26 - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /products?start_timestamp=2024-03-19T23%3A00%3A06&end_timestamp=2024-03-21T10%3A17%3A36 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1044d5690>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-03-21 10:17:36,587 - basicLogger - ERROR - app.py:26 - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /products?start_timestamp=2024-03-19T23%3A00%3A06&end_timestamp=2024-03-21T10%3A17%3A36 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1044d4350>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-03-21 10:17:41,557 - basicLogger - ERROR - app.py:26 - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /products?start_timestamp=2024-03-19T23%3A00%3A06&end_timestamp=2024-03-21T10%3A17%3A41 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1044d7d10>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-03-21 10:17:41,567 - basicLogger - ERROR - app.py:26 - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /products?start_timestamp=2024-03-19T23%3A00%3A06&end_timestamp=2024-03-21T10%3A17%3A41 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1044ce150>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-03-21 10:17:41,583 - basicLogger - ERROR - app.py:26 - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /products?start_timestamp=2024-03-19T23%3A00%3A06&end_timestamp=2024-03-21T10%3A17%3A41 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10449d910>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-03-21 10:17:46,804 - basicLogger - INFO - app.py:115 - Received 2 products and 0 reviews.
+2024-03-21 10:17:46,804 - basicLogger - DEBUG - data_process.py:14 - Processing product event: 123
+2024-03-21 10:17:46,804 - basicLogger - DEBUG - data_process.py:14 - Processing product event: 123
+2024-03-21 10:17:46,804 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:17:46,804 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '040a5f0c-7852-417b-8dc8-18b0f8f05ca6', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 23, 0, 6, 934155)}
+2024-03-21 10:17:46,928 - basicLogger - INFO - app.py:115 - Received 2 products and 0 reviews.
+2024-03-21 10:17:46,928 - basicLogger - DEBUG - data_process.py:14 - Processing product event: 123
+2024-03-21 10:17:46,929 - basicLogger - DEBUG - data_process.py:14 - Processing product event: 123
+2024-03-21 10:17:46,929 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:17:46,929 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '040a5f0c-7852-417b-8dc8-18b0f8f05ca6', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 23, 0, 6, 934155)}
+2024-03-21 10:17:46,930 - basicLogger - INFO - app.py:115 - Received 2 products and 0 reviews.
+2024-03-21 10:17:46,931 - basicLogger - DEBUG - data_process.py:14 - Processing product event: 123
+2024-03-21 10:17:46,931 - basicLogger - DEBUG - data_process.py:14 - Processing product event: 123
+2024-03-21 10:17:46,931 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:17:46,931 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '040a5f0c-7852-417b-8dc8-18b0f8f05ca6', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 19, 23, 0, 6, 934155)}
+2024-03-21 10:17:53,802 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:17:53,802 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:17:53,802 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:17:53,802 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:17:53,802 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '05d07d87-c808-4956-a0f1-74dbe30ee602', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 17, 46, 931537)}
+2024-03-21 10:17:53,802 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '05d07d87-c808-4956-a0f1-74dbe30ee602', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 17, 46, 931537)}
+2024-03-21 10:17:53,811 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:17:53,811 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:17:53,811 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '05d07d87-c808-4956-a0f1-74dbe30ee602', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 17, 46, 931537)}
+2024-03-21 10:17:58,846 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:17:58,846 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:17:58,846 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '0f3d568a-b746-4278-bf4b-8b919411c606', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 17, 53, 811614)}
+2024-03-21 10:17:58,863 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:17:58,863 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:17:58,863 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '0f3d568a-b746-4278-bf4b-8b919411c606', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 17, 53, 811614)}
+2024-03-21 10:17:58,866 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:17:58,866 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:17:58,866 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '0f3d568a-b746-4278-bf4b-8b919411c606', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 17, 53, 811614)}
+2024-03-21 10:18:03,999 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:18:04,000 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:18:04,001 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:18:04,001 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:18:04,001 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '45f3a7f9-52b7-4f0e-bbff-34bfa1c4aa25', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 17, 58, 866802)}
+2024-03-21 10:18:04,002 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '45f3a7f9-52b7-4f0e-bbff-34bfa1c4aa25', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 17, 58, 866802)}
+2024-03-21 10:18:04,020 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:18:04,020 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:18:04,021 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '45f3a7f9-52b7-4f0e-bbff-34bfa1c4aa25', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 17, 58, 866802)}
+2024-03-21 10:18:08,838 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:18:08,838 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:18:08,838 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:18:08,838 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:18:08,838 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '23c66480-bf03-4133-ad8d-8eb4451cfad1', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 18, 4, 21841)}
+2024-03-21 10:18:08,839 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '23c66480-bf03-4133-ad8d-8eb4451cfad1', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 18, 4, 21841)}
+2024-03-21 10:18:08,872 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:18:08,872 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:18:08,872 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '23c66480-bf03-4133-ad8d-8eb4451cfad1', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 18, 4, 21841)}
+2024-03-21 10:18:13,800 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:18:13,801 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:18:13,801 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'f55dc812-03bf-47c9-991c-b9b4a0a4ddbf', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 18, 8, 872940)}
+2024-03-21 10:18:13,807 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:18:13,807 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:18:13,807 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'f55dc812-03bf-47c9-991c-b9b4a0a4ddbf', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 18, 8, 872940)}
+2024-03-21 10:18:13,820 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:18:13,821 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:18:13,821 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'f55dc812-03bf-47c9-991c-b9b4a0a4ddbf', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 18, 8, 872940)}
+2024-03-21 10:18:18,848 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:18:18,849 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:18:18,849 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:18:18,849 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'a98ebdc7-602c-4654-b752-6eb8fcaf0235', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 18, 13, 821199)}
+2024-03-21 10:18:18,849 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:18:18,852 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'a98ebdc7-602c-4654-b752-6eb8fcaf0235', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 18, 13, 821199)}
+2024-03-21 10:18:18,869 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:18:18,869 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:18:18,869 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'a98ebdc7-602c-4654-b752-6eb8fcaf0235', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 18, 13, 821199)}
+2024-03-21 10:18:23,991 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:18:23,993 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:18:23,992 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:18:23,993 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'e8458e90-3378-4ebf-8a5d-43c7e92d712b', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 18, 18, 870383)}
+2024-03-21 10:18:23,992 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:18:23,993 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:18:23,994 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:18:23,994 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'e8458e90-3378-4ebf-8a5d-43c7e92d712b', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 18, 18, 870383)}
+2024-03-21 10:18:23,994 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'e8458e90-3378-4ebf-8a5d-43c7e92d712b', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 18, 18, 870383)}
+2024-03-21 10:18:28,890 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:18:28,890 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:18:28,890 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:18:28,891 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:18:28,891 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '3475d444-f7e6-4e0c-bcae-5a4c26e2395a', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 18, 23, 998111)}
+2024-03-21 10:18:28,891 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '3475d444-f7e6-4e0c-bcae-5a4c26e2395a', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 18, 23, 998111)}
+2024-03-21 10:18:28,900 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:18:28,900 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:18:28,900 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '3475d444-f7e6-4e0c-bcae-5a4c26e2395a', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 18, 23, 998111)}
+2024-03-21 10:18:34,001 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:18:34,001 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:18:34,002 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:18:34,002 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:18:34,002 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '962df1d0-5d5b-4b9d-9d5f-d8361f8947b0', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 18, 28, 901151)}
+2024-03-21 10:18:34,002 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '962df1d0-5d5b-4b9d-9d5f-d8361f8947b0', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 18, 28, 901151)}
+2024-03-21 10:18:34,004 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:18:34,004 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:18:34,004 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '962df1d0-5d5b-4b9d-9d5f-d8361f8947b0', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 18, 28, 901151)}
+2024-03-21 10:18:38,785 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:18:38,785 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:18:38,785 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '8067e395-7f3f-42ff-9954-239e6f077b26', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 18, 34, 5014)}
+2024-03-21 10:18:38,792 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:18:38,792 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:18:38,792 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '8067e395-7f3f-42ff-9954-239e6f077b26', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 18, 34, 5014)}
+2024-03-21 10:18:38,810 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:18:38,811 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:18:38,811 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '8067e395-7f3f-42ff-9954-239e6f077b26', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 18, 34, 5014)}
+2024-03-21 10:18:43,967 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:18:43,969 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:18:43,969 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'bd7692c7-48cb-476f-a88b-da1bc1022c02', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 18, 38, 811286)}
+2024-03-21 10:18:43,968 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:18:43,971 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:18:43,971 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:18:43,971 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:18:43,971 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'bd7692c7-48cb-476f-a88b-da1bc1022c02', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 18, 38, 811286)}
+2024-03-21 10:18:43,972 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'bd7692c7-48cb-476f-a88b-da1bc1022c02', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 18, 38, 811286)}
+2024-03-21 10:18:48,815 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:18:48,815 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:18:48,816 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '42bb4af4-439f-46c4-beb6-2cc48d256252', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 18, 43, 973880)}
+2024-03-21 10:18:48,819 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:18:48,819 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:18:48,819 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '42bb4af4-439f-46c4-beb6-2cc48d256252', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 18, 43, 973880)}
+2024-03-21 10:18:48,824 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:18:48,824 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:18:48,824 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '42bb4af4-439f-46c4-beb6-2cc48d256252', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 18, 43, 973880)}
+2024-03-21 10:18:53,948 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:18:53,950 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:18:53,951 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:18:53,951 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:18:53,951 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'b7c847be-110d-460a-9194-b1cd47b59f58', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 18, 48, 825006)}
+2024-03-21 10:18:53,951 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'b7c847be-110d-460a-9194-b1cd47b59f58', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 18, 48, 825006)}
+2024-03-21 10:18:53,968 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:18:53,968 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:18:53,969 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': 'b7c847be-110d-460a-9194-b1cd47b59f58', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 18, 48, 825006)}
+2024-03-21 10:18:58,855 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:18:58,855 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:18:58,855 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:18:58,856 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:18:58,856 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '48ecfeec-1d11-463b-89d9-fc44b32e96e6', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 18, 53, 969637)}
+2024-03-21 10:18:58,856 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '48ecfeec-1d11-463b-89d9-fc44b32e96e6', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 18, 53, 969637)}
+2024-03-21 10:18:58,859 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:18:58,859 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:18:58,859 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '48ecfeec-1d11-463b-89d9-fc44b32e96e6', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 18, 53, 969637)}
+2024-03-21 10:19:03,907 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:19:03,909 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:19:03,909 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '1da859c1-b477-44ad-807f-6b636e1ba49e', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 18, 58, 860061)}
+2024-03-21 10:19:03,908 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:19:03,923 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:19:03,924 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:19:03,924 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:19:03,924 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '1da859c1-b477-44ad-807f-6b636e1ba49e', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 18, 58, 860061)}
+2024-03-21 10:19:03,924 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '1da859c1-b477-44ad-807f-6b636e1ba49e', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 18, 58, 860061)}
+2024-03-21 10:19:08,997 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:19:08,998 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:19:08,998 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:19:08,998 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:19:08,998 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '02a0555f-0fed-40b5-a050-c95fc243a638', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 19, 3, 925198)}
+2024-03-21 10:19:08,998 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '02a0555f-0fed-40b5-a050-c95fc243a638', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 19, 3, 925198)}
+2024-03-21 10:19:09,006 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:19:09,006 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:19:09,006 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '02a0555f-0fed-40b5-a050-c95fc243a638', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 19, 3, 925198)}
+2024-03-21 10:19:13,846 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:19:13,846 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:19:13,846 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '63485662-6c02-4483-9deb-ab0fb30e7d1f', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 19, 9, 7341)}
+2024-03-21 10:19:13,856 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:19:13,856 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:19:13,856 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:19:13,856 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:19:13,857 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '63485662-6c02-4483-9deb-ab0fb30e7d1f', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 19, 9, 7341)}
+2024-03-21 10:19:13,857 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '63485662-6c02-4483-9deb-ab0fb30e7d1f', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 19, 9, 7341)}
+2024-03-21 10:19:18,945 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:19:18,945 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:19:18,945 - basicLogger - INFO - app.py:115 - Received 0 products and 0 reviews.
+2024-03-21 10:19:18,946 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:19:18,946 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:19:18,946 - basicLogger - INFO - app.py:120 - Finished processing
+2024-03-21 10:19:18,946 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '0cc665a2-242b-4c4d-96e1-7e27724acffb', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 19, 13, 859153)}
+2024-03-21 10:19:18,946 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '0cc665a2-242b-4c4d-96e1-7e27724acffb', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 19, 13, 859153)}
+2024-03-21 10:19:18,946 - basicLogger - DEBUG - app.py:122 - Updated statistic values: {'reading_id': '0cc665a2-242b-4c4d-96e1-7e27724acffb', 'num_products': 289, 'num_reviews': 280, 'num_onsale_products': 149, 'max_price': 998, 'last_updated': datetime.datetime(2024, 3, 21, 10, 19, 13, 859153)}
+2024-03-21 10:19:23,659 - basicLogger - ERROR - app.py:26 - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /products?start_timestamp=2024-03-21T10%3A19%3A18&end_timestamp=2024-03-21T10%3A19%3A23 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x105b8c6d0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-03-21 10:19:23,664 - basicLogger - ERROR - app.py:26 - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /products?start_timestamp=2024-03-21T10%3A19%3A18&end_timestamp=2024-03-21T10%3A19%3A23 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x105b94650>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-03-21 10:19:23,681 - basicLogger - ERROR - app.py:26 - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /products?start_timestamp=2024-03-21T10%3A19%3A18&end_timestamp=2024-03-21T10%3A19%3A23 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x105b9d890>: Failed to establish a new connection: [Errno 61] Connection refused'))

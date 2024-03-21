@@ -60,15 +60,18 @@ services:
   
   processing:
     build: ../Processing
-    ports:
-      - "8100:8100"
+    network_mode: host
+    # ports:
+    #   - "8100:8100"
     depends_on:
-      - kafka
+      - storage
 
   audit:
     build: ../Audit
     ports:
       - "8110:8110"
+    depends_on:
+      - kafka
 
   dashboard:
     image: dashboard

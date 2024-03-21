@@ -82,7 +82,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-app.add_api("BESTIE-commerce.yaml")
+app.add_api("./BESTIE-commerce.yaml", strict_validation=True, validate_responses=True)
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0",port=8110)

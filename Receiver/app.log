@@ -1,2 +1,7 @@
 2024-03-19 22:53:55,402 - basicLogger - INFO - Received event 'product_create' request with a trace id of 1710914035402392000
 2024-03-19 22:54:00,562 - basicLogger - INFO - Received event 'product_review' request with a trace id of 1710914040562659000
+2024-03-21 10:18:00,342 - basicLogger - INFO - Received event 'product_create' request with a trace id of 1711041480342831000
+2024-03-21 10:18:00,362 - basicLogger - INFO - Received event 'product_review' request with a trace id of 1711041480362369000
+2024-03-21 10:18:00,366 - basicLogger - INFO - Received event 'product_create' request with a trace id of 1711041480366611000
+2024-03-21 10:18:00,370 - basicLogger - INFO - Received event 'product_review' request with a trace id of 1711041480370447000
+2024-03-21 10:18:00,374 - basicLogger - INFO - Received event 'product_create' request with a trace id of 1711041480374424000

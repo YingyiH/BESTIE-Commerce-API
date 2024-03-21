@@ -11,8 +11,8 @@ RUN apt-get update -y && apt-get install -y python3 python3-pip
 # Install Python dependencies
 RUN pip3 install -r ./requirements.txt
 
-# Expose the port on which your application will run
-EXPOSE 8100
+# # Expose the port on which your application will run
+# EXPOSE 8100
 
 ENTRYPOINT [ "python3" ]
 
