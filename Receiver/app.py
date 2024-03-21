@@ -55,7 +55,7 @@ def add_product_review(body):
     
     producer = TOPIC.get_sync_producer()
     msg = { "type": "add product review",
-            "datetime" :datetime.now().strftime("%Y-%m-%dT%H:%M:%S"),
+            "datetime" :datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S"),
             "payload": body
         }
     msg_str = json.dumps(msg)
