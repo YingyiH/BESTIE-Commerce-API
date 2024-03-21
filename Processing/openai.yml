@@ -12,7 +12,7 @@ paths:
  /stats:
   get:
     summary: Gets the product and review statistics
-    operationId: app.get_stats_readings
+    operationId: app.get_stats
     description: Gets products and reviews statistics
     responses:
       '200':
