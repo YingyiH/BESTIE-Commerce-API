@@ -39,9 +39,9 @@ export default function AppStats() {
 							<th>Product review</th>
 						</tr>
 						<tr>
-							<td># Product: {stats['num_products']}</td>
-							<td># Review: {stats['num_reviews']}</td>
-                            <td># Onsale: {stats['num_onsale_products']}</td>
+							<td># Product number: {stats['num_products']}</td>
+							<td># Review number: {stats['num_reviews']}</td>
+                            <td># Onsale number: {stats['num_onsale_products']}</td>
 						</tr>
 						<tr>
 							<td colspan="2">Max price: {stats['max_price']}</td>
