@@ -1,6 +1,6 @@
 connexion==3.0.6
 swagger-ui-bundle==0.0.8
-requests==2.25.1
+requests==2.27
 pykafka==2.4.0
 protobuf==3.19.6
 flask_cors==4.0.0
