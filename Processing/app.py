@@ -124,11 +124,11 @@ def processing():
     return old_data
 
 # # Your functions here
-# app = FlaskApp(__name__, specification_dir='')
+app = FlaskApp(__name__, specification_dir='')
 # app.add_api("./openai.yml", strict_validation=True, validate_responses=True)
 
 # Core:
-app = FlaskApp(__name__)
+# app = FlaskApp(__name__)
 
 app.add_middleware(
     CORSMiddleware,
