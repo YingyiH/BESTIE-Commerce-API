@@ -20,8 +20,8 @@
         </elementProp>
       </ThreadGroup>
       <hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="HTTP Request - Product create" enabled="true">
-          <stringProp name="HTTPSampler.path">http://ec2-35-85-82-248.us-west-2.compute.amazonaws.com:8080/product/create</stringProp>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="HTTP Request - Product create">
+          <stringProp name="HTTPSampler.path">http://35.235.112.242:8080/product/create</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <stringProp name="HTTPSampler.method">POST</stringProp>
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
@@ -66,7 +66,7 @@
           <hashTree/>
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="HTTP Request - Comment create">
-          <stringProp name="HTTPSampler.path">http://ec2-35-85-82-248.us-west-2.compute.amazonaws.com:8080/product/review</stringProp>
+          <stringProp name="HTTPSampler.path">http://35.235.112.242:8080/product/review</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <stringProp name="HTTPSampler.method">POST</stringProp>
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
