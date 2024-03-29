@@ -26,7 +26,8 @@ def process_messages():
     print(hostname)
     print("-------------------------------------------")
     client = KafkaClient(hosts=hostname)
-    topic = client.topics[str.encode(KAFKA_TOPIC)]
+    # topic = client.topics[str.encode(KAFKA_TOPIC)]
+    topic = client.topics[str.encode(KAFKA_TOPIC["events"]["topic"])]
     # Create a consume on a consumer group, that only reads new messages
     # (uncommitted messages) when the service re-starts (i.e., it doesn't
     # read all the old messages from the history in the message queue).
