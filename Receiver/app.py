@@ -15,7 +15,7 @@ HOST = config_setting.app_config["events"]["hostname"]
 PORT = config_setting.app_config["events"]["port"]
 CLIENT = KafkaClient(hosts=f'{HOST}:{PORT}')
 TOPIC = CLIENT.topics[str.encode(config_setting.app_config["events"]["topic"])]
-PRODUCER = CLIENT.topics.get_sync_producer()
+PRODUCER = TOPIC.get_sync_producer()
 
 
 def cleanup_producer(producer):
