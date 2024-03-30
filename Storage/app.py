@@ -18,7 +18,7 @@ from connexion.middleware import MiddlewarePosition
 from starlette.middleware.cors import CORSMiddleware
 
 LOGGER = load_log_conf()
-DATA, EVENT, RETRY  = load_db_config()
+DATA, EVENT, RETRY  = load_db_conf()
 
 # DATABASE VARIABLES
 USER = DATA['user']
@@ -31,7 +31,7 @@ KAFKA_HOST = EVENT['hostname']
 KAFKA_HOST_PORT = EVENT['port']
 KAFKA_TOPIC = EVENT['topic']
 # KAFKA RETRY VARIABLES
-MAX_RETRIES = RETRY['max_retries']
+MAX_RETRIES = RETRY['max_retry']
 RETRY_DELAY_SECONDS = RETRY['delay_seconds']
 CURRENT_RETRY_SECONDS = RETRY['current_retry']
 
