@@ -1,7 +1,7 @@
 import connexion
 from connexion import NoContent
 import requests
-import config_setting
+from config_setting import load_app_conf, load_log_conf
 import time
 from pykafka import KafkaClient
 import datetime
@@ -9,20 +9,23 @@ import json
 from connexion.middleware import MiddlewarePosition
 from starlette.middleware.cors import CORSMiddleware
 
-LOGGER = config_setting.logger
+LOGGER = load_log_conf()
+EVENTSTORE, EVENT, RETRY = load_app_conf()
 
-MAX_RETRIES = config_setting.app_config["retry_logs"]["max_retries"]
-RETRY_DELAY_SECONDS = config_setting.app_config["retry_logs"]["delay_seconds"]
-CURRENT_RETRY = config_setting.app_config["retry_logs"]["current_retry"]
+HOST = EVENT["hostname"]
+PORT = EVENT["port"]
+TOPIC = EVENT["topic"]
+
+MAX_RETRIES = RETRY["max_retry"]
+RETRY_DELAY_SECONDS = RETRY["delay_seconds"]
+CURRENT_RETRY = RETRY["current_retry"]
 
 def retry_logic():
-    host = config_setting.app_config["events"]["hostname"]
-    port = config_setting.app_config["events"]["port"]
 
     while CURRENT_RETRY < MAX_RETRIES:
         try:
-            client = KafkaClient(hosts=f'{host}:{port}')
-            topic = client.topics[str.encode(config_setting.app_config["events"]["topic"])]
+            client = KafkaClient(hosts=f'{HOST}:{PORT}')
+            topic = client.topics[str.encode(TOPIC)]
             producer =  topic.get_sync_producer()
             LOGGER.info("Connected to Kafka")
             return producer

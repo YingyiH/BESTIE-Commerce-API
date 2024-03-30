@@ -8,6 +8,6 @@ def load_db_conf():
         event = conf_app['events']
         retry_logs = conf_app['retry_logs']
 
-    return data['user'], data['password'], data['hostname'], data['port'], data['db'], event['hostname'], event['port'], event['topic'], retry_logs['max_retry'],retry_logs['delay_seconds'], retry_logs['current_retry']
+    return data, event, retry_logs
 
 print(load_db_conf())

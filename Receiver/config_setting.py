@@ -2,13 +2,25 @@ import yaml
 import logging
 from logging import config
 
-# Logging and configuration
-with open("conf_app.yml", 'r') as f:
-    app_config = yaml.safe_load(f.read())
-    print(app_config["eventstore"]["product_create"]['url'])
+def load_app_conf():
+    with open("conf_app.yml", 'r') as f:
+        conf_app = yaml.safe_load(f.read())
+        eventstore = conf_app['datastore']
+        events = conf_app['events']
+        retry_logs = conf_app['retry_logs']
 
-with open('conf_log.yml', 'r') as f:
-    log_config = yaml.safe_load(f.read())
-    logging.config.dictConfig(log_config)
+    return eventstore, events, retry_logs
 
-logger = logging.getLogger('basicLogger')
+def load_log_conf():
+    with open('conf_log.yml', 'r') as f:
+        log_config = yaml.safe_load(f.read())
+        logging.config.dictConfig(log_config)
+        logger = logging.getLogger('basicLogger')
+
+    return logger
+
+
+
+
+
+

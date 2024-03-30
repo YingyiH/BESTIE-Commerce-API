@@ -18,16 +18,28 @@ from connexion.middleware import MiddlewarePosition
 from starlette.middleware.cors import CORSMiddleware
 
 LOGGER = load_log_conf()
+DATA, EVENT, RETRY  = load_db_config()
 
-USER, PASSWORD, HOST, PORT, DB, KAFKA_HOST, KAFKA_PORT, KAFKA_TOPIC, MAX_RETRIES, RETRY_DELAY_SECONDS, CURRENT_RETRY= load_db_conf()
+# DATABASE VARIABLES
+USER = DATA['user']
+PASSWORD = DATA['password']
+HOST = DATA['hostname']
+PORT = DATA['port']
+DB = DATA['db']
+# KAFKA HOST VARIABLES
+KAFKA_HOST = EVENT['hostname']
+KAFKA_HOST_PORT = EVENT['port']
+KAFKA_TOPIC = EVENT['topic']
+# KAFKA RETRY VARIABLES
+MAX_RETRIES = RETRY['max_retries']
+RETRY_DELAY_SECONDS = RETRY['delay_seconds']
+CURRENT_RETRY_SECONDS = RETRY['current_retry']
 
 def process_messages():
     """ Process event messages """
     hostname = "%s:%d" % (KAFKA_HOST,KAFKA_PORT)
     print(hostname)
     print("-------------------------------------------")
-    # client = KafkaClient(hosts=hostname)
-    # topic = client.topics[str.encode(KAFKA_TOPIC)]
 
     while CURRENT_RETRY < MAX_RETRIES:
         try:
@@ -53,16 +65,13 @@ def process_messages():
         msg = json.loads(msg_str)
         LOGGER.info("Message: %s" % msg)
         payload = msg["payload"]
-        if msg["type"] == "add product create": # Change this to your event type
-        # Store the event1 (i.e., the payload) to the DB
+        if msg["type"] == "add product create":
             add_new_product(payload)
             print(f'test')
             LOGGER.info("Added new product")
-        elif msg["type"] == "add product review": # Change this to your event type
-        # Store the event2 (i.e., the payload) to the DB
+        elif msg["type"] == "add product review": 
             add_product_review(payload)
             LOGGER.info("Added product review")
-        # Commit the new message as being read
         consumer.commit_offsets()
 
 def get_products(start_timestamp, end_timestamp):
