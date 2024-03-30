@@ -5,7 +5,7 @@ from logging import config
 def load_app_conf():
     with open("conf_app.yml", 'r') as f:
         conf_app = yaml.safe_load(f.read())
-        eventstore = conf_app['datastore']
+        eventstore = conf_app['eventstore']
         events = conf_app['events']
         retry_logs = conf_app['retry_logs']
 
