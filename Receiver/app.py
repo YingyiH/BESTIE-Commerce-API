@@ -18,7 +18,7 @@ TOPIC = EVENT["topic"]
 
 MAX_RETRIES = RETRY["max_retry"]
 RETRY_DELAY_SECONDS = RETRY["delay_seconds"]
-CURRENT_RETRY = RETRY["current_retry"]
+CURRENT_RETRY = 0
 
 def retry_logic():
 
@@ -30,7 +30,7 @@ def retry_logic():
             LOGGER.info("Connected to Kafka")
             return producer
         except Exception as e:
-            LOGGER.error(f"Failed to connect to Kafka (retry {CURRENT_RETRY+ 1}/{MAX_RETRIES}): {e}")
+            LOGGER.error(f"Failed to connect to Kafka (retry {CURRENT_RETRY + 1}/{MAX_RETRIES}): {e}")
             time.sleep(RETRY_DELAY_SECONDS)
             CURRENT_RETRY += 1
 
