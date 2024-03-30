@@ -11,12 +11,50 @@ from starlette.middleware.cors import CORSMiddleware
 
 LOGGER = config_setting.logger
 
-HOST = config_setting.app_config["events"]["hostname"]
-PORT = config_setting.app_config["events"]["port"]
-CLIENT = KafkaClient(hosts=f'{HOST}:{PORT}')
-TOPIC = CLIENT.topics[str.encode(config_setting.app_config["events"]["topic"])]
-PRODUCER = TOPIC.get_sync_producer()
+MAX_RETRIES = config_setting.app_config["retry_logs"]["max_retries"]
+RETRY_DELAY_SECONDS = config_setting.app_config["retry_logs"]["delay_seconds"]
+CURRENT_RETRY = config_setting.app_config["retry_logs"]["current_retry"]
 
+def retry_logic():
+    host = config_setting.app_config["events"]["hostname"]
+    port = config_setting.app_config["events"]["port"]
+
+    while CURRENT_RETRY < MAX_RETRIES:
+        try:
+            client = KafkaClient(hosts=f'{host}:{port}')
+            topic = client.topics[str.encode(config_setting.app_config["events"]["topic"])]
+            producer =  topic.get_sync_producer()
+            LOGGER.info("Connected to Kafka")
+            return producer
+        except Exception as e:
+            LOGGER.error(f"Failed to connect to Kafka (retry {CURRENT_RETRY+ 1}/{MAX_RETRIES}): {e}")
+            time.sleep(RETRY_DELAY_SECONDS)
+            CURRENT_RETRY += 1
+
+    if CURRENT_RETRY == MAX_RETRIES:
+        LOGGER.error("Max retries reached. Exiting.")
+        return
+        
+producer = retry_logic()
+
+def get_sync_producer():
+
+    msg_str = producer.value.decode('utf-8')
+    msg = json.loads(msg_str)
+    LOGGER.info("Message: %s" % msg)
+    payload = msg["payload"]
+
+    if not producer:
+        LOGGER.error("Producer not available. Event not produced.")
+        return
+    
+    if msg["type"] == "add product create":
+            add_new_product(payload)
+            LOGGER.info("Added new product")
+    elif msg["type"] == "add product review":
+        add_product_review(payload)
+        LOGGER.info("Added product review")
+    producer.commit_offsets()
 
 def cleanup_producer(producer):
     try:

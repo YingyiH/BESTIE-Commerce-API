@@ -1,5 +1,6 @@
 from datetime import datetime
 from operator import and_
+import time
 import connexion
 from connexion import NoContent
 from sqlalchemy.orm import Session
@@ -18,19 +19,31 @@ from starlette.middleware.cors import CORSMiddleware
 
 LOGGER = load_log_conf()
 
-USER, PASSWORD, HOST, PORT, DB, KAFKA_HOST, KAFKA_PORT, KAFKA_TOPIC= load_db_conf()
+USER, PASSWORD, HOST, PORT, DB, KAFKA_HOST, KAFKA_PORT, KAFKA_TOPIC, MAX_RETRIES, RETRY_DELAY_SECONDS, CURRENT_RETRY= load_db_conf()
 
 def process_messages():
     """ Process event messages """
     hostname = "%s:%d" % (KAFKA_HOST,KAFKA_PORT)
     print(hostname)
     print("-------------------------------------------")
-    client = KafkaClient(hosts=hostname)
+    # client = KafkaClient(hosts=hostname)
     # topic = client.topics[str.encode(KAFKA_TOPIC)]
-    topic = client.topics[str.encode(KAFKA_TOPIC["events"]["topic"])]
-    # Create a consume on a consumer group, that only reads new messages
-    # (uncommitted messages) when the service re-starts (i.e., it doesn't
-    # read all the old messages from the history in the message queue).
+
+    while CURRENT_RETRY < MAX_RETRIES:
+        try:
+            client = KafkaClient(hosts=hostname)
+            topic = client.topics[str.encode(KAFKA_TOPIC)]
+            LOGGER.info("Connected to Kafka")
+            break  # Connection successful, exit the retry loop
+        except Exception as e:
+            LOGGER.error(f"Failed to connect to Kafka (retry {CURRENT_RETRY+ 1}/{MAX_RETRIES}): {e}")
+            time.sleep(RETRY_DELAY_SECONDS)
+            CURRENT_RETRY += 1
+
+    if CURRENT_RETRY == MAX_RETRIES:
+        LOGGER.error("Max retries reached. Exiting.")
+        return
+    
     consumer = topic.get_simple_consumer(consumer_group=b'event_group', reset_offset_on_start=False, auto_offset_reset=OffsetType.LATEST)
 
     # This is blocking - it will wait for a new message
