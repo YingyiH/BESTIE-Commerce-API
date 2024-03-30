@@ -53,8 +53,8 @@ def get_sync_producer():
         return
     
     if msg["type"] == "add product create":
-            add_new_product(payload)
-            LOGGER.info("Added new product")
+        add_new_product(payload)
+        LOGGER.info("Added new product")
     elif msg["type"] == "add product review":
         add_product_review(payload)
         LOGGER.info("Added product review")

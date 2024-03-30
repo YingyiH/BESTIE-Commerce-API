@@ -38,7 +38,9 @@ CURRENT_RETRY_SECONDS = RETRY['current_retry']
 def process_messages():
     """ Process event messages """
     hostname = "%s:%d" % (KAFKA_HOST,KAFKA_PORT)
-    print(hostname)
+
+    # Output hostname
+    print(f'Ouput: \n  hostname: {hostname}')
     print("-------------------------------------------")
 
     while CURRENT_RETRY < MAX_RETRIES:
@@ -67,7 +69,6 @@ def process_messages():
         payload = msg["payload"]
         if msg["type"] == "add product create":
             add_new_product(payload)
-            print(f'test')
             LOGGER.info("Added new product")
         elif msg["type"] == "add product review": 
             add_product_review(payload)
