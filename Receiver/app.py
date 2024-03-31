@@ -42,11 +42,6 @@ def retry_logic():
 producer = retry_logic()
 LOGGER.info(f'Producer: {producer}')
 
-def cleanup_producer(producer):
-    try:
-        producer.stop()
-    except Exception as e:
-        LOGGER.error(f"Error occurred during producer cleanup: {e}")
 
 # Events
 def add_new_product(body):
@@ -65,10 +60,8 @@ def add_new_product(body):
             }
         msg_str = json.dumps(msg)
         producer.produce(msg_str.encode('utf-8'))
-
-        cleanup_producer(producer)  # Call cleanup method
     except Exception as e:
-        return str(e), 401
+        return str(e), 501
 
     return NoContent, 201
 
@@ -87,8 +80,6 @@ def add_product_review(body):
             }
         msg_str = json.dumps(msg)
         producer.produce(msg_str.encode('utf-8'))
-
-        cleanup_producer(producer)  # Call cleanup method
     except Exception as e:
         return str(e), 501
 
