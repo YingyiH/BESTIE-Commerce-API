@@ -12,4 +12,3 @@ events:
 retry_logs:
   max_retry: 3
   delay_seconds: 2
-  current_retry: 0
