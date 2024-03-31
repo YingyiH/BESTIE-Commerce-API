@@ -28,6 +28,11 @@ services:
       - kafka_db:/kafka/kafka-logs
     depends_on:
       - "zookeeper"
+    healthcheck:
+      test: ["CMD", "kafka-topics.sh", "--list", "--zookeeper", "zookeeper:2181"]
+      interval: 5s
+      timeout: 10s
+      retries: 5
 
   db:
     image: mysql:5.7
@@ -74,7 +79,8 @@ services:
     ports:
       - "8110:8110"
     depends_on:
-      - kafka
+      kafka:
+          condition: service_healthy
 
   dashboard:
     image: dashboard

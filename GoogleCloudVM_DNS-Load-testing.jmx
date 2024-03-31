@@ -89,7 +89,7 @@
           </elementProp>
         </HTTPSamplerProxy>
         <hashTree>
-          <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Comment CSV Data Set Config" enabled="true">
+          <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Comment CSV Data Set Config">
             <stringProp name="filename">/Users/doridori/Documents/GitHub/BESTIE-Commerce-API/Fake-data/comment_data.csv</stringProp>
             <stringProp name="fileEncoding"></stringProp>
             <stringProp name="variableNames">review_id,product_id,customer,location,rating,comment</stringProp>
