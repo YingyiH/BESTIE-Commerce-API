@@ -1,0 +1,13 @@
+pipeline {
+    agent any
+    
+    stages {
+        stage('Echo Message') {
+            steps {
+                script {
+                    echo 'This is storage pipeline'
+                }
+            }
+        }
+    }
+}
