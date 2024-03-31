@@ -40,25 +40,7 @@ def retry_logic():
         return
         
 producer = retry_logic()
-
-def get_sync_producer():
-
-    msg_str = producer.value.decode('utf-8')
-    msg = json.loads(msg_str)
-    LOGGER.info("Message: %s" % msg)
-    payload = msg["payload"]
-
-    if not producer:
-        LOGGER.error("Producer not available. Event not produced.")
-        return
-    
-    if msg["type"] == "add product create":
-        add_new_product(payload)
-        LOGGER.info("Added new product")
-    elif msg["type"] == "add product review":
-        add_product_review(payload)
-        LOGGER.info("Added product review")
-    producer.commit_offsets()
+LOGGER.info(f'Producer: {producer}')
 
 def cleanup_producer(producer):
     try:
@@ -77,7 +59,6 @@ def add_new_product(body):
         body["trace_id"] = trace_id
 
         
-        producer = TOPIC.get_sync_producer()
         msg = { "type": "add product create",
                 "datetime" :datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S"),
                 "payload": body
@@ -100,7 +81,6 @@ def add_product_review(body):
         LOGGER.info(f"Received event 'product_review' request with a trace id of {trace_id}")
         body["trace_id"] = trace_id
         
-        producer = TOPIC.get_sync_producer()
         msg = { "type": "add product review",
                 "datetime" :datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S"),
                 "payload": body
