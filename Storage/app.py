@@ -8,8 +8,7 @@ from models import Base
 from product_create import ProductCreate
 from product_review import CommentCreate
 from create_table_mysql import create_database, engine
-from load_config import load_log_conf
-from database_config import load_db_conf
+from load_config import load_log_conf, load_db_conf
 from pykafka import KafkaClient
 import json
 from pykafka.common import OffsetType 
@@ -17,9 +16,11 @@ from threading import Thread
 from connexion.middleware import MiddlewarePosition
 from starlette.middleware.cors import CORSMiddleware
 
+# Define configration settings by configuration file: -------------------------
 LOGGER = load_log_conf()
 DATA, EVENT, RETRY  = load_db_conf()
 
+# Define global variables: ----------------------------------------------------
 # DATABASE VARIABLES
 USER = DATA['user']
 PASSWORD = DATA['password']
@@ -34,8 +35,13 @@ KAFKA_TOPIC = EVENT['topic']
 MAX_RETRIES = RETRY['max_retry']
 RETRY_DELAY_SECONDS = RETRY['delay_seconds']
 
+# ----------------------------------------------------------------
 def process_messages():
-    """ Process event messages """
+    '''
+    TODO: This is a function to process Kafka messages
+          (Kafka server as a receiver receives data and sends it to database)
+    '''
+
     hostname = "%s:%d" % (KAFKA_HOST,KAFKA_HOST_PORT)
 
     # Output hostname
@@ -75,7 +81,12 @@ def process_messages():
             LOGGER.info("Added product review")
         consumer.commit_offsets()
 
+# Function to read request: ----------------------------------------------------------------
 def get_products(start_timestamp, end_timestamp):
+    '''
+    TODO: This is a function to read requests of products from database
+    '''
+
     start_timestamp_datetime = datetime.strptime(start_timestamp, "%Y-%m-%dT%H:%M:%S")
     end_timestamp_datetime = datetime.strptime(end_timestamp, "%Y-%m-%dT%H:%M:%S")
 
@@ -90,6 +101,10 @@ def get_products(start_timestamp, end_timestamp):
     return res, 200
 
 def get_reviews(start_timestamp, end_timestamp):
+    '''
+    TODO: This is a function to read requests of reviews from database
+    '''
+        
     start_timestamp_datetime = datetime.strptime(start_timestamp, "%Y-%m-%dT%H:%M:%S")
     end_timestamp_datetime = datetime.strptime(end_timestamp, "%Y-%m-%dT%H:%M:%S")
 
@@ -105,10 +120,13 @@ def get_reviews(start_timestamp, end_timestamp):
 
     return res, 200
 
+# Events Handling Functions: ----------------------------------------------------------------
 def add_new_product(body):
+    '''
+    TODO: This is an event function to store a request when there is new product sent to Kafka server
+    '''
 
     trace_id = body['trace_id']
-
     pc = ProductCreate(body['product_id'],
                        body['seller'],
                        body['price'],
@@ -121,18 +139,18 @@ def add_new_product(body):
         session.commit()
 
 
-    LOGGER.debug(
-        f'Stored event "product create" request with a trace id of {trace_id}')
-    
+    LOGGER.debug(f'Stored event "product create" request with a trace id of {trace_id}')
     LOGGER.info(f"Connecting to DB. Hostname: {HOST}, Port:{PORT}")
     
     return NoContent, 201
 
 
 def add_product_review(body):
+    '''
+    TODO: This is an event function to store a request when there is new review sent to Kafka server
+    '''
 
     trace_id = body['trace_id']
-
     cc = CommentCreate(body['review_id'],
                        body['customer'],
                        body['location'],
@@ -145,17 +163,14 @@ def add_product_review(body):
         session.add(cc)
         session.commit()
 
-    LOGGER.debug(
-        f'Stored event "review create" request with a trace id of {trace_id}')
-    
+    LOGGER.debug(f'Stored event "review create" request with a trace id of {trace_id}')
     LOGGER.info(f"Connecting to DB. Hostname: {HOST}, Port:{PORT}")
     
     return NoContent, 201
 
-# use the openapi in the Receiver Service:
+# App Core Setup: ----------------------------------------------------------------
 app = connexion.FlaskApp(__name__, specification_dir='')
 app.add_api("BESTIE-commerce.yaml", strict_validation=True, validate_responses=True)
-
 
 app.add_middleware(
     CORSMiddleware,

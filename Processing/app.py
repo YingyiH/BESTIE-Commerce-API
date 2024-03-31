@@ -13,9 +13,10 @@ from uuid import uuid4
 from connexion.middleware import MiddlewarePosition
 from starlette.middleware.cors import CORSMiddleware
 
-
+# Define configration settings by configuration file: -------------------------
 LOGGER = load_log_conf()
 
+# Populating Statistics: ------------------------------------------------------
 def populate_stats():
     try:
         print("BEFORE")
@@ -25,6 +26,7 @@ def populate_stats():
     except Exception as e:
         LOGGER.error(str(e))
 
+# Initializing Scheduler: -----------------------------------------------------
 def init_scheduler():
     
     with open('conf_app.yml', 'r') as f:
@@ -42,7 +44,7 @@ def init_scheduler():
 SCHEDULED, _,EVENT_URL = init_scheduler()
 
 
-# Read the results
+# Read Statistics Data: -----------------------------------------------------------------
 def read_data():
     data = None
 
@@ -61,7 +63,7 @@ def read_data():
     else:
         return data.to_dict()
     
-# Write the results
+# Write Statistics Data: ----------------------------------------------------------------
 def write_data(body):
 
     with Session(engine) as session:
@@ -78,7 +80,7 @@ def write_data(body):
         session.add(data)
         session.commit()
 
-
+# Endpoint to Get Statistics: ------------------------------------------------------------
 def get_stats():
     # Periodically update stats readings
     
@@ -95,10 +97,10 @@ def get_stats():
     LOGGER.info('GET stats request completed')
     return data, 200
 
+# Processing Events: ----------------------------------------------------------------------
 def processing():
 
     old_data = read_data()
-
     time = datetime.now().strftime("%Y-%m-%dT%H:%M:%S")
 
     timestamp_dict = {
@@ -123,11 +125,7 @@ def processing():
 
     return old_data
 
-# # Your functions here
-# app = FlaskApp(__name__, specification_dir='')
-# app.add_api("./openai.yml", strict_validation=True, validate_responses=True)
-
-# Core:
+# App Core Setup: ----------------------------------------------------------------
 app = FlaskApp(__name__)
 
 app.add_middleware(

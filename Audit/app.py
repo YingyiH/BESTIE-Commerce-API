@@ -7,25 +7,23 @@ from pykafka.common import OffsetType
 from connexion.middleware import MiddlewarePosition
 from starlette.middleware.cors import CORSMiddleware
 
+# Define configration settings by configuration file: -------------------------
 LOGGER = load_log_conf()
-
 KAFKA_HOST, KAFKA_PORT, KAFKA_TOPIC= load_db_conf()
-client = KafkaClient(hosts=f'{KAFKA_HOST}:{KAFKA_PORT}')
-topic = client.topics[str.encode(KAFKA_TOPIC)]
+
+CLIENT = KafkaClient(hosts=f'{KAFKA_HOST}:{KAFKA_HOST_PORT}')
+TOPIC = CLIENT.topics[str.encode(KAFKA_TOPIC)]
 
 def get_products(index):
-    hostname = "%s:%d" % (KAFKA_HOST,KAFKA_PORT)
-    print(hostname)
-    client = KafkaClient(hosts=hostname)
-    topic = client.topics[str.encode(KAFKA_TOPIC)]
-    print("-------------------------------------------")
-    consumer = topic.get_simple_consumer(reset_offset_on_start=True, consumer_timeout_ms=1000)
+    '''
+    TODO: Read requests by index
+    '''
 
     LOGGER.info(f"Retrieving get product at index: {index} ")
-    
-    current_index = 0
+    consumer = TOPIC.get_simple_consumer(reset_offset_on_start=True, consumer_timeout_ms=1000)
 
     try:
+        current_index = 0
         for msg in consumer:
             msg_str = msg.value.decode('utf-8')
             msg = json.loads(msg_str)
@@ -37,19 +35,19 @@ def get_products(index):
                 
     except:
         LOGGER.error("No more messages found")
-        
-    LOGGER.error("Could not find get product at index %d" % index)
-    return { "message": "Not Found"}, 404
+        LOGGER.error("Could not find get product at index %d" % index)
+        return None
+    
 
 def get_reviews(index):
-    """ Process event messages """
-    consumer = topic.get_simple_consumer(reset_offset_on_start=True, consumer_timeout_ms=1000)
-
+    '''
+    TODO: Read requests by index
+    '''
     LOGGER.info(f"Retrieving get review at index: {index} ")
+    consumer = TOPIC.get_simple_consumer(reset_offset_on_start=True, consumer_timeout_ms=1000)
     
-    current_index = 0
-
     try:
+        current_index = 0
         for msg in consumer:
             msg_str = msg.value.decode('utf-8')
             msg = json.loads(msg_str)
@@ -62,15 +60,10 @@ def get_reviews(index):
             
     except:
         LOGGER.error("No more messages found")
-        
-    LOGGER.error("Could not find get review at index %d" % index)
-    return { "message": "Not Found"}, 404
+        LOGGER.error("Could not find get review at index %d" % index)
+        return None
 
-
-# app = FlaskApp(__name__, specification_dir='')
-# app.add_api("./BESTIE-commerce.yaml", strict_validation=True, validate_responses=True)
-
-# # Core:
+# App Core Setup: ----------------------------------------------------------------
 app = FlaskApp(__name__)
 
 app.add_middleware(
@@ -86,4 +79,3 @@ app.add_api("./BESTIE-commerce.yaml", strict_validation=True, validate_responses
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0",port=8110)
-    print("audit service closed...")

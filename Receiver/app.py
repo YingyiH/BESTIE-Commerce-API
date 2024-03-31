@@ -1,7 +1,6 @@
 import connexion
 from connexion import NoContent
-import requests
-from config_setting import load_app_conf, load_log_conf
+from load_config import load_app_conf, load_log_conf
 import time
 from pykafka import KafkaClient
 import datetime
@@ -9,24 +8,32 @@ import json
 from connexion.middleware import MiddlewarePosition
 from starlette.middleware.cors import CORSMiddleware
 
+# Define configration settings by configuration file: -------------------------
 LOGGER = load_log_conf()
 EVENTSTORE, EVENT, RETRY = load_app_conf()
 
-HOST = EVENT["hostname"]
-PORT = EVENT["port"]
-TOPIC = EVENT["topic"]
+# Define global variables: ----------------------------------------------------
+KAFKA_HOST = EVENT["hostname"]
+KAFKA_HOST_PORT = EVENT["port"]
+KAFKA_TOPIC = EVENT["topic"]
 
 MAX_RETRIES = RETRY["max_retry"]
 RETRY_DELAY_SECONDS = RETRY["delay_seconds"]
 
+# Kafka Setup: ----------------------------------------------------------------
 def retry_logic():
-
+    '''
+    TODO: This function attempts to establish a connection with Kafka by creating a Kafka client with the specified host 
+    and port. It retries the connection according to the specified maximum number of retries and delay between retries. If 
+    the connection is successful, it returns a Kafka producer.
+    (Kafka server as a receiver receives data and sends it to database)
+    '''
     current_retry = 0
 
     while current_retry < MAX_RETRIES:
         try:
-            client = KafkaClient(hosts=f'{HOST}:{PORT}')
-            topic = client.topics[str.encode(TOPIC)]
+            client = KafkaClient(hosts=f'{KAFKA_HOST}:{KAFKA_HOST_PORT}')
+            topic = client.topics[str.encode(KAFKA_TOPIC)]
             producer =  topic.get_sync_producer()
             LOGGER.info("Connected to Kafka")
             return producer
@@ -37,14 +44,16 @@ def retry_logic():
 
     if current_retry == MAX_RETRIES:
         LOGGER.error("Max retries reached. Exiting.")
-        return
+
         
 producer = retry_logic()
 LOGGER.info(f'Producer: {producer}')
 
-
-# Events
+# Events Handling Functions: ----------------------------------------------------------------
 def add_new_product(body):
+    '''
+    TODO: This is an event function to create a request when there is new product
+    '''
 
     try:
         headers = {"Content-Type": "application/json"}
@@ -66,7 +75,11 @@ def add_new_product(body):
     return NoContent, 201
 
 def add_product_review(body):
-    
+    '''
+    TODO: This is an event function to create a request when there is new review
+    '''
+
+
     try:
         headers = {"Content-Type": "application/json"}
         trace_id = str(time.time_ns())
@@ -86,7 +99,7 @@ def add_product_review(body):
     return NoContent, 201
 
 
-# use the openapi in the Receiver Service:
+# App Core Setup: ----------------------------------------------------------------
 app = connexion.FlaskApp(__name__, specification_dir='')
 app.add_api("BESTIE-commerce.yaml", strict_validation=True, validate_responses=True)
 
