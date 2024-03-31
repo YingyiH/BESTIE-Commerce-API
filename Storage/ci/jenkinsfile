@@ -1,13 +1,3 @@
-pipeline {
-    agent any
-    
-    stages {
-        stage('Echo Message') {
-            steps {
-                script {
-                    echo 'This is storage pipeline'
-                }
-            }
-        }
-    }
-}
+@Library("Shared-library") _
+
+jenkins-test()
