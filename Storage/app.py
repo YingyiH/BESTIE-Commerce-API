@@ -36,7 +36,7 @@ RETRY_DELAY_SECONDS = RETRY['delay_seconds']
 
 def process_messages():
     """ Process event messages """
-    hostname = "%s:%d" % (KAFKA_HOST,KAFKA_PORT)
+    hostname = "%s:%d" % (KAFKA_HOST,KAFKA_HOST_PORT)
 
     # Output hostname
     print(f'Ouput: \n  hostname: {hostname}')
