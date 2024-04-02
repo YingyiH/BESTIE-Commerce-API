@@ -11,7 +11,7 @@ from starlette.middleware.cors import CORSMiddleware
 LOGGER = load_log_conf()
 KAFKA_HOST, KAFKA_PORT, KAFKA_TOPIC= load_db_conf()
 
-CLIENT = KafkaClient(hosts=f'{KAFKA_HOST}:{KAFKA_HOST_PORT}')
+CLIENT = KafkaClient(hosts=f'{KAFKA_HOST}:{KAFKA_PORT}')
 TOPIC = CLIENT.topics[str.encode(KAFKA_TOPIC)]
 
 def get_products(index):

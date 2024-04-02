@@ -1,6 +1,6 @@
 from sqlalchemy import create_engine
 from models import Base
-from database_config import load_db_conf
+from load_config import load_db_conf
 
 DATA, _, _  = load_db_conf()
 
