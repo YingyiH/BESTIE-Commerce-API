@@ -52,7 +52,7 @@ def read_data():
         data = session.query(StatCreate).order_by(
             StatCreate.last_updated.desc()).first()
         
-    if data == None:
+    if data is None:
         return {
             'num_products': 0, 
             'num_reviews': 0, 
