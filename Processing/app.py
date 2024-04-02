@@ -19,8 +19,8 @@ LOGGER = load_log_conf()
 # Populating Statistics: ------------------------------------------------------
 def populate_stats():
 
-    LOGGER.info("populating processing stas")
-    
+    LOGGER.info("Changed: populating processing stas")
+
     try:
         print("BEFORE")
         data = processing()
