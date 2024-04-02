@@ -55,7 +55,7 @@ services:
 
   storage:
     # build: ../Storage
-    image: storage
+    image: yingyi123/storage:storageImage
     ports:
       - "8090:8090"
     depends_on:
@@ -64,7 +64,7 @@ services:
 
   receiver:
     # build: ../Receiver
-    image: receiver
+    image: yingyi123/receiver:receiverImage
     ports: 
       - "8080:8080"
     depends_on:
@@ -73,7 +73,7 @@ services:
   
   processing:
     # build: ../Processing
-    image: processing
+    image: yingyi123/processing:processingImage
     network_mode: "host"
     depends_on:
       - storage
