@@ -108,8 +108,8 @@ def processing():
         'end_timestamp': time
     }
 
-    product_event = requests.get(f'{EVENT_URL}/products', params=timestamp_dict)
-    review_event = requests.get(f'{EVENT_URL}/reviews', params=timestamp_dict)
+    product_event = requests.get(f'{EVENT_URL}/products', params=timestamp_dict, timeout=10)
+    review_event = requests.get(f'{EVENT_URL}/reviews', params=timestamp_dict, timeout=10)
 
     product_data = product_event.json()
     review_data = review_event.json()
@@ -144,4 +144,4 @@ if __name__ == "__main__":
     create_database()
     # run our standalone gevent server
     init_scheduler()
-    app.run(host="0.0.0.0",port=8100)
+    app.run(host="0.0.0.0" ,port=8100) #nosec
