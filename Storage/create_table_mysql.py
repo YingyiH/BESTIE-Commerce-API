@@ -1,6 +1,7 @@
 from sqlalchemy import create_engine
 from models import Base
 from load_config import load_db_conf
+import time
 
 DATA, _, _  = load_db_conf()
 
@@ -21,4 +22,14 @@ engine = create_engine(
 
 
 def create_database():
-    Base.metadata.create_all(engine)
+    connecting = True
+    counter = 0
+    while connecting:
+        try:
+            Base.metadata.create_all(engine)
+            connecting = False
+        except Exception as e:
+            print('Failed to connect error: ', str(e))
+            print(f'Attempt {counter}')
+
+
