@@ -54,8 +54,8 @@ services:
       - my-db:/var/lib/mysql
 
   storage:
-    # build: ../Storage
-    image: yingyi123/storage:storageImage
+    build: ../Storage
+    # image: yingyi123/storage:storageImage
     ports:
       - "8090:8090"
     depends_on:
@@ -63,8 +63,8 @@ services:
       - kafka
 
   receiver:
-    # build: ../Receiver
-    image: yingyi123/receiver:receiverImage
+    build: ../Receiver
+    # image: yingyi123/receiver:receiverImage
     ports: 
       - "8080:8080"
     depends_on:
@@ -72,8 +72,8 @@ services:
           condition: service_healthy
   
   processing:
-    # build: ../Processing
-    image: yingyi123/processing:processingImage
+    build: ../Processing
+    # image: yingyi123/processing:processingImage
     network_mode: "host"
     depends_on:
       - storage
@@ -87,6 +87,7 @@ services:
           condition: service_healthy
 
   dashboard:
+    image: dashboard
     build: ../dashboard_ui/Sample_Code
     ports:
       - "3000:3000"
