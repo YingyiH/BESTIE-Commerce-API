@@ -11,8 +11,7 @@ from starlette.middleware.cors import CORSMiddleware
 LOGGER = load_log_conf()
 KAFKA_HOST, KAFKA_PORT, KAFKA_TOPIC= load_db_conf()
 
-CLIENT = KafkaClient(hosts=f'{KAFKA_HOST}:{KAFKA_PORT}')
-TOPIC = CLIENT.topics[str.encode(KAFKA_TOPIC)]
+
 
 def get_products(index):
     '''
@@ -20,7 +19,9 @@ def get_products(index):
     '''
 
     LOGGER.info(f"Retrieving get product at index: {index} ")
-    consumer = TOPIC.get_simple_consumer(reset_offset_on_start=True, consumer_timeout_ms=1000)
+    client = KafkaClient(hosts=f'{KAFKA_HOST}:{KAFKA_PORT}')
+    topic = client.topics[str.encode(KAFKA_TOPIC)]
+    consumer = topic.get_simple_consumer(reset_offset_on_start=True, consumer_timeout_ms=1000)
 
     try:
         current_index = 0
