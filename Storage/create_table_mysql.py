@@ -31,5 +31,6 @@ def create_database():
         except Exception as e:
             print('Failed to connect error: ', str(e))
             print(f'Attempt {counter}')
+            time.sleep(5)
 
 
