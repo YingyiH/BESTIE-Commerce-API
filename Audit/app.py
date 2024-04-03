@@ -11,7 +11,8 @@ from starlette.middleware.cors import CORSMiddleware
 LOGGER = load_log_conf()
 KAFKA_HOST, KAFKA_PORT, KAFKA_TOPIC= load_db_conf()
 
-
+CLIENT = KafkaClient(hosts=f'{KAFKA_HOST}:{KAFKA_PORT}')
+TOPIC = CLIENT.topics[str.encode(KAFKA_TOPIC)]
 
 def get_products(index):
     '''
@@ -19,9 +20,7 @@ def get_products(index):
     '''
 
     LOGGER.info(f"Retrieving get product at index: {index} ")
-    client = KafkaClient(hosts=f'{KAFKA_HOST}:{KAFKA_PORT}')
-    topic = client.topics[str.encode(KAFKA_TOPIC)]
-    consumer = topic.get_simple_consumer(reset_offset_on_start=True, consumer_timeout_ms=1000)
+    consumer = TOPIC.get_simple_consumer(reset_offset_on_start=True, consumer_timeout_ms=1000)
 
     try:
         current_index = 0
@@ -36,8 +35,9 @@ def get_products(index):
                 
     except:
         LOGGER.error("No more messages found")
-        LOGGER.error("Could not find get product at index %d" % index)
-        return None
+        
+    LOGGER.error("Could not find get product at index %d" % index)
+    return {"message": "Not Found"}, 404
     
 
 def get_reviews(index):
@@ -61,8 +61,9 @@ def get_reviews(index):
             
     except:
         LOGGER.error("No more messages found")
-        LOGGER.error("Could not find get review at index %d" % index)
-        return None
+        
+    LOGGER.error("Could not find get review at index %d" % index)
+    return {"message": "Not Found"}, 404
 
 # App Core Setup: ----------------------------------------------------------------
 app = FlaskApp(__name__)
@@ -79,4 +80,4 @@ app.add_middleware(
 app.add_api("./BESTIE-commerce.yaml", strict_validation=True, validate_responses=True)
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0",port=8110)
+    app.run(host="0.0.0.0",port=8110) 
