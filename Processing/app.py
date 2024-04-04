@@ -110,8 +110,8 @@ def processing():
         'end_timestamp': time
     }
 
-    product_event = requests.get(f'{EVENT_URL}/products', params=timestamp_dict, timeout=10)
-    review_event = requests.get(f'{EVENT_URL}/reviews', params=timestamp_dict, timeout=10)
+    product_event = requests.get(f'{EVENT_URL}/products', params=timestamp_dict)
+    review_event = requests.get(f'{EVENT_URL}/reviews', params=timestamp_dict)
 
     product_data = product_event.json()
     review_data = review_event.json()
