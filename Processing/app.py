@@ -30,7 +30,9 @@ def populate_stats():
         data = processing()
         print("AFTER DATA")
         write_data(data)
+
     except Exception as e:
+        LOGGER.debug("Error processing")
         LOGGER.error(str(e))
 
 # Initializing Scheduler: -----------------------------------------------------
