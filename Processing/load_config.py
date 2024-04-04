@@ -7,8 +7,8 @@ import os
 # Load configuration file:
 if "TARGET_ENV" in os.environ and os.environ["TARGET_ENV"] == "test":
     print("In Test Environment")
-    conf_app_file = "/config/processing/conf_app.yml"
-    conf_log_file = "/config/processing/conf_log.yml"
+    conf_app_file = "/config/conf_app.yml"
+    conf_log_file = "/config/conf_log.yml"
 else:
     print("In Dev Environment")
     conf_app_file = "conf_app.yml"
