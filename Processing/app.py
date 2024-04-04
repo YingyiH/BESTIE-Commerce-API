@@ -23,7 +23,7 @@ LOGGER.info("Log Conf File: %s" % LOG_CONFIG_FILE)
 # Populating Statistics: ------------------------------------------------------
 def populate_stats():
 
-    LOGGER.info("Changed: populating processing stas")
+    LOGGER.info("Changed2.0: populating processing stas")
 
     try:
         print("BEFORE")
