@@ -17,7 +17,6 @@ from starlette.middleware.cors import CORSMiddleware
 LOGGER, LOG_CONFIG_FILE = load_log_conf()
 SECONDS, EVENT_URL, APP_CONFIG_FILE = load_app_conf()
 
-LOGGER = LOGGER.getLogger('basicLogger')
 LOGGER.info("App Conf File: %s" % APP_CONFIG_FILE )
 LOGGER.info("Log Conf File: %s" % LOG_CONFIG_FILE)
 

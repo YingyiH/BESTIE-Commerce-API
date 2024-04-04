@@ -21,7 +21,6 @@ MAX_RETRIES = RETRY["max_retry"]
 RETRY_DELAY_SECONDS = RETRY["delay_seconds"]
 
 # Output configuration file info: ---------------------------------------------
-LOGGER = LOGGER.getLogger('basicLogger')
 LOGGER.info("App Conf File: %s" % APP_CONFIG_FILE )
 LOGGER.info("Log Conf File: %s" % LOG_CONFIG_FILE)
 
