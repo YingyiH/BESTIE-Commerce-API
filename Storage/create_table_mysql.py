@@ -3,7 +3,7 @@ from models import Base
 from load_config import load_app_conf
 import time
 
-DATA, _, _  = load_app_conf()
+DATA, _, _, _  = load_app_conf()
 
 # DATABASE VARIABLES
 USER = DATA['user']
@@ -17,8 +17,6 @@ engine = create_engine(
     f"mysql+pymysql://{USER}:{PASSWORD}@{HOST}:{PORT}/{DB}", 
     echo=True
 )
-
-# engine = create_engine(f'mysql+pymysql://{USER}:{PASSWORD}@{HOST}:{PORT}/{DB}', echo=True)
 
 
 def create_database():
