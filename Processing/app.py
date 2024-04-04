@@ -33,7 +33,7 @@ def populate_stats():
 
     except Exception as e:
         LOGGER.debug("Error processing")
-        LOGGER.error(str(e))
+        # LOGGER.error(str(e))
 
 # Initializing Scheduler: -----------------------------------------------------
 def init_scheduler():
