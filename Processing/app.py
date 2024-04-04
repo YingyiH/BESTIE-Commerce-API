@@ -45,7 +45,7 @@ def init_scheduler():
     # return sched, app_config, EVENT_URL
     return sched, EVENT_URL
 
-SCHEDULED, _,EVENT_URL = init_scheduler()
+SCHEDULED, EVENT_URL = init_scheduler()
 
 
 # Read Statistics Data: -----------------------------------------------------------------

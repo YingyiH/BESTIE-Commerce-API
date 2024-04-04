@@ -2,7 +2,6 @@ from connexion import FlaskApp, NoContent
 import json
 from load_config import load_log_conf, load_app_conf
 from pykafka import KafkaClient
-from pykafka.common import OffsetType 
 from connexion.middleware import MiddlewarePosition
 from starlette.middleware.cors import CORSMiddleware
 
