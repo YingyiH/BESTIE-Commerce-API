@@ -1,11 +1,21 @@
 from sqlalchemy import create_engine
 from models import Base
-from database_config import load_db_conf
+from load_config import load_app_conf
 
-USER, PASSWORD, HOST, PORT, DB, KAFKA_HOST, KAFKA_PORT, KAFKA_TOPIC= load_db_conf()
+DATA, _, _, _  = load_app_conf()
 
-engine = create_engine(f'mysql+pymysql://{USER}:{PASSWORD}@{HOST}:{PORT}/{DB}', echo=True)
+# DATABASE VARIABLES
+USER = DATA['user']
+PASSWORD = DATA['password']
+HOST = DATA['hostname']
+PORT = DATA['port']
+DB = DATA['db']
 
+# Modify the create_engine function call to adjust connection pooling options
+engine = create_engine(
+    f"mysql+pymysql://{USER}:{PASSWORD}@{HOST}:{PORT}/{DB}", 
+    echo=True
+)
 
 def drop_database():
     Base.metadata.drop_all(engine)

@@ -2,9 +2,6 @@ FROM python:3.11
 
 LABEL maintainer="hedoris8@gmail.com"
 
-# Using VM configuration file
-ENV TARGET_ENV=test
-
 WORKDIR /Receiver/
 
 COPY . .
