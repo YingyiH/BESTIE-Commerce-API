@@ -119,8 +119,13 @@ def processing():
     LOGGER.info(f'Received {len(product_data)} products and {len(review_data)} reviews.')
     
     # updates data inplace
-    product_processing(product_data, old_data)
-    review_processing(review_data, old_data)
+    try:
+        LOGGER.info(f'{product_data} products and {len(review_data)} reviews')
+        product_processing(product_data, old_data)
+        review_processing(review_data, old_data)
+    except Exception as e:
+        LOGGER.error(f'ERROR processing: {str(e)}')
+
     LOGGER.info("Finished processing")
 
     LOGGER.debug(f'Updated statistic values: {old_data}')
