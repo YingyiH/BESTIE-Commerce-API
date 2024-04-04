@@ -22,17 +22,14 @@ LOGGER.info("Log Conf File: %s" % LOG_CONFIG_FILE)
 
 # Populating Statistics: ------------------------------------------------------
 def populate_stats():
+    # try:
+    print("BEFORE")
+    data = processing()
+    print("AFTER DATA")
+    write_data(data)
 
-    LOGGER.info("Changed2.0: populating processing stas")
-
-    try:
-        print("BEFORE")
-        data = processing()
-        print("AFTER DATA")
-        write_data(data)
-
-    except Exception as e:
-        LOGGER.debug("Error processing")
+    # except Exception as e:
+    #     LOGGER.debug("Error processing")
         # LOGGER.error(str(e))
 
 # Initializing Scheduler: -----------------------------------------------------
@@ -95,7 +92,6 @@ def get_stats():
     data = read_data()
 
     if data['num_products'] <= 0 and data['num_reviews'] <= 0:
-
         LOGGER.error('Empty input')
         return 'Statistics do not exist', 404
     
