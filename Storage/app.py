@@ -8,7 +8,7 @@ from models import Base
 from product_create import ProductCreate
 from product_review import CommentCreate
 from create_table_mysql import create_database, engine
-from load_config import load_log_conf, load_db_conf
+from load_config import load_log_conf, load_app_conf
 from pykafka import KafkaClient
 import json
 from pykafka.common import OffsetType 
@@ -17,8 +17,8 @@ from connexion.middleware import MiddlewarePosition
 from starlette.middleware.cors import CORSMiddleware
 
 # Define configration settings by configuration file: -------------------------
-LOGGER = load_log_conf()
-DATA, EVENT, RETRY  = load_db_conf()
+LOGGER, LOG_CONFIG_FILE = load_log_conf()
+DATA, EVENT, RETRY, APP_CONFIG_FILE  = load_app_conf()
 
 # Define global variables: ----------------------------------------------------
 # DATABASE VARIABLES
@@ -34,6 +34,11 @@ KAFKA_TOPIC = EVENT['topic']
 # KAFKA RETRY VARIABLES
 MAX_RETRIES = RETRY['max_retry']
 RETRY_DELAY_SECONDS = RETRY['delay_seconds']
+
+
+LOGGER = LOGGER.getLogger('basicLogger')
+LOGGER.info("App Conf File: %s" % APP_CONFIG_FILE )
+LOGGER.info("Log Conf File: %s" % LOG_CONFIG_FILE)
 
 # ----------------------------------------------------------------
 def process_messages():

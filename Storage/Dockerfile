@@ -2,6 +2,9 @@ FROM python:3.11
 
 LABEL maintainer="hedoris8@gmail.com"
 
+# Using VM configuration file
+TARGET_ENV=test
+
 WORKDIR /Storage/
 
 COPY . .

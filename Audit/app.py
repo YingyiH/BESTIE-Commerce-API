@@ -1,15 +1,18 @@
 from connexion import FlaskApp, NoContent
 import json
-from load_config import load_log_conf
-from database_config import load_db_conf
+from load_config import load_log_conf, load_app_conf
 from pykafka import KafkaClient
 from pykafka.common import OffsetType 
 from connexion.middleware import MiddlewarePosition
 from starlette.middleware.cors import CORSMiddleware
 
 # Define configration settings by configuration file: -------------------------
-LOGGER = load_log_conf()
-KAFKA_HOST, KAFKA_PORT, KAFKA_TOPIC= load_db_conf()
+LOGGER, LOG_CONFIG_FILE = load_log_conf()
+KAFKA_HOST, KAFKA_PORT, KAFKA_TOPIC, APP_CONFIG_FILE = load_app_conf()
+
+LOGGER = LOGGER.getLogger('basicLogger')
+LOGGER.info("App Conf File: %s" % APP_CONFIG_FILE )
+LOGGER.info("Log Conf File: %s" % LOG_CONFIG_FILE)
 
 CLIENT = KafkaClient(hosts=f'{KAFKA_HOST}:{KAFKA_PORT}')
 TOPIC = CLIENT.topics[str.encode(KAFKA_TOPIC)]

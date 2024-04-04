@@ -1,6 +1,6 @@
 import requests
 from connexion import FlaskApp
-from load_config import load_log_conf
+from load_config import load_log_conf, load_app_conf
 from sqlalchemy.orm import Session
 from create_datebase import engine, create_database
 from stat_create import StatCreate
@@ -14,7 +14,12 @@ from connexion.middleware import MiddlewarePosition
 from starlette.middleware.cors import CORSMiddleware
 
 # Define configration settings by configuration file: -------------------------
-LOGGER = load_log_conf()
+LOGGER, LOG_CONFIG_FILE = load_log_conf()
+SECONDS, EVENT_URL, APP_CONFIG_FILE = load_app_conf()
+
+LOGGER = LOGGER.getLogger('basicLogger')
+LOGGER.info("App Conf File: %s" % APP_CONFIG_FILE )
+LOGGER.info("Log Conf File: %s" % LOG_CONFIG_FILE)
 
 # Populating Statistics: ------------------------------------------------------
 def populate_stats():
@@ -32,17 +37,14 @@ def populate_stats():
 # Initializing Scheduler: -----------------------------------------------------
 def init_scheduler():
     
-    with open('conf_app.yml', 'r') as f:
-        app_config = yaml.safe_load(f.read())
-    
     populate_stats_variables = populate_stats
 
     sched = BackgroundScheduler(daemon=True)
-    sched.add_job(populate_stats_variables, 'interval', seconds= app_config['scheduler']['period_sec'])
+    sched.add_job(populate_stats_variables, 'interval', seconds= SECONDS)
     sched.start()
-    event_url = app_config['eventstore']['url']
 
-    return sched, app_config, event_url
+    # return sched, app_config, EVENT_URL
+    return sched, EVENT_URL
 
 SCHEDULED, _,EVENT_URL = init_scheduler()
 

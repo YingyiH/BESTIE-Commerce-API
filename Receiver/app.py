@@ -9,8 +9,8 @@ from connexion.middleware import MiddlewarePosition
 from starlette.middleware.cors import CORSMiddleware
 
 # Define configration settings by configuration file: -------------------------
-LOGGER = load_log_conf()
-EVENTSTORE, EVENT, RETRY = load_app_conf()
+LOGGER, LOG_CONFIG_FILE = load_log_conf()
+EVENTSTORE, EVENT, RETRY, APP_CONFIG_FILE = load_app_conf()
 
 # Define global variables: ----------------------------------------------------
 KAFKA_HOST = EVENT["hostname"]
@@ -19,6 +19,11 @@ KAFKA_TOPIC = EVENT["topic"]
 
 MAX_RETRIES = RETRY["max_retry"]
 RETRY_DELAY_SECONDS = RETRY["delay_seconds"]
+
+# Output configuration file info: ---------------------------------------------
+LOGGER = LOGGER.getLogger('basicLogger')
+LOGGER.info("App Conf File: %s" % APP_CONFIG_FILE )
+LOGGER.info("Log Conf File: %s" % LOG_CONFIG_FILE)
 
 # Kafka Setup: ----------------------------------------------------------------
 def retry_logic():

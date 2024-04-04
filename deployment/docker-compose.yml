@@ -58,6 +58,11 @@ services:
     # image: yingyi123/storage:storageImage
     ports:
       - "8090:8090"
+    # Add environment and volumes for config
+    environment: 
+      - TARGET_ENV=test
+    volumes:
+      - /home/yhe/config/storage:/config
     depends_on:
       - db
       - kafka
@@ -67,14 +72,25 @@ services:
     # image: yingyi123/receiver:receiverImage
     ports: 
       - "8080:8080"
+    # Add environment and volumes for config
+    environment: 
+      - TARGET_ENV=test
+    volumes:
+      - /home/yhe/config/receiver:/config
     depends_on:
       kafka:
           condition: service_healthy
+
   
   processing:
     build: ../Processing
     # image: yingyi123/processing:processingImage
     network_mode: "host"
+    # Add environment and volumes for config
+    environment: 
+      - TARGET_ENV=test
+    volumes:
+      - /home/yhe/config/processing:/config
     depends_on:
       - storage
 
@@ -82,6 +98,11 @@ services:
     build: ../Audit
     ports:
       - "8110:8110"
+    # Add environment and volumes for config
+    environment: 
+      - TARGET_ENV=test
+    volumes:
+      - /home/yhe/config/audit_log:/config
     depends_on:
       kafka:
           condition: service_healthy
