@@ -3,7 +3,7 @@ from load_config import load_log_conf
 LOGGER = load_log_conf()
 
 def product_processing(data, old_data):
-    print('DATATATATT', data, old_data)
+    # print('DATATATATT', data, old_data)
     if len(data) == 0:
         return 
     new_num_products = old_data['num_products'] + len(data)
