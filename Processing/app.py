@@ -146,8 +146,10 @@ app.add_middleware(
 app.add_api("./openai.yml", strict_validation=True, validate_responses=True)
 
 if __name__ == "__main__":
+    print("NOT YET CREATED DATABASE--------------------------------")
     # create database
     create_database()
+    print("CREATED DATABASE--------------------------------")
     # run our standalone gevent server
     init_scheduler()
     app.run(host="0.0.0.0" ,port=8100) #nosec
