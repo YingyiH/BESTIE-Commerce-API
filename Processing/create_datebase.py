@@ -15,9 +15,6 @@ else:
 
 with open(conf_app_file, 'r') as f:
     app_config = yaml.safe_load(f.read())
-    seconds= app_config['scheduler']['period_sec']
-    event_url = app_config['eventstore']['url']
-    app_conf_file = conf_app_file
 
 DATABASE = app_config['datastore']['filename']
 
