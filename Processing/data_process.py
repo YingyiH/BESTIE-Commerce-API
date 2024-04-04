@@ -11,7 +11,7 @@ def product_processing(data, old_data):
     new_num_onsale_products = old_data['num_onsale_products']
 
     for product in data:
-        LOGGER.debug(f"Processing product event: {product['trace_id']}")
+        LOGGER.info(f"Processing product event: {product['trace_id']}")
 
         if product['price'] > new_max_price:
             new_max_price = product['price']
