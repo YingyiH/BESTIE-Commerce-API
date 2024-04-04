@@ -18,7 +18,6 @@ engine = create_engine(
     echo=True
 )
 
-
 def create_database():
     connecting = True
     counter = 0
