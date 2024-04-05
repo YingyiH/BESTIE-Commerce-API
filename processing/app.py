@@ -25,12 +25,12 @@ LOGGER.info("Log Conf File: %s" % LOG_CONFIG_FILE)
 # Function to send message to Kafka
 def send_message(event_type):
     # Prepare message
-    event_log_producer = None
+    producer = None
 
     msg_data = {'event_type': event_type}
     msg_str = json.dumps(msg_data)
 
-    event_log_producer.produce(msg_str.encode('utf-8'))
+    producer.produce(msg_str.encode('utf-8'))
 
 
 # Populating Statistics: ------------------------------------------------------
