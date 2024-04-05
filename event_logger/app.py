@@ -90,7 +90,8 @@ def get_event(event_type):
     LOGGER.info(f"Received event type: {event_type}, Message Code: {tb['msg_code']}")
     return tb
 
-def write_data(tb):
+def write_data(body):
+
     with Session(engine) as session:
         # Check if the record with the same message code exists
         existing_record = session.query(MsgCreate).filter(MsgCreate.msg_code == tb['msg_code']).first()
@@ -100,8 +101,14 @@ def write_data(tb):
             existing_record.msg_string = f'{existing_record.msg_code} Events Logged: {existing_record.event_num}'
         else:
             # If the record doesn't exist, create a new record
-            data = MsgCreate(tb)
-            session.add(data)
+
+            data = MsgCreate(
+                body['msg_id'],
+                body['msg_code'],
+                body['event_num'],
+                body['msg_string']
+            )
+        session.add(data)
         session.commit()
 
 

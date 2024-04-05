@@ -13,11 +13,11 @@ class MsgCreate(Msg):
         self.last_updated = datetime.now()
 
     def to_dict(self):
-        dict = {}
-        dict['msg_id'] = self. msg_id
-        dict['msg_code'] = self.msg_code
-        dict['event_num'] = self.event_num
-        dict['msg_string'] = self.msg_string
-        dict['last_updated'] = self.last_updated
+        dicti = {}
+        dicti['msg_id'] = self. msg_id
+        dicti['msg_code'] = self.msg_code
+        dicti['event_num'] = self.event_num
+        dicti['msg_string'] = self.msg_string
+        dicti['last_updated'] = self.last_updated
 
-        return dict
+        return dicti
