@@ -23,8 +23,6 @@ services:
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
       KAFKA_LOG_DIRS: /kafka/kafka-logs
       KAFKA_BROKER_ID: 1
-      # One partition and one replica
-      KAFKA_CREATE_TOPICS: "events:1:1" 
     volumes:
       - docker_sock_db:/var/run/docker.sock
       - kafka_db:/kafka/kafka-logs
