@@ -94,7 +94,7 @@ def write_data(body):
 
     with Session(engine) as session:
         # Check if the record with the same message code exists
-        existing_record = session.query(MsgCreate).filter(MsgCreate.msg_code == tb['msg_code']).first()
+        existing_record = session.query(MsgCreate).filter(MsgCreate.msg_code == body['msg_code']).first()
         if existing_record:
             # If the record exists, update the event_num column
             existing_record.event_num += 1
