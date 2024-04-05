@@ -41,7 +41,6 @@ def init_scheduler():
     sched.add_job(populate_stats_variables, 'interval', seconds= SECONDS)
     sched.start()
 
-    # return sched, app_config, EVENT_URL
     return sched, EVENT_URL
 
 SCHEDULED, EVENT_URL = init_scheduler()
@@ -85,7 +84,6 @@ def write_data(body):
 
 # Endpoint to Get Statistics: ------------------------------------------------------------
 def get_stats():
-    # Periodically update stats readings
     
     LOGGER.info('Received product and review event request.')
 
@@ -119,12 +117,12 @@ def processing():
     LOGGER.info(f'Received {len(product_data)} products and {len(review_data)} reviews.')
     
     # updates data inplace
-    try:
-        LOGGER.info(f'{product_data} products and {len(review_data)} reviews')
-        product_processing(product_data, old_data)
-        review_processing(review_data, old_data)
-    except Exception as e:
-        LOGGER.error(f'ERROR processing: {str(e)}')
+    # try:
+    LOGGER.info(f'{product_data} products and {len(review_data)} reviews')
+    product_processing(product_data, old_data)
+    review_processing(review_data, old_data)
+    # except Exception as e:
+    #     LOGGER.error(f'ERROR processing: {str(e)}')
 
     LOGGER.info("Finished processing")
 
