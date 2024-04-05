@@ -1,6 +1,6 @@
 from load_config import load_log_conf
 
-LOGGER = load_log_conf()
+LOGGER, _ = load_log_conf()
 
 def product_processing(data, old_data):
     print('DATATATATT', data, old_data)
@@ -11,7 +11,7 @@ def product_processing(data, old_data):
     new_num_onsale_products = old_data['num_onsale_products']
 
     for product in data:
-        # LOGGER.info(f"Processing product event: {product['trace_id']}")
+        LOGGER.info(f"Processing product event: {product['trace_id']}")
 
         if product['price'] > new_max_price:
             new_max_price = product['price']

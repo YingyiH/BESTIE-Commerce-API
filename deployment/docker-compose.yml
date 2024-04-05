@@ -43,12 +43,9 @@ services:
       - MYSQL_USER=user
       - MYSQL_PASSWORD=password
     ports:
-    # <Port exposed> : < MySQL Port running inside container>
       - '3306:3306'
     expose:
-    # Opens port 3306 on the container
       - '3306'
-    # Where our data will be persisted
     volumes:
       - my-db:/var/lib/mysql
 
@@ -57,7 +54,6 @@ services:
     # image: yingyi123/storage:storageImage
     ports:
       - "8090:8090"
-    # Add environment and volumes for config
     environment: 
       - TARGET_ENV=test
     volumes:
@@ -72,7 +68,6 @@ services:
     # image: yingyi123/receiver:receiverImage
     ports: 
       - "8080:8080"
-    # Add environment and volumes for config
     environment: 
       - TARGET_ENV=test
     volumes:
@@ -87,7 +82,6 @@ services:
     build: ../processing
     # image: yingyi123/processing:processingImage
     network_mode: "host"
-    # Add environment and volumes for config
     environment: 
       - TARGET_ENV=test
     volumes:
@@ -101,7 +95,6 @@ services:
     build: ../audit_log
     ports:
       - "8110:8110"
-    # Add environment and volumes for config
     environment: 
       - TARGET_ENV=test
     volumes:
