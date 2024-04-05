@@ -65,8 +65,10 @@ def process_messages():
 
 def process_message(msg_data):
     event_type = msg_data.get('event_type')
+    print(f'THIS IS EVENT TYPE: {event_type}')
     if event_type:
         tb = get_event(event_type)
+        print(f'THIS IS TABLE: {tb}')
         write_data(tb)
 
 def get_event(event_type):
@@ -101,7 +103,6 @@ def write_data(body):
             existing_record.msg_string = f'{existing_record.msg_code} Events Logged: {existing_record.event_num}'
         else:
             # If the record doesn't exist, create a new record
-
             data = MsgCreate(
                 body['msg_id'],
                 body['msg_code'],
