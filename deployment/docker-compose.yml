@@ -124,7 +124,7 @@ services:
 
   event_logger:
     build: ../event_logger
-    port:
+    ports:
       - '8120:8120'
     environment:
       - TARGET_ENV=test
