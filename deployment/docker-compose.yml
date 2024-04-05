@@ -23,6 +23,8 @@ services:
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
       KAFKA_LOG_DIRS: /kafka/kafka-logs
       KAFKA_BROKER_ID: 1
+      # One partition and one replica
+      KAFKA_CREATE_TOPICS: "events:1:1" 
     volumes:
       - docker_sock_db:/var/run/docker.sock
       - kafka_db:/kafka/kafka-logs
@@ -33,6 +35,15 @@ services:
       interval: 5s
       timeout: 10s
       retries: 5
+
+  # # One partition and one replica
+  # kafka_init:
+  #   image: confluentinc/cp-kafka:latest
+  #   command:
+  #     "kafka_topics.sh --create --topic event_log --partitions 1 --replication-factor 1 --if-not-exists --bootstrap-server kafka:9092"
+  #   depends_on:
+  #     kafka:
+  #         condition: service_healthy
 
   db:
     image: mysql:5.7
@@ -112,6 +123,20 @@ services:
     depends_on:
       - processing
       - audit
+
+  event_logger:
+    build: ../event_logger
+    port:
+      - '8120:8120'
+    environment:
+      - TARGET_ENV=test
+    volumes:
+      - audit_db:/var/db
+      - /home/yhe/config/event_logger:/config
+      - /home/yhe/logs:/logs
+    depends_on:
+      kafka:
+          condition: service_healthy
       
 # Names our volume
 volumes:

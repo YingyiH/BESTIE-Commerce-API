@@ -38,6 +38,9 @@ def retry_logic():
         try:
             client = KafkaClient(hosts=f'{KAFKA_HOST}:{KAFKA_HOST_PORT}')
             topic = client.topics[str.encode(KAFKA_TOPIC)]
+            msg = { "event_type": "receiver"}
+            msg_str = json.dumps(msg)
+            producer.produce(msg_str.encode('utf-8'))
             producer =  topic.get_sync_producer()
             LOGGER.info("Connected to Kafka")
             return producer

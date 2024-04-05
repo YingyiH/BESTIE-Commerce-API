@@ -3,7 +3,6 @@ import logging.config
 import yaml
 import os
 
-
 # Load configuration file:
 if "TARGET_ENV" in os.environ and os.environ["TARGET_ENV"] == "test":
     print("In Test Environment")
@@ -16,18 +15,17 @@ else:
 
 # Read configuration file:
 def load_app_conf():
-
     with open(conf_app_file, 'r') as f:
-        app_config = yaml.safe_load(f.read())
-        seconds= app_config['scheduler']['period_sec']
-        event_url = app_config['eventstore']['url']
-        default = app_config['default']
+        conf_app = yaml.safe_load(f.read())
+        data = conf_app['datastore']
+        event = conf_app['events']
+        retry_logs = conf_app['retry_logs']
+        default = conf_app['default']
         app_conf_file = conf_app_file
 
-    return seconds, event_url, default, app_conf_file 
+    return data, event, retry_logs, default, app_conf_file
 
 def load_log_conf():
-
     with open(conf_log_file, 'r') as f:
         log_config = yaml.safe_load(f.read())
         logging.config.dictConfig(log_config)

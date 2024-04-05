@@ -12,18 +12,31 @@ from models import Stat
 from uuid import uuid4
 from connexion.middleware import MiddlewarePosition
 from starlette.middleware.cors import CORSMiddleware
+import json
 
 # Define configration settings by configuration file: -------------------------
 LOGGER, LOG_CONFIG_FILE = load_log_conf()
-SECONDS, EVENT_URL, APP_CONFIG_FILE = load_app_conf()
+SECONDS, EVENT_URL, DEFAULT_COUNT, APP_CONFIG_FILE = load_app_conf()
 
 LOGGER.info("App Conf File: %s" % APP_CONFIG_FILE )
 LOGGER.info("Log Conf File: %s" % LOG_CONFIG_FILE)
+
+# Function to send message to Kafka
+def send_message(event_type):
+    # Prepare message
+    event_log_producer = None
+
+    msg_data = {'event_type': event_type}
+    msg_str = json.dumps(msg_data)
+
+    event_log_producer.produce(msg_str.encode('utf-8'))
+
 
 # Populating Statistics: ------------------------------------------------------
 def populate_stats():
     try:
         print("BEFORE PROCESSING")
+        send_message("processor_startup")
         data = processing()
         print("AFTER PROCESSING")
         write_data(data)
@@ -92,6 +105,8 @@ def get_stats():
     if data['num_products'] <= 0 and data['num_reviews'] <= 0:
         LOGGER.error('Empty input')
         return 'Statistics do not exist', 404
+    if data['num_products'] + data['num_reviews'] >= DEFAULT_COUNT:
+        send_message("processor_more")
     
     LOGGER.debug(f'GET event requests returns: {data}')
     LOGGER.info('GET stats request completed')
@@ -146,7 +161,6 @@ app.add_api("./openai.yml", strict_validation=True, validate_responses=True)
 
 if __name__ == "__main__":
     print("NOT YET CREATED DATABASE--------------------------------")
-    # create database
     create_database()
     print("CREATED DATABASE--------------------------------")
     # run our standalone gevent server
