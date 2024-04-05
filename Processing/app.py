@@ -22,15 +22,15 @@ LOGGER.info("Log Conf File: %s" % LOG_CONFIG_FILE)
 
 # Populating Statistics: ------------------------------------------------------
 def populate_stats():
-    # try:
-    print("BEFORE")
-    data = processing()
-    print("AFTER DATA")
-    write_data(data)
+    try:
+        print("BEFORE PROCESSING")
+        data = processing()
+        print("AFTER PROCESSING")
+        write_data(data)
 
-    # except Exception as e:
-    #     LOGGER.debug("Error processing")
-        # LOGGER.error(str(e))
+    except Exception as e:
+        LOGGER.debug("Error processing")
+        LOGGER.error(str(e))
 
 # Initializing Scheduler: -----------------------------------------------------
 def init_scheduler():

@@ -53,7 +53,7 @@ services:
       - my-db:/var/lib/mysql
 
   storage:
-    # build: ../Storage
+    # build: ../storage
     image: yingyi123/storage:storageImage
     ports:
       - "8090:8090"
@@ -68,7 +68,7 @@ services:
       - kafka
 
   receiver:
-    # build: ../Receiver
+    # build: ../receiver
     image: yingyi123/receiver:receiverImage
     ports: 
       - "8080:8080"
@@ -84,7 +84,7 @@ services:
 
   
   processing:
-    # build: ../Processing
+    # build: ../processing
     image: yingyi123/processing:processingImage
     network_mode: "host"
     # Add environment and volumes for config
@@ -98,7 +98,7 @@ services:
       - storage
 
   audit:
-    build: ../Audit
+    build: ../audit_log
     ports:
       - "8110:8110"
     # Add environment and volumes for config
