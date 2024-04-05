@@ -46,6 +46,7 @@ def process_messages():
     '''
 
     hostname = "%s:%d" % (KAFKA_HOST,KAFKA_HOST_PORT)
+    producer = None  # Initialize producer here
 
     # Output hostname
     print(f'Ouput: \n  hostname: {hostname}')

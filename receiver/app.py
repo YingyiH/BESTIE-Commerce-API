@@ -33,6 +33,7 @@ def retry_logic():
     (Kafka server as a receiver receives data and sends it to database)
     '''
     current_retry = 0
+    producer = None  # Initialize producer
 
     while current_retry < MAX_RETRIES:
         try:
@@ -43,7 +44,6 @@ def retry_logic():
             producer.produce(msg_str.encode('utf-8'))
             producer =  topic.get_sync_producer()
             LOGGER.info("Connected to Kafka")
-            return producer
         except Exception as e:
             LOGGER.error(f"Failed to connect to Kafka (retry {current_retry + 1}/{MAX_RETRIES}): {e}")
             time.sleep(RETRY_DELAY_SECONDS)
@@ -52,7 +52,8 @@ def retry_logic():
     if current_retry == MAX_RETRIES:
         LOGGER.error("Max retries reached. Exiting.")
 
-        
+    return producer
+
 producer = retry_logic()
 LOGGER.info(f'Producer: {producer}')
 
