@@ -67,52 +67,63 @@ def process_message(msg_data):
     event_type = msg_data.get('event_type')
     print(f'THIS IS EVENT TYPE: {event_type}')
     if event_type:
-        tb = get_event(event_type)
-        print(f'THIS IS TABLE: {tb}')
-        write_data(tb)
+        old_data = read_data(event_type)
+        write_data(old_data)
 
-def get_event(event_type):
-    # Default values
-    tb = {
-        'msg_id': str(uuid4()),
-        'msg_code': 'x',
-        'event_num': 0,
-        'msg_string': 'no message'
-    }
-
-    if event_type == 'receiver':
-        tb['msg_code'] = '0001'
-    elif event_type == 'storage':
-        tb['msg_code'] = '0002'
-    elif event_type == 'processor_startup':
-        tb['msg_code'] = '0003'
-    elif event_type == 'processor_more':
-        tb['msg_code'] = '0004'
-
-    LOGGER.info(f"Received event type: {event_type}, Message Code: {tb['msg_code']}")
-    return tb
-
-def write_data(body):
+def read_data(event_type):
+    
+    data = None
 
     with Session(engine) as session:
+        data = session.query(MsgCreate).order_by(
+            MsgCreate.last_updated.desc()).first()
+    if data is None:
+        return {
+            'msg_code': 'x',
+            'event_num': 0,
+            'msg_string': 'no message',
+            'last_updated': datetime.fromtimestamp(0) # datatime.now() - timedelta(100.0)
+        } 
+    else:
+        print(f"THIS IS DATA ITEM: {data.msg_code, data.event_num, data.msg_string}")
+        if event_type == 'receiver':
+            data.msg_code = '0001'
+        elif event_type == 'storage':
+            data.msg_code = '0002'
+        elif event_type == 'processor_startup':
+            data.msg_code = '0003'
+        elif event_type == 'processor_more':
+            data.msg_code = '0004'
+
+        LOGGER.info(f"Received event type: {event_type}, Message Code: {data.msg_code}")
+        return data.to_dict()
+    
+
+def write_data(body):
+    with Session(engine) as session:
         # Check if the record with the same message code exists
-        existing_record = session.query(MsgCreate).filter(MsgCreate.msg_code == body['msg_code']).first()
-        if existing_record:
-            # If the record exists, update the event_num column
-            existing_record.event_num += 1
-            existing_record.msg_string = f'{existing_record.msg_code} Events Logged: {existing_record.event_num}'
-        else:
-            # If the record doesn't exist, create a new record
-            data = MsgCreate(
-                body['msg_id'],
-                body['msg_code'],
-                body['event_num'],
-                body['msg_string']
-            )
+        body = session.query(MsgCreate).filter(MsgCreate.msg_code == body['msg_code']).first()
+        body.msg_id = str(uuid4())
+        print(f"THIS IS EXISTING RECORD MSG CODE: {body.msg_code}")
+        # body['msg_id'] = str(uuid4())
+        # If the record exists, update the event_num column
+        # existing_record.event_num += 1
+        # existing_record.msg_string = f'{existing_record.msg_code} Events Logged: {existing_record.event_num}'
+        body.event_num += 1
+        body.msg_string = f"{body.msg_code} Events Logged: {body.event_num}"
+        print(f"MESSAGE SRING: {body.msg_string}")
+
+        data = MsgCreate(
+            body.msg_id,
+            body.msg_code,
+            body.event_num,
+            body.msg_string
+        )
+        print(f'THIS IS DATA: {data}')
         session.add(data)
         session.commit()
 
-
+# --------------------------------------------------------------------------------------------------------------------
 app = connexion.FlaskApp(__name__, specification_dir='')
 app.add_api("openai.yml", strict_validation=True, validate_responses=True)
 
