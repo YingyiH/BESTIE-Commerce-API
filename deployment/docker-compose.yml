@@ -129,7 +129,7 @@ services:
     environment:
       - TARGET_ENV=test
     volumes:
-      - audit_db:/var/db
+      - log_db:/var/db
       - /home/yhe/config/event_logger:/config
       - /home/yhe/logs:/logs
     depends_on:
@@ -143,3 +143,4 @@ volumes:
   kafka_db:
   docker_sock_db:
   processing-db:
+  log_db:
