@@ -2,7 +2,7 @@ FROM python:3.11
 
 LABEL maintainer="hedoris8@gmail.com"
 
-WORKDIR /event_log/
+WORKDIR /event_logger/
 
 COPY . .
 
