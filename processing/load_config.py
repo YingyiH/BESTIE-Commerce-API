@@ -21,7 +21,7 @@ def load_app_conf():
         app_config = yaml.safe_load(f.read())
         seconds= app_config['scheduler']['period_sec']
         event_url = app_config['eventstore']['url']
-        default = app_config['default']
+        default = app_config['default']['config_value']
         app_conf_file = conf_app_file
 
     return seconds, event_url, default, app_conf_file 

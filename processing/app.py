@@ -16,9 +16,8 @@ import json
 
 # Define configration settings by configuration file: -------------------------
 LOGGER, LOG_CONFIG_FILE = load_log_conf()
-SECONDS, EVENT_URL, DEFAULT, APP_CONFIG_FILE = load_app_conf()
+SECONDS, EVENT_URL, DEFAULT_COUNT, APP_CONFIG_FILE = load_app_conf()
 
-DEFAULT_COUNT = DEFAULT['config_value']
 
 LOGGER.info("App Conf File: %s" % APP_CONFIG_FILE )
 LOGGER.info("Log Conf File: %s" % LOG_CONFIG_FILE)
