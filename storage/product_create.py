@@ -8,7 +8,6 @@ class ProductCreate(Product):
         self.price = price
         self.onsale = onsale
         self.description = description
-        # self.date_updated = datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%S.%f")
         self.date_created = datetime.datetime.now()
         self.trace_id = trace_id
         
@@ -20,7 +19,6 @@ class ProductCreate(Product):
         dict['price'] = self.price
         dict['onsale'] = self.onsale
         dict['description'] = self.description
-        # dict['date_updated'] = self.date_updated
         dict['date_created'] = self.date_created
         dict['trace_id'] = self.trace_id
 
