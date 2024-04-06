@@ -38,6 +38,8 @@ RETRY_DELAY_SECONDS = RETRY['delay_seconds']
 
 LOGGER.info("App Conf File: %s" % APP_CONFIG_FILE )
 LOGGER.info("Log Conf File: %s" % LOG_CONFIG_FILE)
+event_log_producer = None
+producer = None
 
 # ----------------------------------------------------------------
 def process_messages():
@@ -45,6 +47,7 @@ def process_messages():
     TODO: This is a function to process Kafka messages
           (Kafka server as a receiver receives data and sends it to database)
     '''
+    global event_log_producer, producer
 
     hostname = "%s:%d" % (KAFKA_HOST,KAFKA_HOST_PORT)
     producer = None  # Initialize producer here
@@ -98,8 +101,6 @@ def process_messages():
     
     return producer, event_log_producer
 
-producer, event_log_producer = process_messages()
-LOGGER.info(f'Producer: {producer}, EVENT_LOG_PRODUCER: {event_log_producer}')
 # Function to read request: ----------------------------------------------------------------
 def get_products(start_timestamp, end_timestamp):
     '''
