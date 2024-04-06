@@ -35,12 +35,10 @@ def process_messages():
     '''
 
     hostname = "%s:%d" % (KAFKA_HOST,KAFKA_HOST_PORT)
-    # client = KafkaClient(hosts=hostname)
-    # topic = client.topics[str.encode(EVENT_LOGGER_TOPIC)]
-    # LOGGER.info("Connected to Kafka")
 
     current_retry = 0
     consumer = None
+
     while current_retry < MAX_RETRIES:
         try:
             client = KafkaClient(hosts=hostname)
@@ -56,8 +54,6 @@ def process_messages():
     if current_retry == MAX_RETRIES:
         LOGGER.error("Max retries reached. Exiting.")
         return
-    
-    # consumer = topic.get_simple_consumer(consumer_group=b'event_group', reset_offset_on_start=False, auto_offset_reset=OffsetType.LATEST)
 
     for msg in consumer:
         msg_str = msg.value.decode('utf-8')
@@ -83,35 +79,32 @@ def read_data(msg_code):
     if data is None:
         data = {
             'msg_code': msg_code,
-            'event_num': 1,
             'msg_string': 'no message',
-            'last_updated': datetime.fromtimestamp(0) # datatime.now() - timedelta(100.0)
+            'last_updated': datetime.fromtimestamp(0)
         } 
-        print(f"THIS IS DATA ITEM: {data.msg_code, data.event_num, data.msg_string}")
-        return data.to_dict()
+        print(f"THIS IS DATA ITEM: {data}")
     else:
-        print(f"THIS IS DATA ITEM: {data.msg_code, data.event_num, data.msg_string}")
+        print(f"THIS IS DATA ITEM: {data}")
         LOGGER.info(f"Received msg code: {msg_code}")
-        return data.to_dict()
-    
+    return data
+
 
 def write_data(body):
     with Session(engine) as session:
         # Check if the record with the same message code exists
-        body = session.query(MsgCreate).filter(MsgCreate.msg_code == body['msg_code']).first()
-        body.msg_id = str(uuid4())
+        query = session.query(MsgCreate).filter(MsgCreate.msg_code == body['msg_code']).first()
+        query.msg_id = str(uuid4())
         print(f"THIS IS EXISTING RECORD MSG CODE: {body.msg_code}")
         # body['msg_id'] = str(uuid4())
         # If the record exists, update the event_num column
         # existing_record.event_num += 1
         # existing_record.msg_string = f'{existing_record.msg_code} Events Logged: {existing_record.event_num}'
-        body.event_num += 1
-        body.msg_string = f"{body.msg_code} Events Logged: {body.event_num}"
+        event_num = body.scalar()
+        body.msg_string = f"{body.msg_code} Events Logged: {event_num}"
 
         data = MsgCreate(
             body.msg_id,
             body.msg_code,
-            body.event_num,
             body.msg_string
         )
         print(f'THIS IS DATA: {data}')
