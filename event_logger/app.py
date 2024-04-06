@@ -1,3 +1,4 @@
+import uuid
 from connexion import NoContent
 import connexion
 from connexion.middleware import MiddlewarePosition
@@ -9,7 +10,7 @@ from sqlalchemy.orm import Session
 from create_database import create_database, engine
 import time
 from load_config import load_log_conf, load_app_conf
-from msg_db_create import MsgCreate
+from models import Msg
 from datetime import datetime
 from uuid import uuid4
 import json
@@ -28,12 +29,23 @@ RETRY_DELAY_SECONDS = RETRY['delay_seconds']
 
 CONFIG_VALUE = DEFAULT['config_value']
 
-def process_messages():
-    '''
-    TODO: This is a function to process Kafka messages
-          (Kafka server as a receiver receives data and sends it to database)
-    '''
 
+def process_message(msg):
+    msg = Msg(
+        id=str(uuid.uuid4()),
+        code=str(msg['code']),
+        message=str(msg['payload']),
+        date=datetime.now()
+    )
+
+    with Session(engine) as session:
+        session.add(msg)
+        session.commit()
+
+
+
+
+def process_messages():
     hostname = "%s:%d" % (KAFKA_HOST,KAFKA_HOST_PORT)
 
     current_retry = 0
@@ -51,84 +63,21 @@ def process_messages():
             time.sleep(RETRY_DELAY_SECONDS)
             current_retry += 1
 
-    if current_retry == MAX_RETRIES:
-        LOGGER.error("Max retries reached. Exiting.")
+    if current_retry == MAX_RETRIES or consumer == None:
+        LOGGER.error(f"Max retries reached. Exiting or no consumer {consumer}")
         return
 
     for msg in consumer:
         msg_str = msg.value.decode('utf-8')
         msg = json.loads(msg_str)
         LOGGER.info(f"Received message from consumer {msg}")
-        event_code = msg["event_code"]
-        process_message(event_code)
-        consumer.commit_offsets()
+        try:
+            process_message(msg)
+            consumer.commit_offsets()
+            LOGGER.info("Succesfully stored msg to database")
+        except Exception as e:
+            LOGGER.error(str(e))
 
-def process_message(event_code):
-    print(f"THIS IS MSG CODE: {event_code}")
-    if event_code:
-        # old_data = read_data(event_code)
-        # print(f"THIS IS DATA: {old_data}")
-        write_data(event_code)
-
-# def read_data(msg_code):
-    
-#     data = None
-
-#     print(f"READING DATA -> THIS IS MSG CODE: {msg_code}")
-#     with Session(engine) as session:
-#         data = session.query(MsgCreate).order_by(MsgCreate.last_updated.desc()).first()
-#     if data is None:
-#         data = {
-#             'msg_code': msg_code,
-#             'msg_string': f"{data.msg_code} Events Logged: 0",
-#             'last_updated': datetime.fromtimestamp(0)
-#         } 
-#         print(f"THIS IS DATA ITEM: {data}")
-#     else:
-#         print(f"THIS IS DATA ITEM: {data}")
-#         LOGGER.info(f"Received msg code: {msg_code}")
-#     return data
-
-
-# def write_data(body):
-#     with Session(engine) as session:
-#         # Check if the record with the same message code exists
-#         query = session.query(MsgCreate).filter(MsgCreate.msg_code == body['msg_code']).first()
-#         query.msg_id = str(uuid4())
-#         print(f"THIS IS EXISTING RECORD MSG CODE: {body.msg_code}")
-#         # body['msg_id'] = str(uuid4())
-#         # If the record exists, update the event_num column
-#         # existing_record.event_num += 1
-#         # existing_record.msg_string = f'{existing_record.msg_code} Events Logged: {existing_record.event_num}'
-#         event_num = body.scalar()
-#         body.msg_string = f"{body.msg_code} Events Logged: {event_num}"
-
-#         data = MsgCreate(
-#             body.msg_id,
-#             body.msg_code,
-#             body.msg_string
-#         )
-#         print(f'THIS IS DATA: {data}')
-#         session.add(data)
-#         session.commit()
-
-
-def write_data(msg_code):
-    with Session(engine) as session:
-        # Check if the record with the same message code exists
-        data = session.query(MsgCreate).filter(MsgCreate.msg_code == data['msg_code']).first()
-        msg_id = str(uuid4())
-        event_num = data.scalar()
-        msg_string = f"{data.msg_code} Events Logged: {event_num}"
-        data = MsgCreate(
-            msg_id,
-            msg_code,
-            msg_string
-        )
-        print(f"THIS IS EXISTING RECORD MSG CODE: {data.msg_code}")
-        print(f'THIS IS DATA: {data}')
-        session.add(data)
-        session.commit()
 
 # --------------------------------------------------------------------------------------------------------------------
 app = connexion.FlaskApp(__name__, specification_dir='')
