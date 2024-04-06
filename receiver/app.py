@@ -51,6 +51,7 @@ def retry_logic():
             }
             msg_str = json.dumps(msg)
             event_log_producer.produce(msg_str.encode('utf-8'))
+            LOGGER.info(f"THIS IS MSG CODE: {msg}")        
             break
         except Exception as e:
             LOGGER.error(f"Failed to connect to Kafka (retry {current_retry + 1}/{MAX_RETRIES}): {e}")
