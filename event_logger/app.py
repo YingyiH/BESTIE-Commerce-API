@@ -30,10 +30,44 @@ RETRY_DELAY_SECONDS = RETRY['delay_seconds']
 CONFIG_VALUE = DEFAULT['config_value']
 
 
+
+def get_msg():
+    """ This is the endpoint that returns
+    {
+    "0001": int,
+    "0002": int,
+    "0003": int,
+    "0004": int,
+    }
+    """
+    msgs = None
+
+    with Session(engine) as session:
+        # Get all messages and add them up
+        msgs = session.query(Msg).all()
+    
+    # Default response if no messages
+
+    response = {
+        "0001": 0,
+        "0002": 0,
+        "0003": 0,
+        "0004": 0
+    }
+
+    if msgs:
+        for msg in msgs:
+            response[str(msg.code)] += 1
+    
+    return response, 201
+
+
+
+
 def process_message(msg):
     msg = Msg(
         id=str(uuid.uuid4()),
-        code=str(msg['code']),
+        code=str(msg['event_code']),
         message=str(msg['payload']),
         date=datetime.now()
     )
