@@ -59,7 +59,11 @@ def process_messages():
             topic = client.topics[str.encode(KAFKA_TOPIC)]
             producer =  topic.get_sync_producer()
             LOGGER.info("Connected to Kafka")
-            msg = {"event_code": "0002"}
+            msg = {
+                "event_code": "0002",
+                "datetime": datetime.now().strftime("%Y-%m-%dT%H:%M:%S"),
+                "payload": "Connected to Kafka"
+            }
             msg_str = json.dumps(msg)
             producer.produce(msg_str.encode('utf-8'))
             producer_output = producer  # Connection successful, exit the retry loop

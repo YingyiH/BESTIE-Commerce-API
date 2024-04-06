@@ -41,9 +41,13 @@ def retry_logic():
             topic = client.topics[str.encode(KAFKA_TOPIC)]
             producer =  topic.get_sync_producer()
             LOGGER.info("Connected to Kafka")
-            msg = {"event_code": "0001"}
+            msg = {
+                "event_code": "0001",
+                "datetime": datetime.now().strftime("%Y-%m-%dT%H:%M:%S"),
+                "payload": "Connected to Kafka"
+            }
             msg_str = json.dumps(msg)
-            producer.produce(msg_str.encode('utf-8'))
+            event_log_producer.produce(msg_str.encode('utf-8'))
             break
         except Exception as e:
             LOGGER.error(f"Failed to connect to Kafka (retry {current_retry + 1}/{MAX_RETRIES}): {e}")
@@ -53,9 +57,9 @@ def retry_logic():
     if current_retry == MAX_RETRIES:
         LOGGER.error("Max retries reached. Exiting.")
 
-    return producer
+    return producer, event_log_producer
 
-producer = retry_logic()
+producer, event_log_producer = retry_logic()
 LOGGER.info(f'Producer: {producer}')
 
 # Events Handling Functions: ----------------------------------------------------------------

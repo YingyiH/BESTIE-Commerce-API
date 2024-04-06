@@ -60,14 +60,14 @@ def process_messages():
     for msg in consumer:
         msg_str = msg.value.decode('utf-8')
         msg_data = json.loads(msg_str)
-        process_message(msg_data)
+        event_code = msg["event_code"]
+        process_message(event_code)
         consumer.commit_offsets()
 
-def process_message(msg_data):
-    msg_code = msg_data.get('event_code')
-    print(f"THIS IS MSG CODE: {msg_code}")
-    if msg_code:
-        old_data = read_data(msg_code)
+def process_message(event_code):
+    print(f"THIS IS MSG CODE: {event_code}")
+    if event_code:
+        old_data = read_data(event_code)
         write_data(old_data)
 
 def read_data(msg_code):
