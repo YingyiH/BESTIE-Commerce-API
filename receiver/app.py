@@ -43,7 +43,7 @@ def retry_logic():
             LOGGER.info("Connected to Kafka")
             msg = {
                 "event_code": "0001",
-                "datetime": datetime.now().strftime("%Y-%m-%dT%H:%M:%S"),
+                "datetime" :datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S"),
                 "payload": "Connected to Kafka"
             }
             msg_str = json.dumps(msg)
