@@ -4,7 +4,7 @@ datastore:
 events:
   hostname: 35.235.112.242
   port: 9092
-  topic: events
+  topic: event_logger
 retry_logs:
   max_retry: 3
   delay_seconds: 2

@@ -21,7 +21,7 @@ DATA, EVENT, RETRY, DEFAULT, APP_CONFIG_FILE  = load_app_conf()
 # KAFKA HOST VARIABLES
 KAFKA_HOST = EVENT['hostname']
 KAFKA_HOST_PORT = EVENT['port']
-KAFKA_TOPIC = EVENT['topic']
+EVENT_LOGGER_TOPIC = EVENT['topic']
 # KAFKA RETRY VARIABLES
 MAX_RETRIES = RETRY['max_retry']
 RETRY_DELAY_SECONDS = RETRY['delay_seconds']
@@ -35,15 +35,17 @@ def process_messages():
     '''
 
     hostname = "%s:%d" % (KAFKA_HOST,KAFKA_HOST_PORT)
-    client = KafkaClient(hosts=hostname)
-    topic = client.topics[str.encode(KAFKA_TOPIC)]
-    LOGGER.info("Connected to Kafka")
+    # client = KafkaClient(hosts=hostname)
+    # topic = client.topics[str.encode(EVENT_LOGGER_TOPIC)]
+    # LOGGER.info("Connected to Kafka")
 
     current_retry = 0
+    consumer = None
     while current_retry < MAX_RETRIES:
         try:
             client = KafkaClient(hosts=hostname)
-            topic = client.topics[str.encode(KAFKA_TOPIC)]
+            topic = client.topics[str.encode(EVENT_LOGGER_TOPIC)]
+            consumer = topic.get_simple_consumer(consumer_group=b'event_group', reset_offset_on_start=False, auto_offset_reset=OffsetType.LATEST)
             LOGGER.info("Connected to Kafka")
             break  # Connection successful, exit the retry loop
         except Exception as e:
@@ -55,11 +57,12 @@ def process_messages():
         LOGGER.error("Max retries reached. Exiting.")
         return
     
-    consumer = topic.get_simple_consumer(consumer_group=b'event_group', reset_offset_on_start=False, auto_offset_reset=OffsetType.LATEST)
+    # consumer = topic.get_simple_consumer(consumer_group=b'event_group', reset_offset_on_start=False, auto_offset_reset=OffsetType.LATEST)
 
     for msg in consumer:
         msg_str = msg.value.decode('utf-8')
         msg = json.loads(msg_str)
+        LOGGER.info(f"Received message from consumer {msg}")
         event_code = msg["event_code"]
         process_message(event_code)
         consumer.commit_offsets()
