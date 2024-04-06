@@ -59,7 +59,7 @@ def send_message(msg_code):
 
     msg = {
     "event_code": msg_code,
-    "datetime" :datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S"),
+    "datetime" : datetime.now().strftime("%Y-%m-%dT%H:%M:%S"),
     "payload": "Connected to Kafka"
     }
     msg_str = json.dumps(msg)
