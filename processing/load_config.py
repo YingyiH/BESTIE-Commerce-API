@@ -23,8 +23,9 @@ def load_app_conf():
         event_url = app_config['eventstore']['url']
         default_count = app_config['default_value']['config_value']
         app_conf_file = conf_app_file
+        events = app_config['events']
 
-    return seconds, event_url, default_count, app_conf_file 
+    return seconds, event_url, default_count, app_conf_file, events
 
 def load_log_conf():
 

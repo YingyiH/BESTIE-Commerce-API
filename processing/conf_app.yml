@@ -7,3 +7,7 @@ default_value:
   config_value: 25
 eventstore:
   url: http://localhost:8090
+events:
+  hostname: 35.235.112.242
+  port: 9092
+  topic: event_logger
