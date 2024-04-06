@@ -130,21 +130,19 @@ def write_data(body):
         session.commit()
 
 # Endpoint to Get Statistics: ------------------------------------------------------------
-# def get_stats():
+def get_stats():
     
-#     LOGGER.info('Received product and review event request.')
+    LOGGER.info('Received product and review event request.')
 
-#     data = read_data()
+    data = read_data()
 
-#     if data['num_products'] <= 0 and data['num_reviews'] <= 0:
-#         LOGGER.error('Empty input')
-#         return 'Statistics do not exist', 404
-#     if data['num_products'] + data['num_reviews'] >= DEFAULT_COUNT:
-#         send_message("0004")
+    if data['num_products'] <= 0 and data['num_reviews'] <= 0:
+        LOGGER.error('Empty input')
+        return 'Statistics do not exist', 404
     
-#     LOGGER.debug(f'GET event requests returns: {data}')
-#     LOGGER.info('GET stats request completed')
-#     return data, 200
+    LOGGER.debug(f'GET event requests returns: {data}')
+    LOGGER.info('GET stats request completed')
+    return data, 200
 
 # Processing Events: ----------------------------------------------------------------------
 def processing():
