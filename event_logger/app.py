@@ -66,47 +66,66 @@ def process_messages():
 def process_message(event_code):
     print(f"THIS IS MSG CODE: {event_code}")
     if event_code:
-        old_data = read_data(event_code)
-        write_data(old_data)
+        # old_data = read_data(event_code)
+        # print(f"THIS IS DATA: {old_data}")
+        write_data(event_code)
 
-def read_data(msg_code):
+# def read_data(msg_code):
     
-    data = None
+#     data = None
 
-    print(f"READING DATA -> THIS IS MSG CODE: {msg_code}")
-    with Session(engine) as session:
-        data = session.query(MsgCreate).order_by(MsgCreate.last_updated.desc()).first()
-    if data is None:
-        data = {
-            'msg_code': msg_code,
-            'msg_string': 'no message',
-            'last_updated': datetime.fromtimestamp(0)
-        } 
-        print(f"THIS IS DATA ITEM: {data}")
-    else:
-        print(f"THIS IS DATA ITEM: {data}")
-        LOGGER.info(f"Received msg code: {msg_code}")
-    return data
+#     print(f"READING DATA -> THIS IS MSG CODE: {msg_code}")
+#     with Session(engine) as session:
+#         data = session.query(MsgCreate).order_by(MsgCreate.last_updated.desc()).first()
+#     if data is None:
+#         data = {
+#             'msg_code': msg_code,
+#             'msg_string': f"{data.msg_code} Events Logged: 0",
+#             'last_updated': datetime.fromtimestamp(0)
+#         } 
+#         print(f"THIS IS DATA ITEM: {data}")
+#     else:
+#         print(f"THIS IS DATA ITEM: {data}")
+#         LOGGER.info(f"Received msg code: {msg_code}")
+#     return data
 
 
-def write_data(body):
+# def write_data(body):
+#     with Session(engine) as session:
+#         # Check if the record with the same message code exists
+#         query = session.query(MsgCreate).filter(MsgCreate.msg_code == body['msg_code']).first()
+#         query.msg_id = str(uuid4())
+#         print(f"THIS IS EXISTING RECORD MSG CODE: {body.msg_code}")
+#         # body['msg_id'] = str(uuid4())
+#         # If the record exists, update the event_num column
+#         # existing_record.event_num += 1
+#         # existing_record.msg_string = f'{existing_record.msg_code} Events Logged: {existing_record.event_num}'
+#         event_num = body.scalar()
+#         body.msg_string = f"{body.msg_code} Events Logged: {event_num}"
+
+#         data = MsgCreate(
+#             body.msg_id,
+#             body.msg_code,
+#             body.msg_string
+#         )
+#         print(f'THIS IS DATA: {data}')
+#         session.add(data)
+#         session.commit()
+
+
+def write_data(msg_code):
     with Session(engine) as session:
         # Check if the record with the same message code exists
-        query = session.query(MsgCreate).filter(MsgCreate.msg_code == body['msg_code']).first()
-        query.msg_id = str(uuid4())
-        print(f"THIS IS EXISTING RECORD MSG CODE: {body.msg_code}")
-        # body['msg_id'] = str(uuid4())
-        # If the record exists, update the event_num column
-        # existing_record.event_num += 1
-        # existing_record.msg_string = f'{existing_record.msg_code} Events Logged: {existing_record.event_num}'
-        event_num = body.scalar()
-        body.msg_string = f"{body.msg_code} Events Logged: {event_num}"
-
+        data = session.query(MsgCreate).filter(MsgCreate.msg_code == data['msg_code']).first()
+        msg_id = str(uuid4())
+        event_num = data.scalar()
+        msg_string = f"{data.msg_code} Events Logged: {event_num}"
         data = MsgCreate(
-            body.msg_id,
-            body.msg_code,
-            body.msg_string
+            msg_id,
+            msg_code,
+            msg_string
         )
+        print(f"THIS IS EXISTING RECORD MSG CODE: {data.msg_code}")
         print(f'THIS IS DATA: {data}')
         session.add(data)
         session.commit()
