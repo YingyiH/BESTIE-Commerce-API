@@ -40,10 +40,11 @@ def retry_logic():
             client = KafkaClient(hosts=f'{KAFKA_HOST}:{KAFKA_HOST_PORT}')
             topic = client.topics[str.encode(KAFKA_TOPIC)]
             producer =  topic.get_sync_producer()
-            msg = { "event_type": "receiver"}
+            LOGGER.info("Connected to Kafka")
+            msg = {"event_code": "0001"}
             msg_str = json.dumps(msg)
             producer.produce(msg_str.encode('utf-8'))
-            LOGGER.info("Connected to Kafka")
+            break
         except Exception as e:
             LOGGER.error(f"Failed to connect to Kafka (retry {current_retry + 1}/{MAX_RETRIES}): {e}")
             time.sleep(RETRY_DELAY_SECONDS)

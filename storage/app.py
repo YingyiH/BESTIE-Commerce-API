@@ -58,11 +58,12 @@ def process_messages():
             client = KafkaClient(hosts=hostname)
             topic = client.topics[str.encode(KAFKA_TOPIC)]
             producer =  topic.get_sync_producer()
-            msg = { "event_type": "storage"}
+            LOGGER.info("Connected to Kafka")
+            msg = {"event_code": "0002"}
             msg_str = json.dumps(msg)
             producer.produce(msg_str.encode('utf-8'))
-            LOGGER.info("Connected to Kafka")
-            return producer  # Connection successful, exit the retry loop
+            producer_output = producer  # Connection successful, exit the retry loop
+            break
         except Exception as e:
             LOGGER.error(f"Failed to connect to Kafka (retry {current_retry + 1}/{MAX_RETRIES}): {e}")
             time.sleep(RETRY_DELAY_SECONDS)
@@ -88,7 +89,7 @@ def process_messages():
             add_product_review(payload)
             LOGGER.info("Added product review")
         consumer.commit_offsets()
-
+    return producer_output
 # Function to read request: ----------------------------------------------------------------
 def get_products(start_timestamp, end_timestamp):
     '''

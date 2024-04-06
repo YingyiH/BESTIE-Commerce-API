@@ -64,38 +64,31 @@ def process_messages():
         consumer.commit_offsets()
 
 def process_message(msg_data):
-    event_type = msg_data.get('event_type')
-    print(f'THIS IS EVENT TYPE: {event_type}')
-    if event_type:
-        old_data = read_data(event_type)
+    msg_code = msg_data.get('event_code')
+    print(f"THIS IS MSG CODE: {msg_code}")
+    if msg_code:
+        old_data = read_data(msg_code)
         write_data(old_data)
 
-def read_data(event_type):
+def read_data(msg_code):
     
     data = None
 
+    print(f"READING DATA -> THIS IS MSG CODE: {msg_code}")
     with Session(engine) as session:
-        data = session.query(MsgCreate).order_by(
-            MsgCreate.last_updated.desc()).first()
+        data = session.query(MsgCreate).order_by(MsgCreate.last_updated.desc()).first()
     if data is None:
-        return {
-            'msg_code': 'x',
-            'event_num': 0,
+        data = {
+            'msg_code': msg_code,
+            'event_num': 1,
             'msg_string': 'no message',
             'last_updated': datetime.fromtimestamp(0) # datatime.now() - timedelta(100.0)
         } 
+        print(f"THIS IS DATA ITEM: {data.msg_code, data.event_num, data.msg_string}")
+        return data.to_dict()
     else:
         print(f"THIS IS DATA ITEM: {data.msg_code, data.event_num, data.msg_string}")
-        if event_type == 'receiver':
-            data.msg_code = '0001'
-        elif event_type == 'storage':
-            data.msg_code = '0002'
-        elif event_type == 'processor_startup':
-            data.msg_code = '0003'
-        elif event_type == 'processor_more':
-            data.msg_code = '0004'
-
-        LOGGER.info(f"Received event type: {event_type}, Message Code: {data.msg_code}")
+        LOGGER.info(f"Received msg code: {msg_code}")
         return data.to_dict()
     
 

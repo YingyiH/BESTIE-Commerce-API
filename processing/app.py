@@ -23,12 +23,12 @@ LOGGER.info("App Conf File: %s" % APP_CONFIG_FILE )
 LOGGER.info("Log Conf File: %s" % LOG_CONFIG_FILE)
 
 # Function to send message to Kafka
-def send_message(event_type):
+def send_message(msg_code):
     # Prepare message
     producer = None
 
-    msg_data = {'event_type': event_type}
-    msg_str = json.dumps(msg_data)
+    msg= {"event_code": msg_code}
+    msg_str = json.dumps(msg)
 
     producer.produce(msg_str.encode('utf-8'))
 
@@ -37,7 +37,7 @@ def send_message(event_type):
 def populate_stats():
     try:
         print("BEFORE PROCESSING")
-        send_message("processor_startup")
+        send_message("0003")
         data = processing()
         print("AFTER PROCESSING")
         write_data(data)
@@ -107,7 +107,7 @@ def get_stats():
         LOGGER.error('Empty input')
         return 'Statistics do not exist', 404
     if data['num_products'] + data['num_reviews'] >= DEFAULT_COUNT:
-        send_message("processor_more")
+        send_message("0004")
     
     LOGGER.debug(f'GET event requests returns: {data}')
     LOGGER.info('GET stats request completed')
