@@ -59,7 +59,7 @@ def process_messages():
 
     for msg in consumer:
         msg_str = msg.value.decode('utf-8')
-        msg_data = json.loads(msg_str)
+        msg = json.loads(msg_str)
         event_code = msg["event_code"]
         process_message(event_code)
         consumer.commit_offsets()
