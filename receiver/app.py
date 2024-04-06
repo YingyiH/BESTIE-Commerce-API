@@ -16,6 +16,7 @@ EVENTSTORE, EVENT, RETRY, APP_CONFIG_FILE = load_app_conf()
 KAFKA_HOST = EVENT["hostname"]
 KAFKA_HOST_PORT = EVENT["port"]
 KAFKA_TOPIC = EVENT["topic"]
+EVENT_LOGGER_TOPIC = EVENT["event_log_topic"]
 
 MAX_RETRIES = RETRY["max_retry"]
 RETRY_DELAY_SECONDS = RETRY["delay_seconds"]
@@ -39,7 +40,9 @@ def retry_logic():
         try:
             client = KafkaClient(hosts=f'{KAFKA_HOST}:{KAFKA_HOST_PORT}')
             topic = client.topics[str.encode(KAFKA_TOPIC)]
+            logger_topic = client.topics[str.encode(EVENT_LOGGER_TOPIC)]
             producer =  topic.get_sync_producer()
+            event_log_producer = logger_topic.get_sync_producer()
             LOGGER.info("Connected to Kafka")
             msg = {
                 "event_code": "0001",
@@ -60,7 +63,7 @@ def retry_logic():
     return producer, event_log_producer
 
 producer, event_log_producer = retry_logic()
-LOGGER.info(f'Producer: {producer}')
+LOGGER.info(f'Producer: {producer}, EVENT_LOG_PRODUCER: {event_log_producer}')
 
 # Events Handling Functions: ----------------------------------------------------------------
 def add_new_product(body):
