@@ -31,6 +31,7 @@ DB = DATA['db']
 KAFKA_HOST = EVENT['hostname']
 KAFKA_HOST_PORT = EVENT['port']
 KAFKA_TOPIC = EVENT['topic']
+EVENT_LOGGER_TOPIC = EVENT["event_log_topic"]
 # KAFKA RETRY VARIABLES
 MAX_RETRIES = RETRY['max_retry']
 RETRY_DELAY_SECONDS = RETRY['delay_seconds']
@@ -57,7 +58,9 @@ def process_messages():
         try:
             client = KafkaClient(hosts=hostname)
             topic = client.topics[str.encode(KAFKA_TOPIC)]
+            logger_topic = client.topics[str.encode(EVENT_LOGGER_TOPIC)]
             producer =  topic.get_sync_producer()
+            event_log_producer = logger_topic.get_sync_producer()
             LOGGER.info("Connected to Kafka")
             msg = {
                 "event_code": "0002",
@@ -65,8 +68,7 @@ def process_messages():
                 "payload": "Connected to Kafka"
             }
             msg_str = json.dumps(msg)
-            producer.produce(msg_str.encode('utf-8'))
-            producer_output = producer  # Connection successful, exit the retry loop
+            event_log_producer.produce(msg_str.encode('utf-8'))
             break
         except Exception as e:
             LOGGER.error(f"Failed to connect to Kafka (retry {current_retry + 1}/{MAX_RETRIES}): {e}")
@@ -93,7 +95,11 @@ def process_messages():
             add_product_review(payload)
             LOGGER.info("Added product review")
         consumer.commit_offsets()
-    return producer_output
+    
+    return producer, event_log_producer
+
+producer, event_log_producer = process_messages()
+LOGGER.info(f'Producer: {producer}, EVENT_LOG_PRODUCER: {event_log_producer}')
 # Function to read request: ----------------------------------------------------------------
 def get_products(start_timestamp, end_timestamp):
     '''
@@ -128,8 +134,7 @@ def get_reviews(start_timestamp, end_timestamp):
 
     res = [application.to_dict() for application in data]
 
-    LOGGER.info("Query for applications after %s returns %d results" %
-                (start_timestamp, len(res)))
+    LOGGER.info("Query for applications after %s returns %d results" %(start_timestamp, len(res)))
 
     return res, 200
 
