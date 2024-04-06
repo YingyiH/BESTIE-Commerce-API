@@ -36,19 +36,22 @@ paths:
 components:
   schemas:
     Stats:
-      required:
-        - msg_code
-        - event_num
-        - msg_string
-      properties:
-        msg_code:
-          type: string
-          example: "0001"
-        event_num:
-          type: integer
-          example: 10
-        msg_string:
-          type: string
-          example: "0001 Events Logged: 10"
       type: object
-
+      properties:
+        "0001":
+          type: integer
+          example: 1
+        "0002":
+          type: integer
+          example: 2
+        "0003":
+          type: integer
+          example: 1
+        "0004":
+          type: integer
+          example: 1
+      example:
+        "0001": 1
+        "0002": 2
+        "0003": 1
+        "0004": 1
