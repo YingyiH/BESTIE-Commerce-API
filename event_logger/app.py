@@ -111,7 +111,6 @@ def write_data(body):
         # existing_record.msg_string = f'{existing_record.msg_code} Events Logged: {existing_record.event_num}'
         body.event_num += 1
         body.msg_string = f"{body.msg_code} Events Logged: {body.event_num}"
-        print(f"MESSAGE SRING: {body.msg_string}")
 
         data = MsgCreate(
             body.msg_id,
