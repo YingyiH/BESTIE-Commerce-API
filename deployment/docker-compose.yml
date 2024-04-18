@@ -136,7 +136,7 @@ services:
       kafka:
           condition: service_healthy
 
-    anomaly_detection:
+  anomaly_detection:
     build: ../anomaly_detection
     ports:
       - '80:80'
