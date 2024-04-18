@@ -9,6 +9,7 @@ events:
   port: 9092
   topic: events
   event_log_topic: event_logger
+  anomaly_detection_topic: anomaly_detection
 retry_logs:
   max_retry: 3
   delay_seconds: 2

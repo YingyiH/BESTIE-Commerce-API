@@ -1,0 +1,17 @@
+version: 1
+datastore:
+  filename: stats.sqlite
+events:
+  hostname: 35.235.112.242
+  port: 9092
+  topic: anomaly_detection
+retry_logs:
+  max_retry: 3
+  delay_seconds: 2
+default_anomaly:
+  product_anomaly:
+    max_price: 5000
+    min_price: 1
+  review_anomaly:
+    max_rate: 10
+    min_rate: 1
