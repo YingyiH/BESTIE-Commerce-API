@@ -8,7 +8,7 @@ export default function AnomalyDetectionStats() {
 
 	const getStats = () => {
 	
-        fetch(`http://35.235.112.242:8120/anomalies`)
+        fetch(`http://35.235.112.242:8120/Anomaly`)
             .then(res => res.json())
             .then((result)=>{
 				console.log("Received Anomalies")
@@ -33,7 +33,7 @@ export default function AnomalyDetectionStats() {
             <div>
         <h1>Stats</h1>
         <table>
-            <thead>
+            <tbody>
                 <tr>
                     <th>ID</th>
                     <th>EventID</th>
@@ -42,12 +42,7 @@ export default function AnomalyDetectionStats() {
                     <th>anomaly_type</th>
                     <th>description</th>
                 </tr>
-            </thead>
-            <tbody>
-                {Object.keys(stats).map(statID => (
-                    <tr key={ID}>
-                    </tr>
-                ))}
+
             </tbody>
         </table>
     </div>

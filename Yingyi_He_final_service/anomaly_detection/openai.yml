@@ -10,7 +10,7 @@ info:
 servers:
 - url: /
 paths:
-  /anomaly:
+  /anomalies:
     get:
       summary: Gets the event anomalies
       operationId: app.get_anomalies

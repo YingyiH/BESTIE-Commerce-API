@@ -1,0 +1,160 @@
+version: '3.3'
+services:
+  zookeeper:
+    image: wurstmeister/zookeeper
+    ports: 
+      - "2181"
+    hostname: zookeeper
+    volumes:
+      - zookeeper_db:/opt/zookeeper-3.4.13/data
+  kafka:
+    image: wurstmeister/kafka
+    command: [start-kafka.sh]
+    ports:
+      - "9092:9092"
+    hostname: kafka
+    environment:
+      KAFKA_CREATE_TOPICS: "events:1:1,event_logger:1:1,anomaly_detection:1:1" # topic:partition:replicas
+      KAFKA_ADVERTISED_HOST_NAME: 35.235.112.242 # docker-machine ip
+      KAFKA_LISTENERS: INSIDE://:29092,OUTSIDE://:9092
+      KAFKA_INTER_BROKER_LISTENER_NAME: INSIDE
+      KAFKA_ADVERTISED_LISTENERS: INSIDE://kafka:29092,OUTSIDE://35.235.112.242:9092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: INSIDE:PLAINTEXT,OUTSIDE:PLAINTEXT
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_LOG_DIRS: /kafka/kafka-logs
+      KAFKA_BROKER_ID: 1
+    volumes:
+      - docker_sock_db:/var/run/docker.sock
+      - kafka_db:/kafka/kafka-logs
+    depends_on:
+      - "zookeeper"
+    healthcheck:
+      test: ["CMD", "kafka-topics.sh", "--list", "--zookeeper", "zookeeper:2181"]
+      interval: 5s
+      timeout: 10s
+      retries: 5
+
+  # # One partition and one replica
+  # kafka_init:
+  #   image: confluentinc/cp-kafka:latest
+  #   command:
+  #     "kafka_topics.sh --create --topic event_log --partitions 1 --replication-factor 1 --if-not-exists --bootstrap-server kafka:9092"
+  #   depends_on:
+  #     kafka:
+  #         condition: service_healthy
+
+  db:
+    image: mysql:5.7
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=password
+      - MYSQL_DATABASE=storage_db
+      - MYSQL_USER=user
+      - MYSQL_PASSWORD=password
+    ports:
+      - '3306:3306'
+    expose:
+      - '3306'
+    volumes:
+      - my-db:/var/lib/mysql
+
+  storage:
+    build: ../storage
+    # image: yingyi123/storage:storageImage
+    ports:
+      - "8090:8090"
+    environment: 
+      - TARGET_ENV=test
+    volumes:
+      - /home/yhe/config/storage:/config
+      - /home/yhe/logs:/logs
+    depends_on:
+      - db
+      - kafka
+
+  receiver:
+    build: ../receiver
+    # image: yingyi123/receiver:receiverImage
+    ports: 
+      - "8080:8080"
+    environment: 
+      - TARGET_ENV=test
+    volumes:
+      - /home/yhe/config/receiver:/config
+      - /home/yhe/logs:/logs
+    depends_on:
+      kafka:
+          condition: service_healthy
+
+  
+  processing:
+    build: ../processing
+    # image: yingyi123/processing:processingImage
+    network_mode: "host"
+    environment: 
+      - TARGET_ENV=test
+    volumes:
+      - /home/yhe/config/processing:/config
+      - /home/yhe/logs:/logs
+      - processing-db:/data
+    depends_on:
+      - storage
+
+  audit:
+    build: ../audit_log
+    ports:
+      - "8110:8110"
+    environment: 
+      - TARGET_ENV=test
+    volumes:
+      - /home/yhe/config/audit_log:/config
+      - /home/yhe/logs:/logs
+    depends_on:
+      kafka:
+          condition: service_healthy
+
+  dashboard:
+    image: dashboard
+    build: ../dashboard_ui/Sample_Code
+    ports:
+      - "3000:3000"
+    depends_on:
+      - processing
+      - audit
+
+  event_logger:
+    build: ../event_logger
+    ports:
+      - '8120:8120'
+    environment:
+      - TARGET_ENV=test
+    volumes:
+      - log_db:/var/db
+      - /home/yhe/config/event_logger:/config
+      - /home/yhe/logs:/logs
+    depends_on:
+      kafka:
+          condition: service_healthy
+
+  anomaly_detection:
+    build: ../anomaly_detection
+    ports:
+      - '80:80'
+    environment:
+      - TARGET_ENV=test
+    volumes:
+      - log_db:/var/db
+      - /home/yhe/config/anomaly_detection:/config
+      - /home/yhe/logs:/logs
+    depends_on:
+      kafka:
+          condition: service_healthy
+      
+# Names our volume
+volumes:
+  my-db:
+  zookeeper_db:
+  kafka_db:
+  docker_sock_db:
+  processing-db:
+  log_db:
